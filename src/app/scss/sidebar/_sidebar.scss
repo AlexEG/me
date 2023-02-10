@@ -4,15 +4,19 @@ aside {
   aside ↓↓
         ==> [div] .home-svg
         ||    ↓↓
-        ||    ==> [img]
+        ||    ==> [a] ==> [svg] ==> [path]
         ||
-        ==> [div] .days  ( DAY 1 to DAY 100 ) 
+        ==> [div] .days-container  ( DAY 1 to DAY 100 ) 
               ↓↓
-              ==> [a]
+              ==> [div] .day
                     ↓↓
-                    ==> [span]
+                    ==> [div] .day-number
+                          ↓↓
+                          ==> [span] (DAY 1..2..3)
   */
   //TODO  HTML Structure  [END]
+
+  // border: solid 1px red; ////
 
   width: 78px; // 72-8= 64px elements width
   padding: 4px; // left + right = 8px
@@ -21,7 +25,7 @@ aside {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: var(--601);
+  background-color: var(--701);
   overflow: auto;
 
   &::-webkit-scrollbar {
@@ -44,25 +48,4 @@ aside {
   // grid-auto-rows: 64px; // the hight of DAYs box
   // gap: 5px;
   // overflow: auto;
-
-  .home-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--801);
-    height: 64px;
-    width: 64px;
-    svg {
-      color: red;
-      width: 24px;
-    }
-  }
-
-  .days {
-    background-color: red;
-
-    a {
-      color: white;
-    }
-  }
 }

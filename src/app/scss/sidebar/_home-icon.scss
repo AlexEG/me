@@ -1,0 +1,14 @@
+aside {
+  .home-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--801);
+    height: 64px;
+    width: 64px;
+    margin-bottom: 10px;
+    svg {
+      width: 24px;
+    }
+  }
+}

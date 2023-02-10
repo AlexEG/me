@@ -30,6 +30,11 @@
       align-items: center;
       width: 72px;
       background-color: green;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(132, 0, 255);
+      }
       img {
         width: 24px;
         height: 24px;
