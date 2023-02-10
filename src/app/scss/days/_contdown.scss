@@ -1,14 +1,37 @@
 .countdown {
+  --901: #6b35e8;
+  --801: #3f13a4;
+  --701: #050505;
+  --601: #595959;
+  --501: #fafafa;
+
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #2f363e;
+  background-color: var(--701);
   font-family: "Poppins", sans-serif;
 
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: hsla(0, 0%, 4%, 0);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 0%, 0);
+    border-radius: 100vw;
+  }
+
+  // scrollbar for firefox
+  scrollbar-width: thin;
+  overflow: hidden;
   #time {
+    // border: solid 1px red; ////
     display: flex;
     gap: 30px;
+    transform: scale(75%);
+
     .circle {
       position: relative;
       width: 150px;
@@ -16,6 +39,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       svg {
         position: relative;
         width: 150px;
@@ -29,6 +53,7 @@
           stroke: #282828;
           stroke-linecap: round;
           transform: translate(5px, 5px);
+
           &:nth-child(2) {
             stroke: var(--clr);
             stroke-dasharray: 440;

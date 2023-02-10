@@ -1,4 +1,6 @@
 // SCSS = /src/app/scss/test/[_test.scss]  HTML= /test.html
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 .test__body {
   --901: #6b35e8;
   --801: #3f13a4;
@@ -6,6 +8,7 @@
   --601: #595959;
   --501: #fafafa;
 
+  font-family: "Roboto", sans-serif;
   background-color: var(--701);
   min-height: 100vh;
   padding-top: 56px;
@@ -34,19 +37,10 @@
     }
   }
 
-  aside {
-    // opacity: 0;
-    width: 72px;
-    height: calc(100% - 56px);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: blue;
-  }
-
   header {
-    img {
+    iframe {
       width: 100%;
+      overflow: hidden;
     }
   }
 
@@ -76,6 +70,62 @@
           // text-align: center;
           a {
             color: red;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .yt-video-contanier {
+      // div"yt-video-contanier" 0{
+      //
+      //    img"video-thumbnail" 1{}1
+      //
+      //    div"video-data" 1{
+      //
+      //       div"channel-logo" 2{
+      //          img  }2
+      //
+      //       div"title-channel-name" 2{
+      //           p "title" 3{}
+      //           p "channel-name" 3{}  }2
+      //  }1
+      // }0
+
+      // border: solid 1px red;
+      display: flex;
+      flex-direction: column;
+
+      .video-thumbnail {
+        border-radius: 10px;
+      }
+
+      .video-data {
+        display: flex;
+        height: 80px;
+        padding-top: 10px;
+
+        .channel-logo {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+          img {
+            border-radius: 50%;
+          }
+        }
+        ///////
+        .title-channel-name {
+          p:nth-of-type(1) {
+            color: #fff;
+          }
+
+          p:nth-of-type(2) {
+            color: #ffffff54;
           }
         }
       }

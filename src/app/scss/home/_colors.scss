@@ -1,15 +1,27 @@
-.home__body {
+:root {
   // theme 1
   --900: #cdb4db;
   --800: #ffc8dd;
   --700: #ffafcc;
   --600: #bde0fe;
   --500: #a2d2ff;
-  
+
   // theme 2
   --901: #6b35e8;
   --801: #3f13a4;
   --701: #050505;
   --601: #595959;
   --501: #fafafa;
+
+  //??   _magic-controller [.controller__container]
+  //↓↓ controller__container =>card =>active
+  --boxActive: hsla(283, 82%, 20%, 0.545);
+  //↓↓ controller__container =>card::after
+  --boxBorder: hsla(0, 0%, 100%, 0.425);
+  //↓↓ controller__container =>card::before
+  --boxHover: hsla(0, 0%, 100%, 0.06);
+  //↓↓ controller__container =>card =>card-content
+  --box-bg: hsl(0, 0%, 8%);
+  //↓↓ controller__container =>card =>card-content =>span
+  --box-t: hsl(0, 0%, 60%);
 }

@@ -1,0 +1,68 @@
+aside {
+  //TODO  HTML Structure  [START]
+  /*
+  aside ↓↓
+        ==> [div] .home-svg
+        ||    ↓↓
+        ||    ==> [img]
+        ||
+        ==> [div] .days  ( DAY 1 to DAY 100 ) 
+              ↓↓
+              ==> [a]
+                    ↓↓
+                    ==> [span]
+  */
+  //TODO  HTML Structure  [END]
+
+  width: 78px; // 72-8= 64px elements width
+  padding: 4px; // left + right = 8px
+
+  height: calc(100% - 56px);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--601);
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: hsla(0, 0%, 4%, 0);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 0%, 0);
+    border-radius: 100vw;
+  }
+
+  // scrollbar for firefox
+  scrollbar-width: none;
+
+  // display: grid;
+  // // every DAY box 64px X 64px
+  // grid-template-columns: 1fr; // the width
+  // grid-auto-rows: 64px; // the hight of DAYs box
+  // gap: 5px;
+  // overflow: auto;
+
+  .home-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--801);
+    height: 64px;
+    width: 64px;
+    svg {
+      color: red;
+      width: 24px;
+    }
+  }
+
+  .days {
+    background-color: red;
+
+    a {
+      color: white;
+    }
+  }
+}

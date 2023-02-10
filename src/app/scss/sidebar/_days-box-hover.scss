@@ -1,0 +1,87 @@
+//*==========  Magic controller [START here]  ==========*//
+
+.days-container {
+  // border: solid 2px rgb(0, 255, 234); ///////
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  // width: 90px;
+  // height: 600px;
+  border-radius: 0;
+}
+
+.days-container:hover > .day::after {
+  opacity: 1;
+}
+
+.day {
+  // border: solid 2px rgb(21, 255, 0); ///////
+  cursor: pointer;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.day:hover::before {
+  opacity: 1;
+}
+
+.day::before,
+.day::after {
+  // border: solid 2px rgb(0, 255, 234); ///////
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: opacity 500ms;
+}
+
+.day::before {
+  // border: solid 2px rgb(0, 255, 234); ///////
+  background: radial-gradient(
+    400px circle at var(--mouse-x) var(--mouse-y),
+    var(--boxHover),
+    transparent 40%
+  );
+  z-index: 3;
+}
+
+.day::after {
+  background: radial-gradient(
+    400px circle at var(--mouse-x) var(--mouse-y),
+    var(--boxBorder),
+    transparent 30%
+  );
+  z-index: 1;
+}
+
+.day > .day-number {
+  // border: solid 2px rgb(0, 255, 234); ///////
+  background-color: var(--box-bg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  inset: 1px;
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+
+  span {
+    color: var(--box-t);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+}
+.day > .active {
+  background-color: var(--boxActive);
+}
+// }
+//*==========  Magic controller [END here]  ==========*//
