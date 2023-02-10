@@ -1,0 +1,84 @@
+// SCSS = /src/app/scss/test/[_test.scss]  HTML= /test.html
+.test__body {
+  --901: #6b35e8;
+  --801: #3f13a4;
+  --701: #050505;
+  --601: #595959;
+  --501: #fafafa;
+
+  background-color: var(--701);
+  min-height: 100vh;
+  padding-top: 56px;
+  padding-left: 72px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    .menu-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 72px;
+      background-color: green;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  aside {
+    // opacity: 0;
+    width: 72px;
+    height: calc(100% - 56px);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+  }
+
+  header {
+    img {
+      width: 100%;
+    }
+  }
+
+  .navbar {
+    position: relative;
+    height: 48px;
+    // background-color: rgb(39, 12, 192);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+
+    &__inside_contanier {
+      height: 100%;
+      max-width: 600px;
+      background-color: rgb(39, 12, 192);
+      margin-inline: auto;
+
+      &__list {
+        height: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        // gap: 10px;
+
+        li {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          // text-align: center;
+          a {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "About me page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexEG/me.git"
+  },
+  "keywords": [
+    "gulp",
+    "scss",
+    "html",
+    "node",
+    "css",
+    "javascript"
+  ],
+  "author": "@AlexEG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexEG/me/issues"
+  },
+  "homepage": "https://github.com/AlexEG/me#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.58.0"
+  }
+}
