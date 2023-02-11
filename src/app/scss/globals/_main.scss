@@ -1,0 +1,16 @@
+// SCSS = /src/app/scss/test/[_test.scss]  HTML= /test.html
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.days__body {
+  --901: #6b35e8;
+  --801: #3f13a4;
+  --701: #050505;
+  --601: #595959;
+  --501: #fafafa;
+
+  font-family: "Roboto", sans-serif;
+  background-color: var(--701);
+  min-height: 100vh;
+  padding-top: 56px;
+  padding-left: 78px;
+}

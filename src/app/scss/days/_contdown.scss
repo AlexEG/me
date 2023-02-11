@@ -11,21 +11,8 @@
   min-height: 100vh;
   background-color: var(--701);
   font-family: "Poppins", sans-serif;
-
-  &::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-    background-color: hsla(0, 0%, 4%, 0);
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: hsla(0, 0%, 0%, 0);
-    border-radius: 100vw;
-  }
-
-  // scrollbar for firefox
-  scrollbar-width: thin;
   overflow: hidden;
+
   #time {
     // border: solid 1px red; ////
     display: flex;

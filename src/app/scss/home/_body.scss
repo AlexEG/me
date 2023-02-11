@@ -1,35 +1,35 @@
 // SCSS = /src/app/scss/home/[_body.scss]  HTML= /index.html
-.home__body {
-  background-color: var(--701);
-  // background-image: linear-gradient(250deg, red, green, blue);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+// .home__body {
+//   background-color: var(--701);
+//   // background-image: linear-gradient(250deg, red, green, blue);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   min-height: 100vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 50px;
 
-  div {
-    height: 150px;
-    width: 150px;
-  }
+//   div {
+//     height: 150px;
+//     width: 150px;
+//   }
 
-  div:nth-of-type(1) {
-    background-color: var(--901);
-  }
-  div:nth-of-type(2) {
-    background-color: var(--801);
-  }
-  div:nth-of-type(3) {
-    background-color: var(--701);
-  }
-  div:nth-of-type(4) {
-    background-color: var(--601);
-  }
-  div:nth-of-type(5) {
-    background-color: var(--501);
-  }
-}
+//   div:nth-of-type(1) {
+//     background-color: var(--901);
+//   }
+//   div:nth-of-type(2) {
+//     background-color: var(--801);
+//   }
+//   div:nth-of-type(3) {
+//     background-color: var(--701);
+//   }
+//   div:nth-of-type(4) {
+//     background-color: var(--601);
+//   }
+//   div:nth-of-type(5) {
+//     background-color: var(--501);
+//   }
+// }

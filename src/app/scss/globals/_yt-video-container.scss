@@ -1,0 +1,51 @@
+main {
+  .yt-video-contanier {
+    // div"yt-video-contanier" 0{
+    //
+    //    img"video-thumbnail" 1{}1
+    //
+    //    div"video-data" 1{
+    //
+    //       div"channel-logo" 2{
+    //          img  }2
+    //
+    //       div"title-channel-name" 2{
+    //           p "title" 3{}
+    //           p "channel-name" 3{}  }2
+    //  }1
+    // }0
+
+    // border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+
+    .video-thumbnail {
+      border-radius: 10px;
+    }
+
+    .video-data {
+      display: flex;
+      height: 80px;
+      padding-top: 10px;
+
+      .channel-logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        img {
+          border-radius: 50%;
+        }
+      }
+      ///////
+      .title-channel-name {
+        p:nth-of-type(1) {
+          color: #fff;
+        }
+
+        p:nth-of-type(2) {
+          color: #ffffff54;
+        }
+      }
+    }
+  }
+}

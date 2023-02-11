@@ -1,0 +1,61 @@
+// menu + search + light/night mode btn
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  .menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    background-color: green;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(132, 0, 255);
+    }
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+// page navbar links to sections
+.navbar {
+  position: relative;
+  height: 48px;
+  // background-color: rgb(39, 12, 192);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+
+  &__inside_contanier {
+    height: 100%;
+    max-width: 600px;
+    background-color: rgb(39, 12, 192);
+    margin-inline: auto;
+
+    &__list {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      // gap: 10px;
+
+      li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        // text-align: center;
+        a {
+          color: red;
+        }
+      }
+    }
+  }
+}
