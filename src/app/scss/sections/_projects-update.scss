@@ -1,0 +1,72 @@
+main {
+  .projects-update {
+    background-color: hsla(273, 100%, 50%, 0.025);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    padding: 20px 0;
+
+    &__media {
+      // border: solid 1px blue;
+      padding: 10px;
+      img {
+        box-shadow: 0 0 7px 0 var(--801);
+        width: 100%;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+.details {
+  // border: solid 1px rgb(212, 0, 255); ////
+  padding: 10px;
+  color: var(--501);
+
+  article {
+    .project-title {
+      display: flex;
+      justify-content: center;
+
+      h3 {
+        text-shadow: 0 0 1px;
+      }
+    }
+
+    .repo-info {
+      // border: solid 1px rgb(212, 0, 255); ////
+      padding: 20px 0 0;
+      display: flex;
+      justify-content: start;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    h4 {
+      margin-block: 20px 0;
+    }
+    .repo-new-features {
+      // border: solid 1px rgb(0, 255, 149); ////
+      padding: 15px 0 10px 12px;
+      color: hsla(0, 0%, 100%, 0.685);
+
+      ul {
+        list-style: none;
+        li {
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: solid 5px transparent;
+            border-left-color: var(--901);
+            top: 50%;
+            transform: translateY(-50%);
+            left: -10px;
+          }
+        }
+      }
+    }
+  }
+}

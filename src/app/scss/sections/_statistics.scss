@@ -1,7 +1,15 @@
 main {
   .statistics-section {
-    figure {
-      width: 300px;
+    border: solid 1px red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 10px;
+
+    img {
+      height: 130px;
+      border-radius: 5px;
     }
   }
 }
