@@ -1,0 +1,59 @@
+// Dark theme
+nav {
+  .top-navbar-left-contaner {
+    // outline: solid 1px red; ////
+    height: 100%;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .light-dark-btn {
+      // outline: solid 1px red; ////
+      width: 60px;
+      height: 25px;
+      background-color: var(--dark-theme-btn);
+      border-radius: 50px;
+      position: relative;
+      transition: 3150ms background-color ease;
+
+      .circle {
+        width: 20px;
+        height: 20px;
+        background-color: var(--dark-theme-btn-circle);
+        border-radius: 100%;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        transition: 350ms transform ease;
+      }
+    }
+  }
+}
+
+// light-theme == body
+
+.light-theme {
+  background-color: var(--bg-body-light);
+
+  // Cards
+  .days-container {
+    .day > .active {
+      background-color: var(--boxActive-light);
+    }
+    .day-number {
+      background-color: var(--box-bg-light);
+    }
+  }
+
+  //light dark button
+
+  nav .top-navbar-left-contaner .light-dark-btn {
+    background-color: var(--light-theme-btn);
+
+    .circle {
+      background-color: var(--light-theme-btn-circle);
+      transform: translateX(32.5px);
+    }
+  }
+}
