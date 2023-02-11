@@ -1,7 +1,7 @@
 // page navbar links to sections
 .navbar {
   position: relative;
-  height: 48px;
+  height: 44px;
   // background-color: rgb(39, 12, 192);
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 
@@ -15,22 +15,23 @@
       height: 100%;
       list-style: none;
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       // gap: 10px;
 
       li {
         display: flex;
         align-items: center;
         height: 100%;
-        &:hover {
-          a {
-            color: var(--501);
-          }
-        }
+        // border: solid 1px red; ////
 
         a {
+          // border: solid 1px red; ////
+          padding-left: 10px;
+          padding-right: 10px;
+          font-weight: 500;
           color: #ffffffa4;
           transition: color 150ms ease-in-out;
+          position: relative;
         }
       }
     }

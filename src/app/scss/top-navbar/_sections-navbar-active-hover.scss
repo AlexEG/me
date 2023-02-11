@@ -1,0 +1,28 @@
+.navbar {
+  &__inside_contanier {
+    &__list {
+      // Active section class
+      .active-section {
+        color: var(--501);
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          background-color: #ffffffa4;
+          left: 0;
+          bottom: -15px;
+        }
+      }
+      li {
+        // links in hover state
+        &:hover {
+          a {
+            color: var(--501);
+          }
+        }
+      }
+    }
+  }
+}
