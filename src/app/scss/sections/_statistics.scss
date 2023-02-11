@@ -1,11 +1,11 @@
 main {
   .statistics-section {
-    border: solid 1px red;
+    // border: solid 1px red; ////
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
-    padding-top: 10px;
+    padding-top: 20px;
 
     img {
       height: 130px;
