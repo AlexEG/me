@@ -14,7 +14,11 @@
     />
   </head>
   <body id="pageBody" class="days__body">
-    <!-- --------------------------------------- -->
+    <!--!----- NAV [START] nochange -----!-->
+    <!-- Here is: 
+    (1) menu icon on the left side
+    (2) The search bar in the center
+    (3) light/Dark mode button on the right side -->
     <nav>
       <div id="sidebarHomeSvg" class="menu-btn">
         <img src="/src/assets/svg/bars-solid.svg" alt="menu icon" />
@@ -24,7 +28,7 @@
         <input
           id="search"
           type="search"
-          placeholder="Search in All days at noes"
+          placeholder="Search in All days at once"
         />
         <div class="search-bun">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -41,14 +45,19 @@
         </div>
       </div>
     </nav>
+    <!--!----- NAV [END] nochange -----!-->
 
-    <!-- --------------------------------------- -->
+    <!--!----- HEADER [START] nochange -----!-->
+    <!-- Here is: (1) iframe to display contdown page below the top-navbar   -->
     <header>
-      <!-- <img src="/src/assets/vox-banner.jpg" alt="" /> -->
       <iframe src="/days.html" frameborder="0"></iframe>
     </header>
-    <!-- --------------------------------------- -->
+    <!--!----- HEADER [END] nochange -----!-->
 
+    <!--!----- Sections Navbar [START] nochange -----!-->
+    <!--Here is: (1) an A tags in list linked with every 
+                  section in MAIN using id.
+                  JS- to on click add the "active-section" Class to A tag. -->
     <div class="navbar">
       <div class="navbar__inside_contanier">
         <ul class="navbar__inside_contanier__list">
@@ -69,9 +78,14 @@
         </ul>
       </div>
     </div>
+    <!--!----- Sections Navbar [END] nochange -----!-->
 
+    <!--!----- MAIN [START] CHANGE Page [1] -----!-->
+    <!-- Here is: (1) All the content of every page
+                  See in main every section (All of them in CHANGE)  -->
     <main>
-      <!--! Statistics !-->
+      <!--??----- MAIN => Statistics [START] -----??-->
+      <!-- Here is: (1) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
       <section id="Statistics" class="statistics-section">
         <img
           src="/src/assets/sections/statistics/day1/Screenshot 2023-02-11 at 11-06-02 WakaTime - Dashboards for developers.png"
@@ -86,11 +100,15 @@
           alt=""
         />
       </section>
+      <!--??----- MAIN => Statistics [END] -----??-->
 
-      <!--! YouTube !-->
+      <!--??----- MAIN => YouTube [START] -----??-->
+      <!-- Here is: (yt-video-contanier) it's a div contan thumnail + logo for the video -->
+      <!-- what for: I put here some of the videos that I have watched every day so it might help other to who I'm learing from plus my recommendation -->
       <section id="YouTube" class="youtube-section">
-        <!-- ----------- -->
+        <!--*----- YT-Video [START]-----*-->
         <div class="yt-video-contanier">
+          <!-- ↓↓ in img change SRC= to thumnail URL of the video -->
           <img
             class="video-thumbnail"
             src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
@@ -98,8 +116,9 @@
           />
           <div class="video-data">
             <div class="channel-logo">
+              <!-- ↓↓ in img change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
               <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
+                src="/src/assets/sections/youtube/youtube-channels-logo/Vox.jpg"
                 alt=""
               />
             </div>
@@ -109,175 +128,7 @@
             </div>
           </div>
         </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
-        <!-- ----------- -->
-        <div class="yt-video-contanier">
-          <img
-            class="video-thumbnail"
-            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-            alt=""
-          />
-          <div class="video-data">
-            <div class="channel-logo">
-              <img
-                src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <p class="title">Why China is losing the microchip war</p>
-              <p class="channel-name">Vox</p>
-            </div>
-          </div>
-        </div>
-        <!-- ----------- -->
+        <!--*----- YT-Video [END]-----*-->
       </section>
 
       <!--! Projects Update !-->
@@ -436,7 +287,7 @@
       <!--! Notes !-->
       <section id="Notes" class="notes"></section>
     </main>
-    <!-- --------------------------------------- -->
+    <!--!----- MAIN [END] CHANGE Page [1] -----!-->
 
     <aside id="sidebar">
       <!-- home icon  -->
