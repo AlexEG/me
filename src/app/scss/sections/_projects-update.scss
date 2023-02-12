@@ -1,70 +1,100 @@
 main {
   .projects-update {
+    // border: solid 1px rgb(212, 0, 255); ////
+
     background-color: hsla(273, 100%, 50%, 0.025);
+    // background-color: hsla(273, 56%, 70%, 0.856);
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+    justify-content: center;
+    position: relative;
     padding: 20px 0;
 
-    &__media {
-      // border: solid 1px blue;
-      padding: 10px;
-      img {
-        box-shadow: 0 0 7px 0 var(--801);
-        width: 100%;
-        border-radius: 2px;
-      }
-    }
+    // @media (max-width: 900px) {
+    //   grid-template-columns: 1fr;
+    //   &__media iframe {
+    //     height: 300px;
+    //   }
+    // }
+
+    // &__media {
+    //   // border: solid 1px blue;
+    //   padding: 10px;
+    //   img,
+    //   iframe {
+    //     box-shadow: 0 0 7px 0 var(--801);
+    //     width: 100%;
+    //     border-radius: 2px;
+    //   }
+    // }
   }
 }
 
-.details {
+article {
   // border: solid 1px rgb(212, 0, 255); ////
-  padding: 10px;
-  color: var(--501);
 
-  article {
-    .project-title {
-      display: flex;
-      justify-content: center;
+  display: flex;
+  flex-direction: column;
 
-      h3 {
-        text-shadow: 0 0 1px;
+  .project-title {
+    display: flex;
+    justify-content: center;
+    h3 {
+      text-shadow: 0 0 1px;
+      color: hsl(0, 0%, 100%);
+    }
+  }
+
+  .repo-info {
+    // border: solid 1px rgb(212, 0, 255); ////
+    padding: 20px 0 0 0;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .repo-new-features {
+    // border: solid 1px rgb(0, 255, 149); ////
+    padding: 15px 0 10px 12px;
+    color: hsla(0, 0%, 100%, 0.685);
+
+    iframe {
+      display: block;
+      margin-inline: auto;
+      @media (max-width: 800px) {
+        width: 600px;
+        height: 340px;
       }
     }
 
-    .repo-info {
-      // border: solid 1px rgb(212, 0, 255); ////
-      padding: 20px 0 0;
-      display: flex;
-      justify-content: start;
-      flex-wrap: wrap;
-      gap: 5px;
+    .commit-info {
+      a {
+        padding-left: 7px;
+        color: hsla(315, 100%, 50%, 0.253);
+      }
     }
 
     h4 {
-      margin-block: 20px 0;
-    }
-    .repo-new-features {
       // border: solid 1px rgb(0, 255, 149); ////
-      padding: 15px 0 10px 12px;
-      color: hsla(0, 0%, 100%, 0.685);
+      color: hsla(0, 0%, 100%, 0.808);
+      padding-block: 20px 7px;
+    }
 
-      ul {
-        list-style: none;
-        li {
-          position: relative;
-          &::before {
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 0;
-            border: solid 5px transparent;
-            border-left-color: var(--901);
-            top: 50%;
-            transform: translateY(-50%);
-            left: -10px;
-          }
+    ul {
+      // border: solid 1px rgb(212, 0, 255); ////
+      padding-left: 20px;
+      list-style: none;
+      li {
+        position: relative;
+        padding-block: 3px;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          border: solid 5px transparent;
+          border-left-color: var(--901);
+          top: 50%;
+          transform: translateY(-50%);
+          left: -10px;
         }
       }
     }
