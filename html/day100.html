@@ -88,15 +88,11 @@
       <!-- Here is: (1) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
       <section id="Statistics" class="statistics-section">
         <img
-          src="/src/assets/sections/statistics/day2/Screenshot 2023-02-11 at 11-06-02 WakaTime - Dashboards for developers.png"
+          src="/src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-46 WakaTime - Dashboards for developers.png"
           alt=""
         />
         <img
-          src="/src/assets/sections/statistics/day2/Screenshot 2023-02-12 at 15-27-24 WakaTime - Dashboards for developers.png"
-          alt=""
-        />
-        <img
-          src="/src/assets/sections/statistics/day2/Screenshot 2023-02-12 at 15-27-33 WakaTime - Dashboards for developers.png"
+          src="/src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-54 WakaTime - Dashboards for developers.png"
           alt=""
         />
       </section>
@@ -105,7 +101,33 @@
       <!--??----- MAIN => YouTube [START] -----??-->
       <!-- Here is: (yt-video-contanier) it's a div contan thumnail + logo for the video -->
       <!-- what for: I put here some of the videos that I have watched every day so it might help other to who I'm learing from plus my recommendation -->
-      <section id="YouTube" class="youtube-section"></section>
+      <section id="YouTube" class="youtube-section">
+        <!--*----- YT-Video [START]-----*-->
+        <div class="yt-video-contanier">
+          <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
+          <img
+            class="video-thumbnail"
+            src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
+            alt=""
+          />
+          <div class="video-data">
+            <div class="channel-logo">
+              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
+              <img
+                src="/src/assets/sections/youtube/youtube-channels-logo/Vox.jpg"
+                alt=""
+              />
+            </div>
+            <div class="title-channel-name">
+              <!-- ↓↓ in [p"title"] put video title -->
+              <p class="title">Why China is losing the microchip war</p>
+              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
+              <p class="channel-name">Vox</p>
+            </div>
+          </div>
+        </div>
+        <!--*----- YT-Video [END]-----*-->
+      </section>
       <!--??----- MAIN => YouTube [END] -----??-->
 
       <!--! Projects Update !-->
@@ -283,13 +305,13 @@
         <!-- -----------  -->
         <!-- DAY [1] -->
         <div id="day1" class="day">
-          <div id="d1" class="day-number">
+          <div id="d1" class="day-number active">
             <span>DAY 1</span>
           </div>
         </div>
         <!-- DAY [2] -->
         <div id="day2" class="day">
-          <div id="d2" class="day-number active">
+          <div id="d2" class="day-number">
             <span>DAY 2</span>
           </div>
         </div>
