@@ -1,5 +1,5 @@
 .sidebar-menu-open {
-  width: 208px;
+  width: 207px;
 
   .days-container {
     margin: 0;
@@ -11,5 +11,20 @@
 
   .home-svg {
     width: 100%;
+  }
+}
+
+// sidebar open with animation
+
+.sidebar-menu-open {
+  animation: sidebar-open 200ms ease-in-out forwards;
+
+  @keyframes sidebar-open {
+    0% {
+      width: 78px;
+    }
+    100% {
+      width: 207px;
+    }
   }
 }

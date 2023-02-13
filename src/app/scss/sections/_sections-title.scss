@@ -42,7 +42,7 @@
   h2 {
     color: white;
     font-family: "Rubik", sans-serif;
-    font-size: clamp(2em, 2vw, 4em);
+    font-size: clamp(1.2em, 1.2vw, 2.4em);
     font-weight: 400;
     margin: 0;
     padding-block: 40px 15px;
@@ -55,7 +55,7 @@
   }
 
   h2 > .magic > .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
+    --size: clamp(10px, 0.75vw, 15px);
 
     animation: scale 700ms ease forwards;
     display: block;

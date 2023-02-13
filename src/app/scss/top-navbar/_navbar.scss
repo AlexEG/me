@@ -15,27 +15,9 @@ nav {
     content: "";
     height: 1px;
     background-color: hsla(0, 0%, 100%, 0.343);
-
-    width: calc(100% - 72px);
+    width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
-  }
-
-  .menu-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 72px;
-    background-color: green;
-    cursor: pointer;
-
-    &:hover {
-      background-color: rgb(132, 0, 255);
-    }
-    img {
-      width: 24px;
-      height: 24px;
-    }
   }
 }

@@ -20,9 +20,16 @@
     (2) The search bar in the center
     (3) light/Dark mode button on the right side -->
     <nav>
-      <div id="sidebarHomeSvg" class="menu-btn">
-        <img src="/src/assets/svg/bars-solid.svg" alt="menu icon" />
-      </div>
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <div class="svg">
+          <img src="/src/assets/svg/bars-solid.svg" alt="menu icon" />
+        </div>
+      </button>
 
       <div class="search-bar">
         <input
@@ -67,7 +74,7 @@
             >
           </li>
           <li id="sectionNavLi2">
-            <a id="giveMeActive2" href="#YouTube">YouTube</a>
+            <a id="giveMeActive2" href="#Resources">Resources</a>
           </li>
           <li id="sectionNavLi3">
             <a id="giveMeActive3" href="#ProjectsUpdate">Projects Update</a>
@@ -118,25 +125,27 @@
 
       <section id="Statistics" class="statistics-section">
         <a
-          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-11"
+          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-12"
           target="_blank"
           title="See More"
         >
           <img
-            src="/src/assets/sections/statistics/day2/Screenshot 2023-02-12 at 15-27-33 WakaTime - Dashboards for developers.png"
-            alt="" />
-
-          <img
-            src="/src/assets/sections/statistics/day2/Screenshot 2023-02-12 at 15-27-24 WakaTime - Dashboards for developers.png"
-            alt="" />
-          <img
-            src="/src/assets/sections/statistics/day2/Screenshot 2023-02-11 at 11-06-02 WakaTime - Dashboards for developers.png"
+            src="/src/assets/sections/statistics/day3/Screenshot 2023-02-12 at 20-39-48 WakaTime - Dashboards for developers.png"
             alt=""
-        /></a>
+          />
+          <img
+            src="/src/assets/sections/statistics/day3/Screenshot 2023-02-13 at 08-09-12 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="/src/assets/sections/statistics/day3/Screenshot 2023-02-13 at 08-09-03 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
       </section>
       <!--??----- MAIN => Statistics [END] -----??-->
 
-      <!--??----- MAIN => YouTube [START] -----??-->
+      <!--??----- MAIN => Resources [START] -----??-->
 
       <div class="section-title-contanier">
         <h2>
@@ -162,21 +171,21 @@
                 />
               </svg>
             </span>
-            <span class="magic-text">YouTube Section</span>
+            <span class="magic-text">Resources Section</span>
           </span>
         </h2>
       </div>
       <!-- Here is: (yt-video-contanier) it's a div contan thumnail + logo for the video -->
       <!-- what for: I put here some of the videos that I have watched every day so it might help other to who I'm learing from plus my recommendation -->
-      <section id="YouTube" class="youtube-section">
+      <section id="Resources" class="resources-section">
         <!--*----- YT-Video [START]-----*-->
         <div class="yt-video-contanier">
           <!-- ↓↓ in [a] SRC= video URL -->
-          <a href="https://www.youtube.com/watch?v=EqzUcMzfV1w" target="_blank">
+          <a href="https://www.youtube.com/watch?v=036w1MUoAa0" target="_blank">
             <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
             <img
               class="video-thumbnail"
-              src="https://i.ytimg.com/vi/EqzUcMzfV1w/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcl1tY7eKP2usQgRHlNEyj8O20cg"
+              src="https://i.ytimg.com/vi/036w1MUoAa0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARdHtqqv1VD6580p6h-Al_8QnYQg"
               alt=""
             />
           </a>
@@ -185,21 +194,24 @@
             <div class="channel-logo">
               <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
               <img
-                src="/src/assets/sections/youtube/youtube-channels-logo/Traversy Media .jpg"
+                src="/src/assets/sections/youtube/youtube-channels-logo/Google Chrome Developers.jpg"
                 alt=""
               />
             </div>
             <div class="title-channel-name">
               <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">Web Development In 2022 - A Practical Guide</p>
+              <p class="title">
+                New in Chrome 110: picture-in-picture class, launch_handler and
+                more!
+              </p>
               <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Traversy Media</p>
+              <p class="channel-name">Google Chrome Developers</p>
             </div>
           </div>
         </div>
         <!--*----- YT-Video [END]-----*-->
       </section>
-      <!--??----- MAIN => YouTube [END] -----??-->
+      <!--??----- MAIN => Resources [END] -----??-->
 
       <!--! Projects Update !-->
       <div class="section-title-contanier">
@@ -288,10 +300,10 @@
               <h4>
                 View Commit details:
                 <a
-                  href="https://github.com/AlexEG/me/commit/ad202239fc3f5f2ab563d3c3d91b572e084ecb54"
+                  href="https://github.com/AlexEG/me/commit/9fbde5b4c2fa98b69699d7b7ba514cee42ec3eae"
                   target="_blank"
                   title="See What have change"
-                  >ad20223</a
+                  >9fbde5b</a
                 >
               </h4>
             </div>
@@ -299,16 +311,21 @@
             <h4>Description</h4>
 
             <ul>
-              <li>Create Statistics + decide what well be there</li>
-
-              <li>Create YouTube recommendation section</li>
-
-              <li>Create Projects Update</li>
+              <li>
+                Link Statistics cards with more details, every thing (time,files
+                names,how long I worked on every individual file,and more...)
+              </li>
 
               <li>
-                add styles to top-navbar with search-bar & Light/Dark toggle
+                Redesign Resources Section + link thumnails with the YT-Video
+                URL
               </li>
-              <li>add styles to sections navbar</li>
+
+              <li>add sections title (credit to: Hyperplexed )</li>
+
+              <li>
+                Redesign Projects Update + add View Commit details feature
+              </li>
             </ul>
           </div>
         </article>
