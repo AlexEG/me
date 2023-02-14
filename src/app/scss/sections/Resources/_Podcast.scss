@@ -1,0 +1,55 @@
+main .resources-section .Podcast-contanier {
+  // outline: solid 1px red; ////
+  padding: 5px;
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(var(--902), 30%),
+    hsl(var(--802), 30%),
+    hsl(var(--702), 30%),
+    hsl(var(--602), 30%),
+    hsl(var(--502), 30%),
+    hsl(var(--402), 30%),
+    hsl(var(--302), 30%),
+    hsl(var(--202), 30%),
+    hsl(var(--102), 30%),
+    hsl(var(--103), 30%)
+  );
+
+  .player-container {
+    padding-top: 3px;
+    iframe {
+      border-radius: 0;
+      background-color: transparent;
+    }
+  }
+  .episode-details {
+    // outline: solid 1px red; ////
+    padding-top: 3px;
+    padding-inline: 6px 0;
+    // border: solid 2px;
+    // border-image: linear-gradient(
+    //   45deg,
+    //   hsl(278, 77%, 56%),
+    //   hsl(71, 98%, 53%),
+    //   hsl(77, 100%, 63%),
+    //   hsl(168, 91%, 70%),
+    //   hsl(219, 77%, 76%),
+    //   hsl(241, 70%, 78%),
+    //   hsl(278, 77%, 56%)
+    // );
+    // border-image-slice: 1;
+
+    p {
+      &:first-child {
+        color: hsla(0, 0%, 100%, 0.336);
+        font-size: 0.7rem;
+        padding-bottom: 5px;
+      }
+      &:last-child {
+        color: hsl(0, 0%, 95%);
+        font-size: 0.85rem;
+      }
+    }
+  }
+}

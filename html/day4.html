@@ -4,67 +4,420 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Me</title>
+    <title>Me - DAY 4</title>
     <!-- CSS File -->
-    <link rel="stylesheet" href="./dist/style.css?cb=1676344694916" />
+    <link rel="stylesheet" href="/dist/style.css?cb=1676077008109" />
     <link
       rel="shortcut icon"
       href="/src/assets/favicon.webp"
       type="image/x-icon"
     />
   </head>
-  <body class="days__body">
-    <!-- --------------------------------------- -->
+  <body id="pageBody" class="days__body">
+    <!--!----- NAV [START] nochange -----!-->
+    <!-- Here is: 
+    (1) menu icon on the left side
+    (2) The search bar in the center
+    (3) light/Dark mode button on the right side -->
     <nav>
-      <div id="sidebarHomeSvg" class="menu-btn">
-        <img src="/src/assets/svg/bars-solid.svg" alt="menu icon" />
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <div class="svg">
+          <img src="/src/assets/svg/bars-solid.svg" alt="menu icon" />
+        </div>
+      </button>
+
+      <div class="search-bar">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search in All days at once"
+        />
+        <div class="search-bun">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="top-navbar-left-contaner">
+        <div id="lightDarkMode" class="light-dark-btn">
+          <div class="circle"></div>
+        </div>
       </div>
     </nav>
+    <!--!----- NAV [END] nochange -----!-->
 
-    <!-- --------------------------------------- -->
+    <!--!----- HEADER [START] nochange -----!-->
+    <!-- Here is: (1) iframe to display contdown page below the top-navbar   -->
     <header>
-      <!-- <img src="/src/assets/vox-banner.jpg" alt="" /> -->
       <iframe src="/days.html" frameborder="0"></iframe>
     </header>
-    <!-- --------------------------------------- -->
+    <!--!----- HEADER [END] nochange -----!-->
 
+    <!--!----- Sections Navbar [START] nochange -----!-->
+    <!--Here is: (1) an A tags in list linked with every 
+                  section in MAIN using id.
+                  JS- to on click add the "active-section" Class to A tag. -->
     <div class="navbar">
       <div class="navbar__inside_contanier">
         <ul class="navbar__inside_contanier__list">
-          <li><a href="/html/day1.html">DAY 1</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">Notes</a></li>
-          <li><a href="#">Assignments</a></li>
-          <li><a href="#">Projects Update</a></li>
+          <li id="sectionNavLi1">
+            <a id="giveMeActive1" href="#Statistics" class="active-section"
+              >Statistics</a
+            >
+          </li>
+          <li id="sectionNavLi2">
+            <a id="giveMeActive2" href="#Resources">Resources</a>
+          </li>
+          <li id="sectionNavLi3">
+            <a id="giveMeActive3" href="#ProjectsUpdate">Projects Update</a>
+          </li>
+          <li id="sectionNavLi4">
+            <a id="giveMeActive4" href="#Notes">Notes</a>
+          </li>
         </ul>
       </div>
     </div>
-    <!-- <img src="https://via.placeholder.com/500" alt="" /> -->
+    <!--!----- Sections Navbar [END] nochange -----!-->
 
-    <main id="iframeContaner" class="day-index-page-iframe">
-      <div class="yt-video-contanier">
-        <img
-          class="video-thumbnail"
-          src="https://i.ytimg.com/vi/Uh4QGey2zTk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKShxNfKMJqWafG6WBlj8gTd4jUg"
-          alt=""
-        />
+    <!--!----- MAIN [START] CHANGE Page [4] -----!-->
+    <!-- Here is: (1) All the content of every page
+                  See in main every section (All of them in CHANGE)  -->
+    <main>
+      <!--!!----- MAIN => Statistics [START] -----!!-->
+      <div class="section-title-contanier">
+        <h2>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Statistics Section</span>
+          </span>
+        </h2>
+      </div>
+      <!-- Here is: (1) a tag to link more info about the day
+                    (2) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
 
-        <div class="video-data">
-          <div class="channel-logo">
-            <img
-              src="https://yt3.ggpht.com/ytc/AL5GRJWhPj6G-LzAiydF-lOZOzm91jdlu-aNxJgy2rauXg=s68-c-k-c0x00ffffff-no-rj"
+      <section id="Statistics" class="statistics-section">
+        <a
+          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-12"
+          target="_blank"
+          title="See More"
+        >
+          <img
+            src="/src/assets/sections/statistics/day4/Screenshot 2023-02-14 at 02-41-56 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="/src/assets/sections/statistics/day4/Screenshot 2023-02-14 at 02-48-27 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="/src/assets/sections/statistics/day4/Screenshot 2023-02-14 at 02-49-11 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
+      </section>
+      <!--!!----- MAIN => Statistics [END] -----!!-->
+
+      <!--!!----- MAIN => Resources [START] -----!!-->
+      <!--*** SECTION TITLE [START] ***-->
+      <div class="section-title-contanier">
+        <h2>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Resources Section</span>
+          </span>
+        </h2>
+      </div>
+      <!--*** SECTION TITLE [END] ***-->
+
+      <!-- Here is: (yt-video-contanier) it's a div contan thumnail + logo for the video -->
+      <!-- what for: I put here some of the videos that I have watched every day so it might help other to who I'm learing from plus my recommendation -->
+      <section id="Resources" class="resources-section">
+        <!--*----- Book [START]-----*-->
+        <div class="book-container">
+          <!-- book cover -->
+          <picture
+            ><img
+              src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/817kywRJjVL._AC_UF1000,1000_QL80_.jpg"
               alt=""
-            />
-          </div>
+          /></picture>
 
-          <div class="title-channel-name">
-            <p class="title">Why China is losing the microchip war</p>
-            <p class="channel-name">Vox</p>
+          <div class="book-details">
+            <p><span>1.</span> Into Programming</p>
+            <ul>
+              <li>Code</li>
+              <li>Expressions</li>
+              <li>Try It Yourself</li>
+              <li>Operators</li>
+              <li>Values & Type</li>
+              <li>Code Comments</li>
+              <li>Variables</li>
+            </ul>
+
+            <p>Page <span>1</span> to <span>14</span></p>
           </div>
         </div>
+        <!--*----- Book [END]-----*-->
+
+        <!--*----- Book [START]-----*-->
+        <div class="book-container">
+          <!-- book cover -->
+          <picture
+            ><img
+              src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/817kywRJjVL._AC_UF1000,1000_QL80_.jpg"
+              alt=""
+          /></picture>
+
+          <div class="book-details">
+            <p><span>1.</span> Into Programming</p>
+            <ul>
+              <li>Blocks</li>
+              <li>Conditionals</li>
+              <li>Loops</li>
+              <li>Functions</li>
+              <li>Practice</li>
+              <li>Review</li>
+            </ul>
+
+            <p>Page <span>14</span> to <span>28</span></p>
+          </div>
+        </div>
+        <!--*----- Book [END]-----*-->
+
+        <!--*----- YT-Video [START]-----*-->
+        <div class="yt-video-contanier">
+          <!-- ↓↓ in [a] SRC= video URL -->
+          <a
+            href="https://youtu.be/4UK_TDTTWnQ?list=PLNYkxOF6rcIAvsHlT44x-Kve2lG8CrDip"
+            target="_blank"
+          >
+            <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
+            <img
+              class="video-thumbnail"
+              src="https://i.ytimg.com/vi/4UK_TDTTWnQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRgEruE0GB-Q2cJlMw1QBLbtLy7A"
+              alt=""
+            />
+          </a>
+
+          <div class="video-data">
+            <div class="channel-logo">
+              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
+              <img
+                src="/src/assets/sections/Resources/youtube-channels-logo/Google Chrome Developers.jpg"
+                alt=""
+              />
+            </div>
+            <div class="title-channel-name">
+              <!-- ↓↓ in [p"title"] put video title -->
+              <p class="title">
+                Why Build Progressive Web Apps: Never Lose a Click-Out!
+              </p>
+              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
+              <p class="channel-name">Google Chrome Developers</p>
+            </div>
+          </div>
+        </div>
+        <!--*----- YT-Video [END]-----*-->
+      </section>
+      <!--!!----- MAIN => Resources [END] -----!!-->
+
+      <!--!!----- MAIN => Projects Update [END] -----!!-->
+      <div class="section-title-contanier">
+        <h2>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Projects Update</span>
+          </span>
+        </h2>
       </div>
+      <section id="ProjectsUpdate" class="projects-update">
+        <!--*----- Project [START]-----*-->
+
+        <article>
+          <div class="project-title"><h3>Me</h3></div>
+
+          <div class="repo-info">
+            <img
+              src="https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg"
+              alt="wakatime"
+            />
+            <!-- all the below just change the repo name  -->
+            <img
+              src="https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic"
+              alt="GitHub commit activity"
+            />
+            <img
+              src="https://img.shields.io/github/languages/count/AlexEG/me?style=plastic"
+              alt="GitHub language count"
+            />
+            <img
+              src="https://img.shields.io/github/languages/top/AlexEG/me?color=%239900ff&style=plastic"
+              alt="top language"
+            />
+            <img
+              src="https://img.shields.io/github/license/AlexEG/me?color=%2300dd&style=plastic"
+              alt="GitHub Project license"
+            />
+            <img
+              src="https://img.shields.io/github/directory-file-count/AlexEG/me?&style=plastic"
+              alt="GitHub contributors"
+            />
+            <img
+              src="https://img.shields.io/github/repo-size/AlexEG/me?color=%23ff0055&style=plastic"
+              alt="GitHub repo size"
+            />
+            <img
+              src="https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic"
+              alt="GitHub code size in bytes"
+            />
+          </div>
+          <div class="repo-new-features">
+            <!-- youtube video here -->
+            <iframe
+              width="800"
+              height="420"
+              src="https://www.youtube.com/embed/jb2AvF8XzII"
+              title="15 futuristic databases you’ve never heard of"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
+            <div class="commit-info">
+              <!-- ↓↓ in [h4] a tag with the commit SHA inside it the first 6 number -->
+              <h4>
+                View Commit details:
+                <a
+                  href="https://github.com/AlexEG/me/tree/9ddef973bffbc7e54849d3bea0c5377088d1ad5c"
+                  target="_blank"
+                  title="See What have change"
+                  >9ddef97</a
+                >
+              </h4>
+            </div>
+
+            <h4>Description</h4>
+
+            <ul>
+              <li>Rename YouTube Section to Resources Section</li>
+
+              <li>Create a Book component</li>
+
+              <li>add some adjustments to sections title</li>
+
+              <li>
+                add animation to sidebar on open + Redesign hamburger-menu btn
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!--*----- Project [END]-----*-->
+      </section>
+      <!--!!----- MAIN => Projects Update [END] -----!!-->
+
+      <!--!!----- MAIN => Notes [START] -----!!-->
+
+      <!--*** SECTION TITLE [START] ***-->
+      <div class="section-title-contanier">
+        <h2>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Notes Section</span>
+          </span>
+        </h2>
+      </div>
+      <!--*** SECTION TITLE [END] ***-->
+      <section id="Notes" class="notes"></section>
+      <!--!!----- MAIN => Notes [END] -----!!-->
     </main>
-    <!-- --------------------------------------- -->
+    <!--!----- MAIN [END] CHANGE Page [4] -----!-->
 
     <aside id="sidebar">
       <!-- home icon  -->
@@ -83,7 +436,7 @@
         <!-- -----------  -->
         <!-- DAY [1] -->
         <div id="day1" class="day">
-          <div id="d1" class="day-number active">
+          <div id="d1" class="day-number">
             <span>DAY 1</span>
           </div>
         </div>
@@ -101,7 +454,7 @@
         </div>
         <!-- DAY [4] -->
         <div id="day4" class="day">
-          <div id="d4" class="day-number">
+          <div id="d4" class="day-number active">
             <span>DAY 4</span>
           </div>
         </div>
@@ -691,6 +1044,6 @@
       </div>
     </aside>
     <!-- JavaScript File -->
-    <script src="./dist/all.js?cb=1676344694916"></script>
+    <script src="/dist/all.js?cb=1676077008109"></script>
   </body>
 </html>
