@@ -68,7 +68,10 @@ article {
     .commit-info {
       a {
         padding-left: 7px;
-        color: hsla(315, 100%, 50%, 0.253);
+        color: hsla(315, 100%, 50%, 0.322);
+        &:hover {
+          text-shadow: 0 0 5px;
+        }
       }
     }
 
