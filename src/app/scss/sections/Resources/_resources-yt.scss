@@ -50,3 +50,22 @@ main .resources-section .yt-video-contanier {
     }
   }
 }
+
+main .resources-section .yt-video-contanier .yt-vid-link {
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  .thumbnail-gif {
+    cursor: pointer;
+    opacity: 0;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,2 +1,6 @@
-[![wakatime](https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg)](https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5)  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic)   ![GitHub language count](https://img.shields.io/github/languages/count/AlexEG/me?style=plastic)  ![GitHub top language](https://img.shields.io/github/languages/top/AlexEG/me?color=%239900ff&style=plastic)  ![GitHub](https://img.shields.io/github/license/AlexEG/me?color=%2300dd&style=plastic)   ![GitHub contributors](https://img.shields.io/github/contributors/AlexEG/me?color=%23cc0000&style=plastic)  
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/AlexEG/me?&style=plastic)  ![GitHub repo size](https://img.shields.io/github/repo-size/AlexEG/me?color=%23ff0055&style=plastic)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic)
+# For anyone want to Contribute or use the site
+
+## HTML ( [ Source Code Comments & Instructions ](COMMENTS/HTML%20COMMENTS.md) )
+
+## SCSS ( [ Source Code Comments & instructions ](COMMENTS/SCSS%20COMMENTS.md) )
+
