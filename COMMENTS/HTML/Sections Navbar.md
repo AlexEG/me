@@ -1,7 +1,10 @@
+```html
 <!--!----- Sections Navbar [START] nochange -----!-->
+
 <!--Here is: (1) an A tags in list linked with every 
-                  section in MAIN using id.
-                  JS- to on click add the "active-section" Class to A tag. -->
+     section in MAIN using id.
+     JS- to on click add the "active-section" Class to A tag. -->
+
 <div class="navbar">
   <div class="navbar__inside_contanier">
     <ul class="navbar__inside_contanier__list">
@@ -22,4 +25,6 @@
     </ul>
   </div>
 </div>
+
 <!--!----- Sections Navbar [END] nochange -----!-->
+```

@@ -1,4 +1,6 @@
+```html
 <!--*----- YT-Video [START]-----*-->
+
 <div class="yt-video-contanier">
   <!-- ↓↓ in [a] SRC= video URL -->
   <a
@@ -8,8 +10,9 @@
   >
     <!-- ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
     <!-- so from where you get the thumbnail ??
-      step[1] hover on video and wait till the GIF start to repet it self
-      step[2] click on it and copy image adderss
+      step[1] hover on video and wait till the GIF start to 
+      repet it self.
+      step[2] click on it and copy image adderss.
     -->
     <img
       class="thumbnail-gif"
@@ -19,10 +22,11 @@
 
     <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
     <!-- so from where you get the thumbnail ??
-    step[1] go to your YouTube History 
-    step[2] open dev tool + inspect the video
-    step[3] copy the link from <img src="copythis">
-    -- you will find out it's low resolution ??
+    step[1] go to your YouTube History.
+    step[2] open dev tool + inspect the video.
+    step[3] copy the link from 
+    <img src="copythis">
+                   ?? you will find out it's low resolution ??
     step[4] change (https://i.ytimg.com/vi/k_zz3239DA0/[[hqdefault]].jpg?sqp=) 
                     to /hq720.jpg?
     -->
@@ -35,7 +39,8 @@
 
   <div class="video-data">
     <div class="channel-logo">
-      <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
+      <!-- ↓↓ in [img] change SRC= to channel logo from 
+                assets/sections/youtube/youtube-channels-logo -->
       <img
         src="/src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
         alt=""
@@ -49,4 +54,6 @@
     </div>
   </div>
 </div>
+
 <!--*----- YT-Video [END]-----*-->
+```

@@ -1,4 +1,6 @@
+```html
 <!--!!----- MAIN => Projects Update [START] -----!!-->
+
 <div class="section-title-contanier">
   <h2>
     <span class="magic">
@@ -104,4 +106,6 @@
   </article>
   <!--*----- Project [END]-----*-->
 </section>
+
 <!--!!----- MAIN => Projects Update [END] -----!!-->
+```

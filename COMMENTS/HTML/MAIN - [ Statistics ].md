@@ -1,4 +1,6 @@
+```html
 <!--!!----- MAIN => Statistics [START] -----!!-->
+
 <div class="section-title-contanier">
   <h2>
     <span class="magic">
@@ -50,4 +52,6 @@
     />
   </a>
 </section>
+
 <!--!!----- MAIN => Statistics [END] -----!!-->
+```

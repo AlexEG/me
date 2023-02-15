@@ -1,8 +1,11 @@
+```html
 <!--!----- NAV [START] nochange -----!-->
+
 <!-- Here is: 
     (1) menu icon on the left side
     (2) The search bar in the center
     (3) light/Dark mode button on the right side -->
+
 <nav>
   <button
     id="sidebarHomeSvg"
@@ -32,4 +35,6 @@
     </div>
   </div>
 </nav>
+
 <!--!----- NAV [END] nochange -----!-->
+```
