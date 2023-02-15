@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Me - DAY 1</title>
+    <title>Me - DAY 6</title>
     <!-- CSS File -->
     <link rel="stylesheet" href="/dist/style.css?cb=1676077008109" />
     <link
@@ -15,10 +15,6 @@
   </head>
   <body id="pageBody" class="days__body">
     <!--!----- NAV [START] nochange -----!-->
-    <!-- Here is: 
-    (1) menu icon on the left side
-    (2) The search bar in the center
-    (3) light/Dark mode button on the right side -->
     <nav>
       <button
         id="sidebarHomeSvg"
@@ -55,16 +51,12 @@
     <!--!----- NAV [END] nochange -----!-->
 
     <!--!----- HEADER [START] nochange -----!-->
-    <!-- Here is: (1) iframe to display contdown page below the top-navbar   -->
     <header>
       <iframe src="/days.html" frameborder="0"></iframe>
     </header>
     <!--!----- HEADER [END] nochange -----!-->
 
     <!--!----- Sections Navbar [START] nochange -----!-->
-    <!--Here is: (1) an A tags in list linked with every 
-                  section in MAIN using id.
-                  JS- to on click add the "active-section" Class to A tag. -->
     <div class="navbar">
       <div class="navbar__inside_contanier">
         <ul class="navbar__inside_contanier__list">
@@ -87,11 +79,9 @@
     </div>
     <!--!----- Sections Navbar [END] nochange -----!-->
 
-    <!--!----- MAIN [START] CHANGE Page [1] -----!-->
-    <!-- Here is: (1) All the content of every page
-                  See in main every section (All of them in CHANGE)  -->
+    <!--!----- MAIN [START] CHANGE Page [4] -----!-->
     <main>
-      <!--??----- MAIN => Statistics [START] -----??-->
+      <!--!!----- MAIN => Statistics [START] -----!!-->
       <div class="section-title-contanier">
         <h2>
           <span class="magic">
@@ -120,30 +110,31 @@
           </span>
         </h2>
       </div>
-      <!-- Here is: (1) a tag to link more info about the day
-                    (2) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
 
       <section id="Statistics" class="statistics-section">
         <a
-          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-10"
+          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-12"
           target="_blank"
           title="See More"
         >
           <img
-            src="/src/assets/sections/statistics/day1/Screenshot 2023-02-15 at 14-24-00 WakaTime - Dashboards for developers.png"
-            alt="" />
-          <img
-            src="/src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-46 WakaTime - Dashboards for developers.png"
-            alt="" />
-          <img
-            src="/src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-54 WakaTime - Dashboards for developers.png"
+            src="/src/assets/sections/statistics/day5/Screenshot 2023-02-14 at 17-23-41 WakaTime - Dashboards for developers.png"
             alt=""
-        /></a>
+          />
+          <img
+            src="/src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-38 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="/src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-44 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
       </section>
-      <!--??----- MAIN => Statistics [END] -----??-->
+      <!--!!----- MAIN => Statistics [END] -----!!-->
 
-      <!--??----- MAIN => Resources [START] -----??-->
-
+      <!--!!----- MAIN => Resources [START] -----!!-->
+      <!--*** SECTION TITLE [START] ***-->
       <div class="section-title-contanier">
         <h2>
           <span class="magic">
@@ -172,206 +163,77 @@
           </span>
         </h2>
       </div>
+      <!--*** SECTION TITLE [END] ***-->
       <!-- Here is: (yt-video-contanier) it's a div contan thumnail + logo for the video -->
       <!-- what for: I put here some of the videos that I have watched every day so it might help other to who I'm learing from plus my recommendation -->
       <section id="Resources" class="resources-section">
-        <!--*----- YT-Video [START]-----*-->
-        <div class="yt-video-contanier">
-          <!-- ↓↓ in [a] SRC= video URL -->
-          <a
-            class="yt-vid-link"
-            href="https://www.youtube.com/watch?v=zK-yy6C2Nck"
-            target="_blank"
-          >
-            <img
-              class="thumbnail-gif"
-              src="https://i.ytimg.com/an_webp/zK-yy6C2Nck/mqdefault_6s.webp?du=3000&sqp=CLLysp8G&rs=AOn4CLBcXlh3CtS-sTBhUFy57lld6zp9hw"
-              alt=""
-            />
-            <img
-              class="video-thumbnail"
-              src="https://i.ytimg.com/vi/zK-yy6C2Nck/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPKbx089HQaGjMRPwPS1WKTwYwOQ"
-              alt=""
-            />
-          </a>
-          <div class="video-data">
-            <div class="channel-logo">
-              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
-              <img
-                src="/src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">
-                Self-hosting fonts explained (including Google fonts) //
-                @font-face tutorial
-              </p>
-              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Kevin Powell</p>
-            </div>
+        <!--*----- PODCAST [START]-----*-->
+        <div class="Podcast-contanier">
+          <picture
+            ><img
+              src="/src/assets/sections/Resources/podcast/thecsspodcast.webp"
+              alt="the css podcast banner"
+          /></picture>
+
+          <div class="player-container">
+            <!-- ↓↓ in [SRC=] just change id episode-id-[13443002]-->
+            <iframe
+              title="Libsyn Player"
+              style="border: none"
+              src="//html5-player.libsyn.com/embed/episode/id/13443002/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/550055/"
+              height="90"
+              width="100%"
+              scrolling="no"
+            ></iframe>
+          </div>
+
+          <div class="episode-details">
+            <p>Mar 12, 2020</p>
+            <p>
+              Where do scrollbars go, inside or outside the box? In this episode
+              Una and Adam answer that and much more in their discussion of the
+              CSS box model.
+            </p>
           </div>
         </div>
-        <!--*----- YT-Video [END]-----*-->
+        <!--*----- PODCAST [END]-----*-->
 
         <!--*----- YT-Video [START]-----*-->
         <div class="yt-video-contanier">
-          <!-- ↓↓ in [a] SRC= video URL -->
           <a
             class="yt-vid-link"
-            href="https://www.youtube.com/watch?v=hWGgw1K-i8Y"
+            href="https://www.youtube.com/watch?v=ppwagkhrZJs"
             target="_blank"
           >
-            <!--? ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
             <img
               class="thumbnail-gif"
-              src="https://i.ytimg.com/an_webp/hWGgw1K-i8Y/mqdefault_6s.webp?du=3000&sqp=CObhsp8G&rs=AOn4CLCWJKIUn6SsOcCqcnoMoEIa6tUKXg"
+              src="https://i.ytimg.com/an_webp/ppwagkhrZJs/mqdefault_6s.webp?du=3000&sqp=CMOZsp8G&rs=AOn4CLA_BGeaw36UHM1ULhWN-v6XXyrvYQ"
               alt=""
             />
-            <!--? ↓↓ in [img] change SRC= to thumnail URL of the video -->
             <img
               class="video-thumbnail"
-              src="https://i.ytimg.com/vi/hWGgw1K-i8Y/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIv18Z915jmL0h_kDyZVVUc8LOSg"
+              src="https://i.ytimg.com/vi/sFsRylCQblw/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8xgeRFJtMXzDiJSPb40esigtifA"
               alt=""
             />
           </a>
           <div class="video-data">
             <div class="channel-logo">
-              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
               <img
-                src="/src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="/src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
                 alt=""
               />
             </div>
             <div class="title-channel-name">
-              <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">
-                Spice up your site | Easy waves, angles, & other creative shapes
-                with CSS
-              </p>
-              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Kevin Powell</p>
-            </div>
-          </div>
-        </div>
-        <!--*----- YT-Video [END]-----*-->
-        <!--*----- YT-Video [START]-----*-->
-        <div class="yt-video-contanier">
-          <!-- ↓↓ in [a] SRC= video URL -->
-          <a
-            class="yt-vid-link"
-            href="https://www.youtube.com/watch?v=H04P5YXVssE"
-            target="_blank"
-          >
-            <!--? ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
-            <img
-              class="thumbnail-gif"
-              src="https://i.ytimg.com/an_webp/H04P5YXVssE/mqdefault_6s.webp?du=3000&sqp=CL2bs58G&rs=AOn4CLDZ24Q8EOlaoiN6lqaXk1hw1ZFKlA"
-              alt=""
-            />
-            <!--? ↓↓ in [img] change SRC= to thumnail URL of the video -->
-            <img
-              class="video-thumbnail"
-              src="https://i.ytimg.com/vi/H04P5YXVssE/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0eWn6wItIhUfljpfFugTntBJqfg"
-              alt=""
-            />
-          </a>
-          <div class="video-data">
-            <div class="channel-logo">
-              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
-              <img
-                src="/src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">Position absolute and responsive layouts</p>
-              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Kevin Powell</p>
-            </div>
-          </div>
-        </div>
-        <!--*----- YT-Video [END]-----*-->
-        <!--*----- YT-Video [START]-----*-->
-        <div class="yt-video-contanier">
-          <!-- ↓↓ in [a] SRC= video URL -->
-          <a
-            class="yt-vid-link"
-            href="https://www.youtube.com/watch?v=dldpud1PuL8"
-            target="_blank"
-          >
-            <!--? ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
-            <img
-              class="thumbnail-gif"
-              src="https://i.ytimg.com/an_webp/dldpud1PuL8/mqdefault_6s.webp?du=3000&sqp=CPyTs58G&rs=AOn4CLBt9IA8xodoJO_j4ALGTO5iOHSSxA"
-              alt=""
-            />
-            <!--? ↓↓ in [img] change SRC= to thumnail URL of the video -->
-            <img
-              class="video-thumbnail"
-              src="https://i.ytimg.com/vi/dldpud1PuL8/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9iDS7gz4q6Fr4c3pmkZWru2ztZw"
-              alt=""
-            />
-          </a>
-          <div class="video-data">
-            <div class="channel-logo">
-              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
-              <img
-                src="/src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">Create a cool color-fill animation with CSS</p>
-              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Kevin Powell</p>
-            </div>
-          </div>
-        </div>
-        <!--*----- YT-Video [END]-----*-->
-        <!--*----- YT-Video [START]-----*-->
-        <div class="yt-video-contanier">
-          <!-- ↓↓ in [a] SRC= video URL -->
-          <a
-            class="yt-vid-link"
-            href="https://www.youtube.com/watch?v=I4gUvhG7uFU"
-            target="_blank"
-          >
-            <img
-              class="thumbnail-gif"
-              src="https://i.ytimg.com/an_webp/I4gUvhG7uFU/mqdefault_6s.webp?du=3000&sqp=CJ2Ks58G&rs=AOn4CLBwRSYIaWaYkcTI0LQu5xOPnJ-PtA"
-              alt=""
-            />
-            <img
-              class="video-thumbnail"
-              src="https://i.ytimg.com/vi/I4gUvhG7uFU/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHb6yyj5xb2oDlANkKLQOzS6p3KQ"
-              alt=""
-            />
-          </a>
-          <div class="video-data">
-            <div class="channel-logo">
-              <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
-              <img
-                src="/src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
-                alt=""
-              />
-            </div>
-            <div class="title-channel-name">
-              <!-- ↓↓ in [p"title"] put video title -->
-              <p class="title">The problem with percentages in CSS</p>
-              <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-              <p class="channel-name">Kevin Powell</p>
+              <p class="title">7 Web Features You Didn’t Know Existed</p>
+              <p class="channel-name">Fireship</p>
             </div>
           </div>
         </div>
         <!--*----- YT-Video [END]-----*-->
       </section>
-      <!--??----- MAIN => Resources [END] -----??-->
+      <!--!!----- MAIN => Resources [END] -----!!-->
 
-      <!--! Projects Update !-->
+      <!--!!----- MAIN => Projects Update [START] -----!!-->
       <div class="section-title-contanier">
         <h2>
           <span class="magic">
@@ -406,12 +268,13 @@
         <article>
           <div class="project-title"><h3>Me</h3></div>
 
+          <!-- all the below just change the repo name  -->
           <div class="repo-info">
+            <!--
             <img
               src="https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg"
               alt="wakatime"
             />
-            <!-- all the below just change the repo name  -->
             <img
               src="https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic"
               alt="GitHub commit activity"
@@ -439,7 +302,7 @@
             <img
               src="https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic"
               alt="GitHub code size in bytes"
-            />
+            />-->
           </div>
           <div class="repo-new-features">
             <!-- youtube video here -->
@@ -458,10 +321,10 @@
               <h4>
                 View Commit details:
                 <a
-                  href="https://github.com/AlexEG/me/commit/a70a3b9ae25d9308f6860a09d1d680f7d1f47c51"
+                  href="https://github.com/AlexEG/me/tree/d714fc31740fc498b286949110b909c9243310da"
                   target="_blank"
                   title="See What have change"
-                  >a70a3b9</a
+                  >d714fc3</a
                 >
               </h4>
             </div>
@@ -469,26 +332,51 @@
             <h4>Description</h4>
 
             <ul>
-              <li>add sidebar with 100 DAYs</li>
-
-              <li>add active state with JS & SCSS</li>
-
-              <li>add humber menu with JS to display three columns of DAYs</li>
-
-              <li>
-                add a youtube card to contan some of my recommendation + what
-                I've watched
-              </li>
+              <li>Create podcast component</li>
+              <li>add color palette form Colorhunt.io</li>
             </ul>
           </div>
         </article>
         <!--*----- Project [END]-----*-->
       </section>
+      <!--!!----- MAIN => Projects Update [END] -----!!-->
 
-      <!--! Notes !-->
+      <!--!!----- MAIN => Notes [START] -----!!-->
+
+      <!--*** SECTION TITLE [START] ***-->
+      <div class="section-title-contanier">
+        <h2>
+          <span class="magic">
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-star">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+                />
+              </svg>
+            </span>
+            <span class="magic-text">Notes Section</span>
+          </span>
+        </h2>
+      </div>
+      <!--*** SECTION TITLE [END] ***-->
       <section id="Notes" class="notes"></section>
+      <!--!!----- MAIN => Notes [END] -----!!-->
     </main>
-    <!--!----- MAIN [END] CHANGE Page [1] -----!-->
+    <!--!----- MAIN [END] CHANGE Page [4] -----!-->
 
     <aside id="sidebar">
       <!-- home icon  -->
@@ -507,7 +395,7 @@
         <!-- -----------  -->
         <!-- DAY [1] -->
         <div id="day1" class="day">
-          <div id="d1" class="day-number active">
+          <div id="d1" class="day-number">
             <span>DAY 1</span>
           </div>
         </div>
@@ -537,7 +425,7 @@
         </div>
         <!-- DAY [6] -->
         <div id="day6" class="day">
-          <div id="d6" class="day-number">
+          <div id="d6" class="day-number active">
             <span>DAY 6</span>
           </div>
         </div>

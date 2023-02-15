@@ -1,0 +1,52 @@
+<!--*----- YT-Video [START]-----*-->
+<div class="yt-video-contanier">
+  <!-- ↓↓ in [a] SRC= video URL -->
+  <a
+    class="yt-vid-link"
+    href="https://www.youtube.com/watch?v=ppwagkhrZJs"
+    target="_blank"
+  >
+    <!-- ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
+    <!-- so from where you get the thumbnail ??
+      step[1] hover on video and wait till the GIF start to repet it self
+      step[2] click on it and copy image adderss
+    -->
+    <img
+      class="thumbnail-gif"
+      src="https://i.ytimg.com/an_webp/ppwagkhrZJs/mqdefault_6s.webp?du=3000&sqp=CMOZsp8G&rs=AOn4CLA_BGeaw36UHM1ULhWN-v6XXyrvYQ"
+      alt=""
+    />
+
+    <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
+    <!-- so from where you get the thumbnail ??
+    step[1] go to your YouTube History 
+    step[2] open dev tool + inspect the video
+    step[3] copy the link from <img src="copythis">
+    -- you will find out it's low resolution ??
+    step[4] change (https://i.ytimg.com/vi/k_zz3239DA0/[[hqdefault]].jpg?sqp=) 
+                    to /hq720.jpg?
+    -->
+    <img
+      class="video-thumbnail"
+      src="https://i.ytimg.com/vi/sFsRylCQblw/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8xgeRFJtMXzDiJSPb40esigtifA"
+      alt=""
+    />
+  </a>
+
+  <div class="video-data">
+    <div class="channel-logo">
+      <!-- ↓↓ in [img] change SRC= to channel logo from assets/sections/youtube/youtube-channels-logo -->
+      <img
+        src="/src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
+        alt=""
+      />
+    </div>
+    <div class="title-channel-name">
+      <!-- ↓↓ in [p"title"] put video title -->
+      <p class="title">7 Web Features You Didn’t Know Existed</p>
+      <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
+      <p class="channel-name">Fireship</p>
+    </div>
+  </div>
+</div>
+<!--*----- YT-Video [END]-----*-->
