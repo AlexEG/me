@@ -52,3 +52,7 @@
 
 <!--*----- BOOK [END]-----*-->
 ```
+
+<hr>
+
+[GO BACK](../HTML%20COMMENTS.md)
