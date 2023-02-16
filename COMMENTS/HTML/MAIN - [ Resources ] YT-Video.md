@@ -48,7 +48,7 @@
       <!-- IMAGE[4] -->
       <!----↓ channel logo from assets/sections/youtube/youtube-channels-logo ↓---->
       <img
-        src="./src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
+        src="../src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
         alt=""
       />
     </div>

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Me - DAY 1</title>
     <!-- CSS File -->
-    <link rel="stylesheet" href="/dist/style.css?cb=1676077008109" />
-    <link rel="stylesheet" href="/dist/all.min.css" />
+    <link rel="stylesheet" href="../dist/style.css?cb=1676077008109" />
+    <link rel="stylesheet" href="../dist/all.min.css" />
     <link
       rel="shortcut icon"
-      href="/src/assets/favicon.webp"
+      href="../src/assets/favicon.webp"
       type="image/x-icon"
     />
   </head>
@@ -18,7 +18,7 @@
     <!--!----- NAV [START] nochange -----!-->
     <nav>
       <div class="home-svg">
-        <a href="/index.html">
+        <a href="../index.html">
           <i class="fa-solid fa-house"></i>
         </a>
       </div>
@@ -37,7 +37,6 @@
           </svg>
         </div>
       </div>
-
       <div class="top-navbar-left-contaner">
         <div id="lightDarkMode" class="light-dark-btn">
           <div class="circle"></div>
@@ -45,18 +44,13 @@
       </div>
     </nav>
     <!--!----- NAV [END] nochange -----!-->
-
     <!--!----- HEADER [START] nochange -----!-->
-    <!-- Here is: (1) iframe to display contdown page below the top-navbar   -->
+
     <header>
-      <iframe src="/days.html" frameborder="0"></iframe>
+      <iframe src="../days.html" frameborder="0"></iframe>
     </header>
     <!--!----- HEADER [END] nochange -----!-->
-
     <!--!----- Sections Navbar [START] nochange -----!-->
-    <!--Here is: (1) an A tags in list linked with every 
-                  section in MAIN using id.
-                  JS- to on click add the "active-section" Class to A tag. -->
     <div class="navbar">
       <div class="navbar__inside_contanier">
         <ul class="navbar__inside_contanier__list">
@@ -76,14 +70,10 @@
     </div>
     <!--!----- Sections Navbar [END] nochange -----!-->
 
-    <!--!----- MAIN [START] CHANGE Page [1] -----!-->
-    <!-- Here is: (1) All the content of every page
-                  See in main every section (All of them in CHANGE)  -->
+    <!--!----- MAIN [START] CHANGE -----!-->
     <main>
       <!--??----- MAIN => Statistics [START] -----??-->
       <div id="StatisticsTitle" class="section-title-contanier"></div>
-      <!-- Here is: (1) a tag to link more info about the day
-                    (2) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
 
       <section id="Statistics" class="statistics-section">
         <a
@@ -92,20 +82,20 @@
           title="See More"
         >
           <img
-            src="./src/assets/sections/statistics/day1/Screenshot 2023-02-15 at 14-24-00 WakaTime - Dashboards for developers.png"
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-15 at 14-24-00 WakaTime - Dashboards for developers.png"
             alt="" />
           <img
-            src="./src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-46 WakaTime - Dashboards for developers.png"
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-46 WakaTime - Dashboards for developers.png"
             alt="" />
           <img
-            src="./src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-54 WakaTime - Dashboards for developers.png"
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-54 WakaTime - Dashboards for developers.png"
             alt=""
         /></a>
       </section>
       <!--??----- MAIN => Statistics [END] -----??-->
-
       <!--??----- MAIN => Resources [START] -----??-->
       <div id="ResourcesTitle" class="section-title-contanier"></div>
+
       <section id="Resources" class="resources-section">
         <!--*----- YT-Video [START]-----*-->
         <div class="yt-video-contanier">
@@ -128,7 +118,7 @@
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="./src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="../src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
                 alt=""
               />
             </div>
@@ -163,7 +153,7 @@
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="./src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="../src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
                 alt=""
               />
             </div>
@@ -198,7 +188,7 @@
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="./src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="../src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
                 alt=""
               />
             </div>
@@ -230,7 +220,7 @@
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="./src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="../src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
                 alt=""
               />
             </div>
@@ -262,7 +252,7 @@
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="./src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
+                src="../src/assets/sections/Resources/youtube-channels-logo/Kevin Powell.jpg"
                 alt=""
               />
             </div>
@@ -362,14 +352,14 @@
         aria-controls="sidebar-navigation"
         aria-expanded="false"
       >
-        <img src="./src/assets/svg/bars-solid.svg" alt="menu icon" />
+        <img src="../src/assets/svg/bars-solid.svg" alt="menu icon" />
       </button>
 
       <!-- DAYs container  -->
       <div id="daysContainer" class="days-container"></div>
     </aside>
     <!-- JavaScript File -->
-    <script src="/dist/all.js?cb=1676077008109"></script>
+    <script src="../dist/all.js?cb=1676077008109"></script>
     <script>
       day1.innerHTML = `
       <div class="day-number active">
