@@ -1,3 +1,11 @@
+![Alt text](../IMAGES/HTML/NAV/Screenshot%202023-02-16%20at%2009-21-26%20Me%20-%20DAY%207.png)
+
+(1) ![Alt text](../IMAGES/HTML/NAV/Screenshot%202023-02-16%20at%2009-23-02%20Me%20-%20DAY%207.png)
+
+(2) ![Alt text](../IMAGES/HTML/NAV/Screenshot%202023-02-16%20at%2009-22-51%20Me%20-%20DAY%207.png)
+
+(3) ![Alt text](../IMAGES/HTML/NAV/Screenshot%202023-02-16%20at%2009-23-09%20Me%20-%20DAY%207.png)
+
 ```html
 <!--!----- NAV [START] nochange -----!-->
 
@@ -7,6 +15,7 @@
     (3) light/Dark mode button on the right side -->
 
 <nav>
+  <!-- IMAGE[1] -->
   <button
     id="sidebarHomeSvg"
     class="hamburger-btn"
@@ -18,6 +27,7 @@
     </div>
   </button>
 
+  <!-- IMAGE[2] -->
   <div class="search-bar">
     <input id="search" type="search" placeholder="Search in All days at once" />
     <div class="search-bun">
@@ -29,6 +39,7 @@
     </div>
   </div>
 
+  <!-- IMAGE[3] -->
   <div class="top-navbar-left-contaner">
     <div id="lightDarkMode" class="light-dark-btn">
       <div class="circle"></div>

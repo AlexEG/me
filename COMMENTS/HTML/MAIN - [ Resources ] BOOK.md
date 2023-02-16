@@ -1,61 +1,49 @@
+(1)![Alt text](../IMAGES/HTML/MAIN%20-%20%5B%20Resources%20%5D%20BOOK/Screenshot%202023-02-16%20at%2010-11-50%20Me%20-%20DAY%204.png)
+
+(2)![Alt text](../IMAGES/HTML/MAIN%20-%20%5B%20Resources%20%5D%20BOOK/Screenshot%202023-02-16%20at%2010-15-53%20Me%20-%20DAY%204.png)
+
+(3)![Alt text](../IMAGES/HTML/MAIN%20-%20%5B%20Resources%20%5D%20BOOK/Screenshot%202023-02-16%20at%2010-16-52%20Me%20-%20DAY%204.png)
+
+(4)![Alt text](../IMAGES/HTML/MAIN%20-%20%5B%20Resources%20%5D%20BOOK/Screenshot%202023-02-16%20at%2010-16-38%20Me%20-%20DAY%204.png)
+
+(5)![Alt text](../IMAGES/HTML/MAIN%20-%20%5B%20Resources%20%5D%20BOOK/Screenshot%202023-02-16%20at%2010-16-06%20Me%20-%20DAY%204.png)
+
 ```html
-<!--*----- YT-Video [START]-----*-->
+<!--*----- BOOK [START]-----*-->
 
-<div class="yt-video-contanier">
-  <!-- ↓↓ in [a] SRC= video URL -->
-  <a
-    class="yt-vid-link"
-    href="https://www.youtube.com/watch?v=ppwagkhrZJs"
-    target="_blank"
-  >
-    <!-- ↓↓ in [img] change SRC= video's autoplay GIF on hover-->
-    <!-- so from where you get the thumbnail ??
-      step[1] hover on video and wait till the GIF start to 
-      repet it self.
-      step[2] click on it and copy image adderss.
-    -->
-    <img
-      class="thumbnail-gif"
-      src="https://i.ytimg.com/an_webp/ppwagkhrZJs/mqdefault_6s.webp?du=3000&sqp=CMOZsp8G&rs=AOn4CLA_BGeaw36UHM1ULhWN-v6XXyrvYQ"
+<!-- IMAGE[1] -->
+<div class="book-container">
+  <!-- IMAGE[2] -->
+  <!----↓ Change the img src to the book cover ↓---->
+  <picture
+    ><img
+      src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/817kywRJjVL._AC_UF1000,1000_QL80_.jpg"
       alt=""
-    />
+  /></picture>
+  <div class="book-details">
+    <!-- IMAGE[3] -->
+    <!----↓ Chapter Number & Name ↓---->
+    <p><span>1.</span> Into Programming</p>
 
-    <!-- ↓↓ in [img] change SRC= to thumnail URL of the video -->
-    <!-- so from where you get the thumbnail ??
-    step[1] go to your YouTube History.
-    step[2] open dev tool + inspect the video.
-    step[3] copy the link from 
-    <img src="copythis">
-                   ?? you will find out it's low resolution ??
-    step[4] change (https://i.ytimg.com/vi/k_zz3239DA0/[[hqdefault]].jpg?sqp=) 
-                    to /hq720.jpg?
-    -->
-    <img
-      class="video-thumbnail"
-      src="https://i.ytimg.com/vi/sFsRylCQblw/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8xgeRFJtMXzDiJSPb40esigtifA"
-      alt=""
-    />
-  </a>
+    <!-- IMAGE[4] -->
+    <!----↓ Chapter sections ↓---->
+    <ul>
+      <li>Code</li>
+      <li>Expressions</li>
+      <li>Try It Yourself</li>
+      <li>Operators</li>
+      <li>Values & Type</li>
+      <li>Code Comments</li>
+      <li>Variables</li>
+    </ul>
 
-  <div class="video-data">
-    <div class="channel-logo">
-      <!-- ↓↓ in [img] change SRC= to channel logo from 
-                assets/sections/youtube/youtube-channels-logo -->
-      <img
-        src="/src/assets/sections/Resources/youtube-channels-logo/Fireship.jpg"
-        alt=""
-      />
-    </div>
-    <div class="title-channel-name">
-      <!-- ↓↓ in [p"title"] put video title -->
-      <p class="title">7 Web Features You Didn’t Know Existed</p>
-      <!-- ↓↓ in [p"channel-name"] put here the channel's name -->
-      <p class="channel-name">Fireship</p>
-    </div>
+    <!-- IMAGE[5] -->
+    <!----↓ E.g.(I have read from page 5 to 20)  ↓---->
+    <p>Page <span>1</span> to <span>14</span></p>
   </div>
 </div>
 
-<!--*----- YT-Video [END]-----*-->
+<!--*----- BOOK [END]-----*-->
 ```
 
 <hr>

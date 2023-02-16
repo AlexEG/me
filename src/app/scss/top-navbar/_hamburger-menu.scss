@@ -1,20 +1,16 @@
 .hamburger-btn {
-  --button-color: #3f0033;
   background: transparent;
   border: 0;
-  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(111, 0, 121, 0.158);
+  width: 64px;
+  height: 64px;
 
-  .svg {
-    border-radius: 10px;
-    padding: 6px 9px;
-    background-color: rgba(255, 255, 255, 0.233);
-    cursor: pointer;
-    &:hover {
-      background-color: rgba(234, 0, 255, 0.151);
-    }
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(111, 0, 121, 0.479);
   }
 
   img {
@@ -22,29 +18,3 @@
     height: 24px;
   }
 }
-
-// .hamburger-btn .line {
-//   transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
-//   transform-origin: center;
-// }
-
-// .hamburger-btn[aria-expanded="true"] .line {
-//   transition: y 300ms ease-in, transform 300ms ease-in 300ms, opacity 0ms 300ms;
-// }
-
-// .hamburger-btn[aria-expanded="true"] .top {
-//   // y: 45;
-//   margin-top: 10px;
-// }
-
-// .hamburger-btn[aria-expanded="true"] .top {
-//   transform: rotate(45deg);
-// }
-
-// .hamburger-btn[aria-expanded="true"] .middle {
-//   opacity: 0;
-// }
-
-// .hamburger-btn[aria-expanded="true"] .bottom {
-//   transform: rotate(-45deg);
-// }

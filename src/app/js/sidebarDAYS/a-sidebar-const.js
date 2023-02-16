@@ -1,3 +1,620 @@
+const daysContainer = document.querySelector("#daysContainer");
+
+function createDaysHTML() {
+  daysContainer.innerHTML = `
+  <!-- DAY [1] -->
+  <div id="day1" class="day">
+    <div class="day-number">
+      <span>DAY 1</span>
+    </div>
+  </div>
+  <!-- DAY [2] -->
+  <div id="day2" class="day">
+    <div class="day-number">
+      <span>DAY 2</span>
+     </div>
+  </div>
+  <!-- DAY [3] -->
+  <div id="day3" class="day">
+    <div class="day-number">
+      <span>DAY 3</span>
+    </div>
+  </div>
+  <!-- DAY [4] -->
+  <div id="day4" class="day">
+    <div class="day-number">
+      <span>DAY 4</span>
+    </div>
+  </div>
+  <!-- DAY [5] -->
+  <div id="day5" class="day">
+    <div class="day-number">
+      <span>DAY 5</span>
+    </div>
+  </div>
+  <!-- DAY [6] -->
+  <div id="day6" class="day">
+    <div class="day-number">
+      <span>DAY 6</span>
+    </div>
+  </div>
+  <!-- DAY [7] -->
+  <div id="day7" class="day">
+    <div class="day-number">
+      <span>DAY 7</span>
+    </div>
+  </div>
+  <!-- DAY [8] -->
+  <div id="day8" class="day">
+    <div class="day-number">
+      <span>DAY 8</span>
+    </div>
+  </div>
+  <!-- DAY [9] -->
+  <div id="day9" class="day">
+    <div class="day-number">
+      <span>DAY 9</span>
+    </div>
+  </div>
+  <!-- DAY [10] -->
+  <div id="day10" class="day">
+    <div class="day-number">
+      <span>DAY 10</span>
+    </div>
+  </div>
+  <!-- DAY [11] -->
+  <div id="day11" class="day">
+    <div class="day-number">
+      <span>DAY 11</span>
+    </div>
+  </div>
+  <!-- DAY [12] -->
+  <div id="day12" class="day">
+    <div class="day-number">
+      <span>DAY 12</span>
+    </div>
+  </div>
+  <!-- DAY [13] -->
+  <div id="day13" class="day">
+    <div class="day-number">
+      <span>DAY 13</span>
+    </div>
+  </div>
+  <!-- DAY [14] -->
+  <div id="day14" class="day">
+    <div class="day-number">
+      <span>DAY 14</span>
+    </div>
+  </div>
+  <!-- DAY [15] -->
+  <div id="day15" class="day">
+    <div class="day-number">
+      <span>DAY 15</span>
+    </div>
+  </div>
+  <!-- DAY [16] -->
+  <div id="day16" class="day">
+    <div class="day-number">
+      <span>DAY 16</span>
+    </div>
+  </div>
+  <!-- DAY [17] -->
+  <div id="day17" class="day">
+    <div class="day-number">
+      <span>DAY 17</span>
+    </div>
+  </div>
+  <!-- DAY [18] -->
+  <div id="day18" class="day">
+    <div class="day-number">
+      <span>DAY 18</span>
+    </div>
+  </div>
+  <!-- DAY [19] -->
+  <div id="day19" class="day">
+    <div class="day-number">
+      <span>DAY 19</span>
+    </div>
+  </div>
+  <!-- DAY [20] -->
+  <div id="day20" class="day">
+    <div class="day-number">
+      <span>DAY 20</span>
+    </div>
+  </div>
+  <!-- DAY [20] -->
+  <div id="day20" class="day">
+    <div class="day-number">
+      <span>DAY 20</span>
+    </div>
+  </div>
+  <!-- DAY [21] -->
+  <div id="day21" class="day">
+    <div class="day-number">
+      <span>DAY 21</span>
+    </div>
+  </div>
+  <!-- DAY [22] -->
+  <div id="day22" class="day">
+    <div class="day-number">
+      <span>DAY 22</span>
+    </div>
+  </div>
+  <!-- DAY [23] -->
+  <div id="day23" class="day">
+    <div class="day-number">
+      <span>DAY 23</span>
+    </div>
+  </div>
+  <!-- DAY [24] -->
+  <div id="day24" class="day">
+    <div class="day-number">
+      <span>DAY 24</span>
+    </div>
+  </div>
+  <!-- DAY [25] -->
+  <div id="day25" class="day">
+    <div class="day-number">
+      <span>DAY 25</span>
+    </div>
+  </div>
+  <!-- DAY [26] -->
+  <div id="day26" class="day">
+    <div class="day-number">
+      <span>DAY 26</span>
+    </div>
+  </div>
+  <!-- DAY [27] -->
+  <div id="day27" class="day">
+    <div class="day-number">
+      <span>DAY 27</span>
+    </div>
+  </div>
+  <!-- DAY [28] -->
+  <div id="day28" class="day">
+    <div class="day-number">
+      <span>DAY 28</span>
+    </div>
+  </div>
+  <!-- DAY [29] -->
+  <div id="day29" class="day">
+    <div class="day-number">
+      <span>DAY 29</span>
+    </div>
+  </div>
+  <!-- DAY [30] -->
+  <div id="day30" class="day">
+    <div class="day-number">
+      <span>DAY 30</span>
+    </div>
+  </div>
+  <!-- DAY [31] -->
+  <div id="day31" class="day">
+    <div class="day-number">
+      <span>DAY 31</span>
+    </div>
+  </div>
+  <!-- DAY [32] -->
+  <div id="day32" class="day">
+    <div class="day-number">
+      <span>DAY 32</span>
+    </div>
+  </div>
+  <!-- DAY [33] -->
+  <div id="day33" class="day">
+    <div class="day-number">
+      <span>DAY 33</span>
+    </div>
+  </div>
+  <!-- DAY [34] -->
+  <div id="day34" class="day">
+    <div class="day-number">
+      <span>DAY 34</span>
+    </div>
+  </div>
+  <!-- DAY [35] -->
+  <div id="day35" class="day">
+    <div class="day-number">
+      <span>DAY 35</span>
+    </div>
+  </div>
+  <!-- DAY [36] -->
+  <div id="day36" class="day">
+    <div class="day-number">
+      <span>DAY 36</span>
+    </div>
+  </div>
+  <!-- DAY [37] -->
+  <div id="day37" class="day">
+    <div class="day-number">
+      <span>DAY 37</span>
+    </div>
+  </div>
+  <!-- DAY [38] -->
+  <div id="day38" class="day">
+    <div class="day-number">
+      <span>DAY 38</span>
+    </div>
+  </div>
+  <!-- DAY [39] -->
+  <div id="day39" class="day">
+    <div class="day-number">
+      <span>DAY 39</span>
+    </div>
+  </div>
+  <!-- DAY [40] -->
+  <div id="day40" class="day">
+    <div class="day-number">
+      <span>DAY 40</span>
+    </div>
+  </div>
+  <!-- DAY [41] -->
+  <div id="day41" class="day">
+    <div class="day-number">
+      <span>DAY 41</span>
+    </div>
+  </div>
+  <!-- DAY [42] -->
+  <div id="day42" class="day">
+    <div class="day-number">
+      <span>DAY 42</span>
+    </div>
+  </div>
+  <!-- DAY [43] -->
+  <div id="day43" class="day">
+    <div class="day-number">
+      <span>DAY 43</span>
+    </div>
+  </div>
+  <!-- DAY [44] -->
+  <div id="day44" class="day">
+    <div class="day-number">
+      <span>DAY 44</span>
+    </div>
+  </div>
+  <!-- DAY [45] -->
+  <div id="day45" class="day">
+    <div class="day-number">
+      <span>DAY 45</span>
+    </div>
+  </div>
+  <!-- DAY [46] -->
+  <div id="day46" class="day">
+    <div class="day-number">
+      <span>DAY 46</span>
+    </div>
+  </div>
+  <!-- DAY [47] -->
+  <div id="day47" class="day">
+    <div class="day-number">
+      <span>DAY 47</span>
+    </div>
+  </div>
+  <!-- DAY [48] -->
+  <div id="day48" class="day">
+    <div class="day-number">
+      <span>DAY 48</span>
+    </div>
+  </div>
+  <!-- DAY [49] -->
+  <div id="day49" class="day">
+    <div class="day-number">
+      <span>DAY 49</span>
+    </div>
+  </div>
+  <!-- DAY [50] -->
+  <div id="day50" class="day">
+    <div class="day-number">
+      <span>DAY 50</span>
+    </div>
+  </div>
+  <!-- DAY [51] -->
+  <div id="day51" class="day">
+    <div class="day-number">
+      <span>DAY 51</span>
+    </div>
+  </div>
+  <!-- DAY [52] -->
+  <div id="day52" class="day">
+    <div class="day-number">
+      <span>DAY 52</span>
+    </div>
+  </div>
+  <!-- DAY [53] -->
+  <div id="day53" class="day">
+    <div class="day-number">
+      <span>DAY 53</span>
+    </div>
+  </div>
+  <!-- DAY [54] -->
+  <div id="day54" class="day">
+    <div class="day-number">
+      <span>DAY 54</span>
+    </div>
+  </div>
+  <!-- DAY [55] -->
+  <div id="day55" class="day">
+    <div class="day-number">
+      <span>DAY 55</span>
+    </div>
+  </div>
+  <!-- DAY [56] -->
+  <div id="day56" class="day">
+    <div class="day-number">
+      <span>DAY 56</span>
+    </div>
+  </div>
+  <!-- DAY [57] -->
+  <div id="day57" class="day">
+    <div class="day-number">
+      <span>DAY 57</span>
+    </div>
+  </div>
+  <!-- DAY [58] -->
+  <div id="day58" class="day">
+    <div class="day-number">
+      <span>DAY 58</span>
+    </div>
+  </div>
+  <!-- DAY [59] -->
+  <div id="day59" class="day">
+    <div class="day-number">
+      <span>DAY 59</span>
+    </div>
+  </div>
+  <!-- DAY [60] -->
+  <div id="day60" class="day">
+    <div class="day-number">
+      <span>DAY 60</span>
+    </div>
+  </div>
+  <!-- DAY [61] -->
+  <div id="day61" class="day">
+    <div class="day-number">
+      <span>DAY 61</span>
+    </div>
+  </div>
+  <!-- DAY [62] -->
+  <div id="day62" class="day">
+    <div class="day-number">
+      <span>DAY 62</span>
+    </div>
+  </div>
+  <!-- DAY [63] -->
+  <div id="day63" class="day">
+    <div class="day-number">
+      <span>DAY 63</span>
+    </div>
+  </div>
+  <!-- DAY [64] -->
+  <div id="day64" class="day">
+    <div class="day-number">
+      <span>DAY 64</span>
+    </div>
+  </div>
+  <!-- DAY [65] -->
+  <div id="day65" class="day">
+    <div class="day-number">
+      <span>DAY 65</span>
+    </div>
+  </div>
+  <!-- DAY [66] -->
+  <div id="day66" class="day">
+    <div class="day-number">
+      <span>DAY 66</span>
+    </div>
+  </div>
+  <!-- DAY [67] -->
+  <div id="day67" class="day">
+    <div class="day-number">
+      <span>DAY 67</span>
+    </div>
+  </div>
+  <!-- DAY [68] -->
+  <div id="day68" class="day">
+    <div class="day-number">
+      <span>DAY 68</span>
+    </div>
+  </div>
+  <!-- DAY [69] -->
+  <div id="day69" class="day">
+    <div class="day-number">
+      <span>DAY 69</span>
+    </div>
+  </div>
+  <!-- DAY [70] -->
+  <div id="day70" class="day">
+    <div class="day-number">
+      <span>DAY 70</span>
+    </div>
+  </div>
+  <!-- DAY [71] -->
+  <div id="day71" class="day">
+    <div class="day-number">
+      <span>DAY 71</span>
+    </div>
+  </div>
+  <!-- DAY [72] -->
+  <div id="day72" class="day">
+    <div class="day-number">
+      <span>DAY 72</span>
+    </div>
+  </div>
+  <!-- DAY [73] -->
+  <div id="day73" class="day">
+    <div class="day-number">
+      <span>DAY 73</span>
+    </div>
+  </div>
+  <!-- DAY [74] -->
+  <div id="day74" class="day">
+    <div class="day-number">
+      <span>DAY 74</span>
+    </div>
+  </div>
+  <!-- DAY [75] -->
+  <div id="day75" class="day">
+    <div class="day-number">
+      <span>DAY 75</span>
+    </div>
+  </div>
+  <!-- DAY [76] -->
+  <div id="day76" class="day">
+    <div class="day-number">
+      <span>DAY 76</span>
+    </div>
+  </div>
+  <!-- DAY [77] -->
+  <div id="day77" class="day">
+    <div class="day-number">
+      <span>DAY 77</span>
+    </div>
+  </div>
+  <!-- DAY [78] -->
+  <div id="day78" class="day">
+    <div class="day-number">
+      <span>DAY 78</span>
+    </div>
+  </div>
+  <!-- DAY [79] -->
+  <div id="day79" class="day">
+    <div class="day-number">
+      <span>DAY 79</span>
+    </div>
+  </div>
+  <!-- DAY [80] -->
+  <div id="day80" class="day">
+    <div class="day-number">
+      <span>DAY 80</span>
+    </div>
+  </div>
+  <!-- DAY [81] -->
+  <div id="day81" class="day">
+    <div class="day-number">
+      <span>DAY 81</span>
+    </div>
+  </div>
+  <!-- DAY [82] -->
+  <div id="day82" class="day">
+    <div class="day-number">
+      <span>DAY 82</span>
+    </div>
+  </div>
+  <!-- DAY [83] -->
+  <div id="day83" class="day">
+    <div class="day-number">
+      <span>DAY 83</span>
+    </div>
+  </div>
+  <!-- DAY [84] -->
+  <div id="day84" class="day">
+    <div class="day-number">
+      <span>DAY 84</span>
+    </div>
+  </div>
+  <!-- DAY [85] -->
+  <div id="day85" class="day">
+    <div class="day-number">
+      <span>DAY 85</span>
+    </div>
+  </div>
+  <!-- DAY [86] -->
+  <div id="day86" class="day">
+    <div class="day-number">
+      <span>DAY 86</span>
+    </div>
+  </div>
+  <!-- DAY [87] -->
+  <div id="day87" class="day">
+    <div class="day-number">
+      <span>DAY 87</span>
+    </div>
+  </div>
+  <!-- DAY [88] -->
+  <div id="day88" class="day">
+    <div class="day-number">
+      <span>DAY 88</span>
+    </div>
+  </div>
+  <!-- DAY [89] -->
+  <div id="day89" class="day">
+    <div class="day-number">
+      <span>DAY 89</span>
+    </div>
+  </div>
+  <!-- DAY [90] -->
+  <div id="day90" class="day">
+    <div class="day-number">
+      <span>DAY 90</span>
+    </div>
+  </div>
+  <!-- DAY [91] -->
+  <div id="day91" class="day">
+    <div class="day-number">
+      <span>DAY 91</span>
+    </div>
+  </div>
+  <!-- DAY [92] -->
+  <div id="day92" class="day">
+    <div class="day-number">
+      <span>DAY 92</span>
+    </div>
+  </div>
+  <!-- DAY [93] -->
+  <div id="day93" class="day">
+    <div class="day-number">
+      <span>DAY 93</span>
+    </div>
+  </div>
+  <!-- DAY [94] -->
+  <div id="day94" class="day">
+    <div class="day-number">
+      <span>DAY 94</span>
+    </div>
+  </div>
+  <!-- DAY [95] -->
+  <div id="day95" class="day">
+    <div class="day-number">
+      <span>DAY 95</span>
+    </div>
+  </div>
+  <!-- DAY [96] -->
+  <div id="day96" class="day">
+    <div class="day-number">
+      <span>DAY 96</span>
+    </div>
+  </div>
+  <!-- DAY [97] -->
+  <div id="day97" class="day">
+    <div class="day-number">
+      <span>DAY 97</span>
+    </div>
+  </div>
+  <!-- DAY [98] -->
+  <div id="day98" class="day">
+    <div class="day-number">
+      <span>DAY 98</span>
+    </div>
+  </div>
+  <!-- DAY [99] -->
+  <div id="day99" class="day">
+    <div class="day-number">
+      <span>DAY 99</span>
+    </div>
+  </div>
+  <!-- DAY [100] -->
+  <div id="day100" class="day">
+    <div class="day-number">
+      <span>DAY 100</span>
+    </div>
+  </div>
+  <!-- DAYs container  -->
+
+
+`;
+}
+createDaysHTML();
+
 const day1 = document.querySelector("#day1");
 const day2 = document.querySelector("#day2");
 const day3 = document.querySelector("#day3");
@@ -126,123 +743,3 @@ const day100 = document.querySelector("#day100");
                     ==> [div] .day-number [#d1]
                           
   */
-
-const d1 = document.querySelector("#d1");
-const d2 = document.querySelector("#d2");
-const d3 = document.querySelector("#d3");
-const d4 = document.querySelector("#d4");
-const d5 = document.querySelector("#d5");
-
-const d6 = document.querySelector("#d6");
-const d7 = document.querySelector("#d7");
-const d8 = document.querySelector("#d8");
-const d9 = document.querySelector("#d9");
-const d10 = document.querySelector("#d10");
-
-const d11 = document.querySelector("#d11");
-const d12 = document.querySelector("#d12");
-const d13 = document.querySelector("#d13");
-const d14 = document.querySelector("#d14");
-const d15 = document.querySelector("#d15");
-
-const d16 = document.querySelector("#d16");
-const d17 = document.querySelector("#d17");
-const d18 = document.querySelector("#d18");
-const d19 = document.querySelector("#d19");
-const d20 = document.querySelector("#d20");
-
-const d21 = document.querySelector("#d21");
-const d22 = document.querySelector("#d22");
-const d23 = document.querySelector("#d23");
-const d24 = document.querySelector("#d24");
-const d25 = document.querySelector("#d25");
-
-const d26 = document.querySelector("#d26");
-const d27 = document.querySelector("#d27");
-const d28 = document.querySelector("#d28");
-const d29 = document.querySelector("#d29");
-const d30 = document.querySelector("#d30");
-
-const d31 = document.querySelector("#d31");
-const d32 = document.querySelector("#d32");
-const d33 = document.querySelector("#d33");
-const d34 = document.querySelector("#d34");
-const d35 = document.querySelector("#d35");
-
-const d36 = document.querySelector("#d36");
-const d37 = document.querySelector("#d37");
-const d38 = document.querySelector("#d38");
-const d39 = document.querySelector("#d39");
-const d40 = document.querySelector("#d40");
-
-const d41 = document.querySelector("#d41");
-const d42 = document.querySelector("#d42");
-const d43 = document.querySelector("#d43");
-const d44 = document.querySelector("#d44");
-const d45 = document.querySelector("#d45");
-
-const d46 = document.querySelector("#d46");
-const d47 = document.querySelector("#d47");
-const d48 = document.querySelector("#d48");
-const d49 = document.querySelector("#d49");
-const d50 = document.querySelector("#d50");
-
-const d51 = document.querySelector("#d51");
-const d52 = document.querySelector("#d52");
-const d53 = document.querySelector("#d53");
-const d54 = document.querySelector("#d54");
-const d55 = document.querySelector("#d55");
-
-const d56 = document.querySelector("#d56");
-const d57 = document.querySelector("#d57");
-const d58 = document.querySelector("#d58");
-const d59 = document.querySelector("#d59");
-const d60 = document.querySelector("#d60");
-
-const d61 = document.querySelector("#d61");
-const d62 = document.querySelector("#d62");
-const d63 = document.querySelector("#d63");
-const d64 = document.querySelector("#d64");
-const d65 = document.querySelector("#d65");
-
-const d66 = document.querySelector("#d66");
-const d67 = document.querySelector("#d67");
-const d68 = document.querySelector("#d68");
-const d69 = document.querySelector("#d69");
-const d70 = document.querySelector("#d70");
-
-const d71 = document.querySelector("#d71");
-const d72 = document.querySelector("#d72");
-const d73 = document.querySelector("#d73");
-const d74 = document.querySelector("#d74");
-const d75 = document.querySelector("#d75");
-
-const d76 = document.querySelector("#d76");
-const d77 = document.querySelector("#d77");
-const d78 = document.querySelector("#d78");
-const d79 = document.querySelector("#d79");
-const d80 = document.querySelector("#d80");
-
-const d81 = document.querySelector("#d81");
-const d82 = document.querySelector("#d82");
-const d83 = document.querySelector("#d83");
-const d84 = document.querySelector("#d84");
-const d85 = document.querySelector("#d85");
-
-const d86 = document.querySelector("#d86");
-const d87 = document.querySelector("#d87");
-const d88 = document.querySelector("#d88");
-const d89 = document.querySelector("#d89");
-const d90 = document.querySelector("#d90");
-
-const d91 = document.querySelector("#d91");
-const d92 = document.querySelector("#d92");
-const d93 = document.querySelector("#d93");
-const d94 = document.querySelector("#d94");
-const d95 = document.querySelector("#d95");
-
-const d96 = document.querySelector("#d96");
-const d97 = document.querySelector("#d97");
-const d98 = document.querySelector("#d98");
-const d99 = document.querySelector("#d99");
-const d100 = document.querySelector("#d100");

@@ -1,54 +1,38 @@
+(1)![Alt text](../IMAGES/HTML/MAIN%20-%20Statistics/Screenshot%202023-02-16%20at%2009-29-11%20Me%20-%20DAY%206.png)
+(2)![Alt text](../IMAGES/HTML/MAIN%20-%20Statistics/Screenshot%202023-02-16%20at%2009-59-20%20Me%20-%20DAY%207.png)
+(3)![Alt text](../IMAGES/HTML/MAIN%20-%20Statistics/Screenshot%202023-02-16%20at%2010-00-58%20Me%20-%20DAY%207.png)
+
 ```html
 <!--!!----- MAIN => Statistics [START] -----!!-->
 
-<div class="section-title-contanier">
-  <h2>
-    <span class="magic">
-      <span class="magic-star">
-        <svg viewBox="0 0 512 512">
-          <path
-            d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
-          />
-        </svg>
-      </span>
-      <span class="magic-star">
-        <svg viewBox="0 0 512 512">
-          <path
-            d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
-          />
-        </svg>
-      </span>
-      <span class="magic-star">
-        <svg viewBox="0 0 512 512">
-          <path
-            d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
-          />
-        </svg>
-      </span>
-      <span class="magic-text">Statistics Section</span>
-    </span>
-  </h2>
-</div>
-<!-- Here is: (1) a tag to link more info about the day
-              (2) images form my Wakatime Dashboard saved in assets/sections/statistics/day[..]  -->
+<!--*** SECTION TITLE {START} ***-->
+<!--[HERE]  HTML => MAIN - [section-title-contanier]  [HERE]-->
+<!--*** SECTION TITLE {END} ***-->
 
+<!-- IMAGE[1] -->
 <section id="Statistics" class="statistics-section">
+  <!----↓ a tag to link more info about the day from WakaTime ↓---->
+  <!----↓ Change the [2023-02-12] in <a href=""> ↓---->
   <a
     href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-12"
     target="_blank"
     title="See More"
   >
+    <!-- IMAGE[2] -->
+    <!-- IMAGE[3] -->
+    <!----↓ You can add more or less then three img ↓---->
+    <!----↓ Don't forget to change alt attribute ↓---->
     <img
       src="/src/assets/sections/statistics/day5/Screenshot 2023-02-14 at 17-23-41 WakaTime - Dashboards for developers.png"
-      alt=""
+      alt="2023-02-14 WakaTime - Dashboards for developers"
     />
     <img
       src="/src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-38 WakaTime - Dashboards for developers.png"
-      alt=""
+      alt="2023-02-14 WakaTime - Dashboards for developers"
     />
     <img
       src="/src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-44 WakaTime - Dashboards for developers.png"
-      alt=""
+      alt="2023-02-14 WakaTime - Dashboards for developers"
     />
   </a>
 </section>
