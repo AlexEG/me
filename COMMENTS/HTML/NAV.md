@@ -23,7 +23,7 @@
     aria-expanded="false"
   >
     <div class="svg">
-      <img src="./src/assets/svg/bars-solid.svg" alt="menu icon" />
+      <img src="../src/assets/svg/bars-solid.svg" alt="menu icon" />
     </div>
   </button>
 

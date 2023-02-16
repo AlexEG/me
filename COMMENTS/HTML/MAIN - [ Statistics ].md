@@ -23,15 +23,15 @@
     <!----↓ You can add more or less then three img ↓---->
     <!----↓ Don't forget to change alt attribute ↓---->
     <img
-      src="./src/assets/sections/statistics/day5/Screenshot 2023-02-14 at 17-23-41 WakaTime - Dashboards for developers.png"
+      src="../src/assets/sections/statistics/day5/Screenshot 2023-02-14 at 17-23-41 WakaTime - Dashboards for developers.png"
       alt="2023-02-14 WakaTime - Dashboards for developers"
     />
     <img
-      src="./src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-38 WakaTime - Dashboards for developers.png"
+      src="../src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-38 WakaTime - Dashboards for developers.png"
       alt="2023-02-14 WakaTime - Dashboards for developers"
     />
     <img
-      src="./src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-44 WakaTime - Dashboards for developers.png"
+      src="../src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-44 WakaTime - Dashboards for developers.png"
       alt="2023-02-14 WakaTime - Dashboards for developers"
     />
   </a>
