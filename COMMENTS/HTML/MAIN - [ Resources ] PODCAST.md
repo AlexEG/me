@@ -4,7 +4,7 @@
 <div class="Podcast-contanier">
   <picture
     ><img
-      src="/src/assets/sections/Resources/podcast/thecsspodcast.webp"
+      src="./src/assets/sections/Resources/podcast/thecsspodcast.webp"
       alt="the css podcast banner"
   /></picture>
 
