@@ -51,7 +51,7 @@
   border-image-slice: 1;
   // transition: border-image 300ms ease-in-out ;
   transition: border-image 300ms ease-in-out;
-
+  overflow: hidden;
   picture {
     display: flex;
     justify-content: center;
