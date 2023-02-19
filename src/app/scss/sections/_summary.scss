@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Sofia&display=swap");
+
+main .summary {
+  &__title {
+    // outline: solid 1px red; ////
+    font-family: "Sofia", cursive;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 0.5px;
+    font-size: 1.8rem;
+    padding: 5px 0;
+    &:hover {
+      text-shadow: 0 0 3px;
+    }
+
+    span {
+      font-size: 0.8rem;
+      font-family: "Roboto", sans-serif;
+      color: hsl(0, 0%, 60%);
+    }
+  }
+  &__content {
+    // outline: solid 1px red; ////
+    font-family: "Pacifico", cursive;
+    color: hsl(0, 0%, 85%);
+    line-height: 1.7;
+    width: 700px;
+    margin-inline: auto;
+    font-size: 1.3rem;
+
+    img {
+      // outline: solid 1px red; ////
+
+      display: block;
+      max-width: 50%;
+      margin: 7px auto;
+      transition: box-shadow 200ms ease-in-out;
+      border-radius: 5px;
+      &:hover {
+        box-shadow: 0 0 6px 0 hsl(var(--802), 40%);
+      }
+    }
+  }
+}
