@@ -12,7 +12,7 @@ function createDaysHTML() {
   <div id="day2" class="day">
     <div class="day-number">
       <span>DAY 2</span>
-     </div>
+    </div>
   </div>
   <!-- DAY [3] -->
   <div id="day3" class="day">

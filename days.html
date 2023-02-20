@@ -44,7 +44,6 @@
         <div id="seconds">00</div>
       </div>
     </div>
-    <h2 class="newYear">2023<br /><span>Happy New Year</span></h2>
 
     <!-- --------------------------------- -->
     <!-- JavaScript File -->
@@ -108,13 +107,6 @@
         // 360deg / 60minutes = 6
         sec_dot.style.transform = `rotateZ(${s * 6}deg)`;
         // 360deg / 60seconds = 6
-
-        // if the countdown is over, write some text
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("time").style.display = "none";
-          document.querySelector(".newYear").style.display = "block";
-        }
       });
     </script>
   </body>

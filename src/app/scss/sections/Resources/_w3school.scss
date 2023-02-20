@@ -1,0 +1,67 @@
+.days__body .w3school_container {
+  // outline: red 2px solid; ////
+  border: solid 3px #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  &__banner {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    img {
+      max-height: 100%;
+    }
+  }
+
+  &__language_lessons {
+    background-color: hsl(0, 0%, 70%);
+
+    p {
+      color: #000000;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 800;
+      padding-block: 10px;
+    }
+
+    ul {
+      // outline: rgb(153, 0, 255) 2px solid; ////
+      list-style: none;
+      padding-left: 12px;
+
+      li a {
+        // outline: rgb(0, 38, 255) 2px solid; ////
+        display: block;
+        padding-block: 2.6px;
+        color: hsla(0, 0%, 0%, 0.705);
+        transition: font-weight 100ms ease-in-out;
+      }
+    }
+  }
+
+  &__language_lessons ul li {
+    position: relative;
+    transition: padding-left 100ms ease-in-out;
+
+    &::before {
+      content: "";
+      position: absolute;
+      border: solid 5px transparent;
+      left: -5px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: border-left-color 100ms ease-in-out;
+    }
+
+    &:hover {
+      padding-left: 5px;
+      &::before {
+        border-left-color: #04a96d;
+      }
+    }
+    a:hover {
+      font-weight: 500;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-.Podcast-contanier {
+.days__body .Podcast-contanier.thecsspodcast {
   // outline: solid 1px red; ////
   padding: 5px;
 
@@ -40,4 +40,60 @@
       }
     }
   }
+}
+
+.Podcast-contanier.darknet-diaries {
+  // outline: solid 1px red; ////
+  background-color: hsl(0, 0%, 0%);
+  padding: 5px;
+  border: solid 3.5px;
+  border-image: linear-gradient(37deg, red, transparent, transparent, red);
+  border-image-slice: 1;
+  // transition: border-image 300ms ease-in-out ;
+  transition: border-image 300ms ease-in-out;
+  overflow: hidden;
+  picture {
+    display: flex;
+    justify-content: center;
+    img {
+      // outline: solid 1px rgb(0, 110, 255); ////
+      height: 150px;
+    }
+  }
+
+  .player-container {
+    // outline: solid 1px red; ////
+    height: 50px;
+
+    video {
+      // outline: solid 1px red; ////
+      border-radius: 0;
+      background-color: transparent;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .episode-details {
+    // outline: solid 1px red; ////
+    padding-top: 5px;
+    padding-inline: 6px 0;
+
+    p {
+      &:first-child {
+        color: hsla(0, 0%, 100%, 0.336);
+        font-size: 0.7rem;
+        padding-bottom: 5px;
+      }
+      &:last-child {
+        color: hsl(0, 0%, 95%);
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+
+.Podcast-contanier.darknet-diaries:hover {
+  border-image: linear-gradient(37deg, red, transparent, red);
+  border-image-slice: 1;
 }

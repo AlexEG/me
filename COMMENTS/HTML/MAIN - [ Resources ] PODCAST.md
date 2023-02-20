@@ -1,7 +1,7 @@
 ```html
 <!--*----- PODCAST [START]-----*-->
 
-<div class="Podcast-contanier">
+<div class="Podcast-contanier thecsspodcast">
   <picture
     ><img
       src="../src/assets/sections/Resources/podcast/thecsspodcast.webp"
