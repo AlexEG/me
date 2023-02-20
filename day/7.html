@@ -17,32 +17,7 @@
   </head>
   <body id="pageBody" class="days__body">
     <!--!----- NAV [START] nochange -----!-->
-    <nav>
-      <div class="home-svg">
-        <a href="../index.html">
-          <i class="fa-solid fa-house"></i>
-        </a>
-      </div>
-      <div class="search-bar">
-        <input
-          id="search"
-          type="search"
-          placeholder="Search in All days at once"
-        />
-        <div class="search-bun">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-            />
-          </svg>
-        </div>
-      </div>
-      <div class="top-navbar-left-contaner">
-        <div id="lightDarkMode" class="light-dark-btn">
-          <div class="circle"></div>
-        </div>
-      </div>
-    </nav>
+    <nav id="topNavebar"></nav>
     <!--!----- NAV [END] nochange -----!-->
     <!--!----- HEADER [START] nochange -----!-->
     <header>
@@ -50,26 +25,7 @@
     </header>
     <!--!----- HEADER [END] nochange -----!-->
     <!--!----- Sections Navbar [START] nochange -----!-->
-    <div class="navbar">
-      <div class="navbar__inside_contanier">
-        <ul class="navbar__inside_contanier__list">
-          <li id="sectionNavLi1">
-            <a id="giveMeActive1" href="#Statistics" class="active-section"
-              >Statistics</a
-            >
-          </li>
-          <li id="sectionNavLi2">
-            <a id="giveMeActive2" href="#Resources">Resources</a>
-          </li>
-          <li id="sectionNavLi3">
-            <a id="giveMeActive3" href="#ProjectsUpdate">Projects Update</a>
-          </li>
-          <li id="sectionNavLi4">
-            <a id="giveMeActive4" href="#summary">Summary</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div id="sectionsNavbar" class="navbar"></div>
     <!--!----- Sections Navbar [END] nochange -----!-->
     <!--!----- MAIN [START] CHANGE Page [4] -----!-->
     <main>
@@ -77,11 +33,7 @@
       <div id="StatisticsTitle" class="section-title-contanier"></div>
 
       <section id="Statistics" class="statistics-section">
-        <a
-          href=" https://wakatime.com/@AlexEG/projects/cvbnaowqvb?start=2023-02-05&end=2023-02-17"
-          target="_blank"
-          title="See More"
-        >
+        <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
           <img
             src="../src/assets/sections/statistics/day7/Screenshot 2023-02-16 at 19-49-18 WakaTime - Dashboards for developers.png"
             alt=""
