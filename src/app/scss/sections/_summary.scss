@@ -30,15 +30,19 @@
 
     img {
       // outline: solid 1px red; ////
-
+      cursor: pointer;
       display: block;
       max-width: 50%;
-      margin: 7px auto;
-      transition: box-shadow 200ms ease-in-out;
+      margin: 8px auto;
+      transition: box-shadow 200ms ease-in-out, max-width 400ms ease-in-out,
+        margin-block 200ms ease-in-out;
       border-radius: 5px;
 
       &:hover {
-        box-shadow: 0 0 0 10px var(--701), 0 0 6px 15px hsl(var(--802), 40%);
+        margin-block: 30px;
+        max-width: 90%;
+
+        box-shadow: 0 0 0 10px var(--701), 0 0 6px 15px hsl(var(--802), 30%);
       }
     }
   }
