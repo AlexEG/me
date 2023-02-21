@@ -1,22 +1,18 @@
 .days__body main .resources-section {
   // outline: solid 1px rgba(225, 0, 255, 0.897); /////
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-auto-rows: 300px;
   gap: 20px 10px;
-  padding: 0 100px;
+  padding-inline: 90px;
 
-  @media (min-width: 375px) {
-    grid-template-columns: 1fr;
+  @media (max-width: 1400px) {
+    padding-inline: 40px;
   }
-
-  @media (min-width: 800px) {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width: 1000px) {
+    padding-inline: 20px;
   }
-  @media (min-width: 1200px) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @media (min-width: 1500px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  @media (max-width: 600px) {
+    padding-inline: 5px;
   }
 }
