@@ -80,6 +80,11 @@
     padding-inline: 6px 0;
 
     p {
+      text-align: start;
+      span {
+        padding-right: 10px;
+        color: red;
+      }
       &:first-child {
         color: hsla(0, 0%, 100%, 0.336);
         font-size: 0.7rem;
