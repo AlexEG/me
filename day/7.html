@@ -16,18 +16,11 @@
     />
   </head>
   <body id="pageBody" class="days__body">
-    <!--!----- NAV [START] nochange -----!-->
     <nav id="topNavebar"></nav>
-    <!--!----- NAV [END] nochange -----!-->
-    <!--!----- HEADER [START] nochange -----!-->
     <header>
       <iframe src="../days.html" frameborder="0"></iframe>
     </header>
-    <!--!----- HEADER [END] nochange -----!-->
-    <!--!----- Sections Navbar [START] nochange -----!-->
     <div id="sectionsNavbar" class="navbar"></div>
-    <!--!----- Sections Navbar [END] nochange -----!-->
-    <!--!----- MAIN [START] CHANGE Page [4] -----!-->
     <main>
       <!--!!----- MAIN => Statistics [START] -----!!-->
       <div id="StatisticsTitle" class="section-title-contanier"></div>
@@ -60,7 +53,11 @@
       <!--!!----- MAIN => Resources [START] -----!!-->
       <div id="ResourcesTitle" class="section-title-contanier"></div>
 
-      <section id="Resources" class="resources-section"></section>
+      <section id="Resources">
+        <div id="YouTubeDay7" class="youtube-resources"></div>
+        <div id="podcastDarknetDAY7" class="podcast-resources"></div>
+        <div class="resources-section"></div>
+      </section>
       <!--!!----- MAIN => Resources [END] -----!!-->
 
       <!--!!----- MAIN => Projects Update [START] -----!!-->
@@ -184,9 +181,7 @@
       <!--!!----- MAIN => Summary [END] -----!!-->
     </main>
     <!--!----- MAIN [END] CHANGE Page [4] -----!-->
-
     <!--!----- ASIDE [START] NOCHANGE -----!-->
-
     <aside id="sidebar">
       <!-- home icon  -->
       <button
@@ -209,6 +204,7 @@
       day7.innerHTML = `
       <div class="day-number active">
       <span>DAY 7</span></div></div>`;
+      // renderAllvideoTemplateDAY7();
     </script>
   </body>
 </html>
