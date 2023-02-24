@@ -1,4 +1,4 @@
-//  podcast HTML template
+// Darknet podcast HTML template
 function podcastDarknetTemplate(ep, source, epName, date, description) {
   return `
   <div class="Podcast-contanier darknet-diaries">
@@ -25,12 +25,23 @@ function podcastDarknetTemplate(ep, source, epName, date, description) {
 }
 
 // function renderAllpodcastDarknetDAY000() {
-// (ep, source, epName, date, description)
-//   let episode1 = podcastDarknetTemplate(ep, source, epName, date, description);
-//   let episode2 = podcastDarknetTemplate(ep, source, epName, date, description);
+//   // (ep, source, epName, date, description)
+//   let episode1 = podcastDarknetTemplate(
+//     `ep`,
+//     `source`,
+//     `epName`,
+//     `date`,
+//     `description`
+//   );
+//   let episode2 = podcastDarknetTemplate(
+//     `ep`,
+//     `source`,
+//     `epName`,
+//     `date`,
+//     `description`
+//   );
 
 //   let renderAllTemplate = episode1 + episode2;
-
 //   podcastDarknetDAY000.innerHTML = renderAllTemplate;
 // }
 

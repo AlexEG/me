@@ -8,7 +8,6 @@
     <!-- CSS File -->
     <link rel="stylesheet" href="../dist/style.css?cb=1676077008109" />
     <link rel="stylesheet" href="../dist/all.min.css" />
-
     <link
       rel="shortcut icon"
       href="../src/assets/favicon.webp"
@@ -16,18 +15,11 @@
     />
   </head>
   <body id="pageBody" class="days__body">
-    <!--!----- NAV [START] nochange -----!-->
     <nav id="topNavebar"></nav>
-    <!--!----- NAV [END] nochange -----!-->
-    <!--!----- HEADER [START] nochange -----!-->
     <header>
       <iframe src="../days.html" frameborder="0"></iframe>
     </header>
-    <!--!----- HEADER [END] nochange -----!-->
-    <!--!----- Sections Navbar [START] nochange -----!-->
     <div id="sectionsNavbar" class="navbar"></div>
-    <!--!----- Sections Navbar [END] nochange -----!-->
-    <!--!----- MAIN [START] CHANGE Page [1] -----!-->
     <main>
       <!--??----- MAIN => Statistics [START] -----??-->
       <div id="StatisticsTitle" class="section-title-contanier"></div>
@@ -53,7 +45,6 @@
       <div id="ResourcesTitle" class="section-title-contanier"></div>
       <section id="Resources">
         <div id="YouTubeDay2" class="youtube-resources"></div>
-        <div id="podcastDarknetDAY2" class="podcast-resources"></div>
         <div class="resources-section"></div>
       </section>
       <!--??----- MAIN => Resources [END] -----??-->
@@ -62,45 +53,9 @@
       <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
       <section id="ProjectsUpdate" class="projects-update">
         <!--*----- Project [START]-----*-->
-
         <article>
           <div class="project-title"><h3>Me</h3></div>
-
-          <div class="repo-info">
-            <img
-              src="https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg"
-              alt="wakatime"
-            />
-            <!-- all the below just change the repo name  -->
-            <img
-              src="https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic"
-              alt="GitHub commit activity"
-            />
-            <img
-              src="https://img.shields.io/github/languages/count/AlexEG/me?style=plastic"
-              alt="GitHub language count"
-            />
-            <img
-              src="https://img.shields.io/github/languages/top/AlexEG/me?color=%239900ff&style=plastic"
-              alt="top language"
-            />
-            <img
-              src="https://img.shields.io/github/license/AlexEG/me?color=%2300dd&style=plastic"
-              alt="GitHub Project license"
-            />
-            <img
-              src="https://img.shields.io/github/directory-file-count/AlexEG/me?&style=plastic"
-              alt="GitHub contributors"
-            />
-            <img
-              src="https://img.shields.io/github/repo-size/AlexEG/me?color=%23ff0055&style=plastic"
-              alt="GitHub repo size"
-            />
-            <img
-              src="https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic"
-              alt="GitHub code size in bytes"
-            />
-          </div>
+          <div id="repoInfo" class="repo-info"></div>
           <div class="repo-new-features">
             <!-- youtube video here -->
             <iframe
@@ -112,7 +67,6 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-
             <div class="commit-info">
               <!-- ↓↓ in [h4] a tag with the commit SHA inside it the first 6 number -->
               <h4>
@@ -125,16 +79,11 @@
                 >
               </h4>
             </div>
-
             <h4>Description</h4>
-
             <ul>
               <li>Create Statistics + decide what well be there</li>
-
               <li>Create YouTube recommendation section</li>
-
               <li>Create Projects Update</li>
-
               <li>
                 add styles to top-navbar with search-bar & Light/Dark toggle
               </li>
@@ -176,6 +125,7 @@
       <div class="day-number active">
       <span>DAY 2</span></div>`;
       renderAllvideoTemplateDAY2();
+      projectUpdate(`me`, wakatime_me);
     </script>
   </body>
 </html>

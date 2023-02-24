@@ -55,7 +55,6 @@
 
       <section id="Resources">
         <div id="YouTubeDay7" class="youtube-resources"></div>
-        <div id="podcastDarknetDAY7" class="podcast-resources"></div>
         <div class="resources-section"></div>
       </section>
       <!--!!----- MAIN => Resources [END] -----!!-->
@@ -67,42 +66,7 @@
 
         <article>
           <div class="project-title"><h3>Me</h3></div>
-
-          <!-- all the below just change the repo name  -->
-          <div class="repo-info">
-            <img
-              src="https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg"
-              alt="wakatime"
-            />
-            <img
-              src="https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic"
-              alt="GitHub commit activity"
-            />
-            <img
-              src="https://img.shields.io/github/languages/count/AlexEG/me?style=plastic"
-              alt="GitHub language count"
-            />
-            <img
-              src="https://img.shields.io/github/languages/top/AlexEG/me?color=%239900ff&style=plastic"
-              alt="top language"
-            />
-            <img
-              src="https://img.shields.io/github/license/AlexEG/me?color=%2300dd&style=plastic"
-              alt="GitHub Project license"
-            />
-            <img
-              src="https://img.shields.io/github/directory-file-count/AlexEG/me?&style=plastic"
-              alt="GitHub contributors"
-            />
-            <img
-              src="https://img.shields.io/github/repo-size/AlexEG/me?color=%23ff0055&style=plastic"
-              alt="GitHub repo size"
-            />
-            <img
-              src="https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic"
-              alt="GitHub code size in bytes"
-            />
-          </div>
+          <div id="repoInfo" class="repo-info"></div>
           <div class="repo-new-features">
             <!-- youtube video here -->
             <iframe
@@ -166,7 +130,6 @@
         <!--*----- Project [END]-----*-->
       </section>
       <!--!!----- MAIN => Projects Update [END] -----!!-->
-
       <!--!!----- MAIN => Summary [START] -----!!-->
       <section id="summary" class="summary">
         <h2 class="summary__title">Summary <span>Feb 16 2023</span></h2>
@@ -192,12 +155,10 @@
       >
         <img src="../src/assets/svg/bars-solid.svg" alt="menu icon" />
       </button>
-
       <!-- DAYs container  -->
       <div id="daysContainer" class="days-container"></div>
     </aside>
     <!--!----- ASIDE [END] NOCHANGE -----!-->
-
     <!-- JavaScript File -->
     <script src="../dist/all.js?cb=1676077008109"></script>
     <script>
@@ -205,6 +166,7 @@
       <div class="day-number active">
       <span>DAY 7</span></div></div>`;
       // renderAllvideoTemplateDAY7();
+      projectUpdate(`me`, wakatime_me);
     </script>
   </body>
 </html>

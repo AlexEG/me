@@ -44,7 +44,6 @@
 
       <section id="Resources">
         <div id="YouTubeDay4" class="youtube-resources"></div>
-        <div id="podcastDarknetDAY4" class="podcast-resources"></div>
         <div class="resources-section">
           <!--*----- BOOK [START]-----*-->
           <div class="book-container">
@@ -107,42 +106,7 @@
 
         <article>
           <div class="project-title"><h3>Me</h3></div>
-
-          <div class="repo-info">
-            <img
-              src="https://wakatime.com/badge/user/fbdfdc0f-d449-43dc-8090-ced03a22fe8c/project/66f1a506-ac8a-4758-a8f1-f1a155c871d5.svg"
-              alt="wakatime"
-            />
-            <!-- all the below just change the repo name  -->
-            <img
-              src="https://img.shields.io/github/commit-activity/m/AlexEG/me?color=%23309930&style=plastic"
-              alt="GitHub commit activity"
-            />
-            <img
-              src="https://img.shields.io/github/languages/count/AlexEG/me?style=plastic"
-              alt="GitHub language count"
-            />
-            <img
-              src="https://img.shields.io/github/languages/top/AlexEG/me?color=%239900ff&style=plastic"
-              alt="top language"
-            />
-            <img
-              src="https://img.shields.io/github/license/AlexEG/me?color=%2300dd&style=plastic"
-              alt="GitHub Project license"
-            />
-            <img
-              src="https://img.shields.io/github/directory-file-count/AlexEG/me?&style=plastic"
-              alt="GitHub contributors"
-            />
-            <img
-              src="https://img.shields.io/github/repo-size/AlexEG/me?color=%23ff0055&style=plastic"
-              alt="GitHub repo size"
-            />
-            <img
-              src="https://img.shields.io/github/languages/code-size/AlexEG/me?color=5500bb&style=plastic"
-              alt="GitHub code size in bytes"
-            />
-          </div>
+          <div id="repoInfo" class="repo-info"></div>
           <div class="repo-new-features">
             <!-- youtube video here -->
             <iframe
@@ -154,7 +118,6 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-
             <div class="commit-info">
               <!-- ↓↓ in [h4] a tag with the commit SHA inside it the first 6 number -->
               <h4>
@@ -167,16 +130,11 @@
                 >
               </h4>
             </div>
-
             <h4>Description</h4>
-
             <ul>
               <li>Rename YouTube Section to Resources Section</li>
-
               <li>Create a Book component</li>
-
               <li>add some adjustments to sections title</li>
-
               <li>
                 add animation to sidebar on open + Redesign hamburger-menu btn
               </li>
@@ -186,7 +144,6 @@
         <!--*----- Project [END]-----*-->
       </section>
       <!--!!----- MAIN => Projects Update [END] -----!!-->
-
       <!--!!----- MAIN => Summary [START] -----!!-->
       <section id="summary" class="summary">
         <h2 class="summary__title">Summary <span>Feb 13 2023</span></h2>
@@ -201,7 +158,6 @@
       <!--!!----- MAIN => Summary [END] -----!!-->
     </main>
     <!--!----- MAIN [END] CHANGE Page [4] -----!-->
-
     <aside id="sidebar">
       <button
         id="sidebarHomeSvg"
@@ -211,7 +167,6 @@
       >
         <img src="../src/assets/svg/bars-solid.svg" alt="menu icon" />
       </button>
-
       <!-- DAYs container  -->
       <div id="daysContainer" class="days-container"></div>
     </aside>
@@ -222,6 +177,7 @@
       <div class="day-number active">
       <span>DAY 4</span></div>`;
       renderAllvideoTemplateDAY4();
+      projectUpdate(`me`, wakatime_me);
     </script>
   </body>
 </html>

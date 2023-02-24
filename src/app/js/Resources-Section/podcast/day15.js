@@ -16,6 +16,5 @@ function renderAllpodcastDarknetDAY15() {
   );
 
   let renderAllTemplate = episode1 + episode2;
-
   podcastDarknetDAY15.innerHTML = renderAllTemplate;
 }
