@@ -43,59 +43,10 @@
       <div id="ResourcesTitle" class="section-title-contanier"></div>
 
       <section id="Resources">
-        <div id="YouTubeDay4" class="youtube-resources"></div>
-        <div class="resources-section">
-          <!--*----- BOOK [START]-----*-->
-          <div class="book-container">
-            <!-- book cover -->
-            <picture
-              ><img
-                src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/817kywRJjVL._AC_UF1000,1000_QL80_.jpg"
-                alt=""
-            /></picture>
+        <div id="YouTube" class="youtube-resources"></div>
+        <div id="bookchapters" class="books-resources"></div>
 
-            <div class="book-details">
-              <p><span>1.</span> Into Programming</p>
-              <ul>
-                <li>Code</li>
-                <li>Expressions</li>
-                <li>Try It Yourself</li>
-                <li>Operators</li>
-                <li>Values & Type</li>
-                <li>Code Comments</li>
-                <li>Variables</li>
-              </ul>
-
-              <p>Page <span>1</span> to <span>14</span></p>
-            </div>
-          </div>
-          <!--*----- Book [END]-----*-->
-
-          <!--*----- Book [START]-----*-->
-          <div class="book-container">
-            <!-- book cover -->
-            <picture
-              ><img
-                src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/817kywRJjVL._AC_UF1000,1000_QL80_.jpg"
-                alt=""
-            /></picture>
-
-            <div class="book-details">
-              <p><span>1.</span> Into Programming</p>
-              <ul>
-                <li>Blocks</li>
-                <li>Conditionals</li>
-                <li>Loops</li>
-                <li>Functions</li>
-                <li>Practice</li>
-                <li>Review</li>
-              </ul>
-
-              <p>Page <span>14</span> to <span>28</span></p>
-            </div>
-          </div>
-          <!--*----- BOOK [END]-----*-->
-        </div>
+        <div class="resources-section"></div>
       </section>
       <!--!!----- MAIN => Resources [END] -----!!-->
 
@@ -108,7 +59,6 @@
           <div class="project-title"><h3>Me</h3></div>
           <div id="repoInfo" class="repo-info"></div>
           <div class="repo-new-features">
-            <!-- youtube video here -->
             <iframe
               width="800"
               height="420"
@@ -119,7 +69,6 @@
               allowfullscreen
             ></iframe>
             <div class="commit-info">
-              <!-- ↓↓ in [h4] a tag with the commit SHA inside it the first 6 number -->
               <h4>
                 View Commit details:
                 <a
@@ -178,6 +127,7 @@
       <span>DAY 4</span></div>`;
       renderAllvideoTemplateDAY4();
       projectUpdate(`me`, wakatime_me);
+      renderAllBookChaptersDAY4();
     </script>
   </body>
 </html>
