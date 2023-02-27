@@ -22,19 +22,22 @@
       border-radius: 10px;
       width: 100%;
     }
+
+    overflow: hidden;
   }
   // todo there a bug with the widt of img (YT-logo) it get smaller  when the video title is too big
   .video-data {
     // outline: solid 1px rgba(225, 0, 255, 0.897); ////
-    // display: grid;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
 
     .channel-logo {
-      // outline: solid 1px rgba(225, 0, 255, 0.897); ////
-      margin-right: 10px;
-      width: 40px;
+      // outline: solid 1px rgba(0, 4, 255, 0.897); ////
+
       img {
         border-radius: 50%;
+        width: 40px;
       }
     }
     ///////
