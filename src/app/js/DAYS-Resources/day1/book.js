@@ -1,4 +1,4 @@
-function renderAllBookChaptersDAY4() {
+function renderAllBookChaptersDAY1() {
   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
   let book1 = bookChapterTemplate(
     JS_UP_Going,
