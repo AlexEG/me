@@ -17,6 +17,9 @@ addText.addEventListener("click", function () {
   // [3] eraseText
   Contnet.value = "";
   Contnet.placeholder = "Type here anything";
+  typeHereContaner.classList.remove("add-link");
+  typeHereContaner.classList.remove("add-image");
+  typeHereContaner.classList.remove("add-video");
 });
 
 // --------------<textarea>--------------- //
@@ -51,6 +54,9 @@ addImage.addEventListener("click", function () {
   typeHereContaner.classList.add("add-content-show");
   Contnet.value = "";
   Contnet.placeholder = "Past here Image URL";
+  typeHereContaner.classList.remove("add-text");
+  typeHereContaner.classList.remove("add-video");
+  typeHereContaner.classList.remove("add-link");
 });
 
 // --------------<textarea>--------------- //
@@ -80,6 +86,9 @@ addYT.addEventListener("click", function () {
   Contnet.value = "";
   Contnet.placeholder =
     "1.Copy video URL  2.delete { https://youtu.be/ } or {https://www.youtube.com/watch?v=} ";
+  typeHereContaner.classList.remove("add-text");
+  typeHereContaner.classList.remove("add-image");
+  typeHereContaner.classList.remove("add-link");
 });
 
 // --------------<textarea>--------------- //
@@ -109,6 +118,9 @@ addLink.addEventListener("click", function () {
   typeHereContaner.classList.add("add-content-show");
   Contnet.value = "";
   Contnet.placeholder = "Paste site link or ctrl + v";
+  typeHereContaner.classList.remove("add-text");
+  typeHereContaner.classList.remove("add-image");
+  typeHereContaner.classList.remove("add-video");
 });
 
 // --------------<textarea>--------------- //
