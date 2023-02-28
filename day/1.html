@@ -97,7 +97,7 @@
             <div><i id="addLink" class="fa-solid fa-link"></i></div>
           </div>
 
-          <article id="summaryAddContents">
+          <div>
             <div id="typeHereContaner" class="add-content">
               <textarea id="Contnet"></textarea>
               <button id="saveContnet">Save</button>
@@ -105,7 +105,14 @@
               <button id="saveVideo">Save Video</button>
               <button id="saveLink">Save Link</button>
             </div>
-          </article>
+
+            <article id="summaryAddContents"></article>
+
+            <div class="save-clear-btn-contanier">
+              <button id="saveEverything">Save Everything</button>
+              <button id="ClearEverything">Clear Everything</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -128,7 +135,19 @@
       renderAllvideoTemplateDAY1();
       renderAllpodcastDarknetDAY1();
       renderAllBookChaptersDAY1();
-      projectUpdate(`me`, wakatime_me);
+      // projectUpdate(`me`, wakatime_me);
+
+      saveEverything.addEventListener("click", function () {
+        // [1] add everything to localStorage
+        tabelaContent = contentContainer.innerHTML;
+        localStorage.setItem("summaryDay1", tabelaContent);
+      });
+
+      //  contentContainer put here everything
+      contentContainer.innerHTML = localStorage.getItem("summaryDay1");
+      ClearEverything.addEventListener("click", function () {
+        localStorage.removeItem("summaryDay1");
+      });
     </script>
   </body>
 </html>

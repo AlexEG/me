@@ -1,5 +1,3 @@
-const contentContainer = document.querySelector("#summaryAddContents");
-
 const typeHereContaner = document.querySelector("#typeHereContaner");
 const Contnet = document.querySelector("#Contnet");
 const imageContnet = document.querySelector("#imageContnet");
@@ -43,7 +41,8 @@ saveContnet.addEventListener("click", function () {
   typeHereContaner.classList.remove("add-text");
 });
 // --------------<textarea>--------------- //
-
+//
+//
 // !-----------< ADD Image >-----------! //
 const addImage = document.querySelector("#addImage");
 const saveImg = document.querySelector("#saveImage"); //save btn
