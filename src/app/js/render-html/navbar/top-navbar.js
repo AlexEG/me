@@ -3,7 +3,7 @@ const topNavebar = document.querySelector("#topNavebar");
 function topNavebarHTML() {
   topNavebar.innerHTML = `
   <div class="home-svg">
-  <a href="../index.html">
+  <a href="../../index.html">
     <i class="fa-solid fa-house"></i>
   </a>
 </div>

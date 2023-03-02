@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me - DAY 5</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../../dist/style.css?cb=1676077008109" />
+    <link rel="stylesheet" href="../../dist/all.min.css" />
+
+    <link
+      rel="shortcut icon"
+      href="../../src/assets/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="pageBody" class="days__body">
+    <nav id="topNavebar"></nav>
+    <header>
+      <time datetime="2023-2-14">Feb 14 2023</time>
+<iframe src="../../days.html" frameborder="0"></iframe>
+    </header>
+    <div id="sectionsNavbar" class="navbar"></div>
+    <main>
+      <!--!!----- MAIN => Statistics [START] -----!!-->
+      <div id="StatisticsTitle" class="section-title-contanier"></div>
+      <section id="Statistics" class="statistics-section">
+        <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
+          <img
+            src="../src/assets/sections/statistics/day5/Screenshot 2023-02-14 at 17-23-41 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="../src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-38 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="../src/assets/sections/statistics/day5/Screenshot 2023-02-15 at 08-50-44 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
+      </section>
+      <!--!!----- MAIN => Statistics [END] -----!!-->
+      <!--!!----- MAIN => Resources [START] -----!!-->
+      <div id="ResourcesTitle" class="section-title-contanier"></div>
+      <section id="Resources">
+        <div id="YouTube" class="youtube-resources"></div>
+        <div class="resources-section">
+          <!--*----- PODCAST [START]-----*-->
+          <div class="Podcast-contanier thecsspodcast">
+            <picture
+              ><img
+                src="../src/assets/sections/Resources/podcast/thecsspodcast.webp"
+                alt="the css podcast banner"
+            /></picture>
+
+            <div class="player-container">
+              <!-- ↓↓ in [SRC=] just change id episode-id-[13443002]-->
+              <iframe
+                title="Libsyn Player"
+                style="border: none"
+                src="//html5-player.libsyn.com/embed/episode/id/13443002/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/550055/"
+                height="90"
+                width="100%"
+                scrolling="no"
+                allowfullscreen
+                webkitallowfullscreen
+                mozallowfullscreen
+                oallowfullscreen
+                msallowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="episode-details">
+              <p>Mar 12, 2020</p>
+              <p>
+                Where do scrollbars go, inside or outside the box? In this
+                episode Una and Adam answer that and much more in their
+                discussion of the CSS box model.
+              </p>
+            </div>
+          </div>
+          <!--*----- PODCAST [END]-----*-->
+      </section>
+      <!--!!----- MAIN => Resources [END] -----!!-->
+
+      <!--!!----- MAIN => Projects Update [END] -----!!-->
+      <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
+      <section id="ProjectsUpdate" class="projects-update">
+        <!--*----- Project [START]-----*-->
+        <article>
+          <div class="project-title"><h3>Me</h3></div>
+          <div id="repoInfo" class="repo-info"></div>
+          <div class="repo-new-features">
+            <!-- youtube video here -->
+            <iframe
+              width="800"
+              height="420"
+              src="https://www.youtube.com/embed/jb2AvF8XzII"
+              title="15 futuristic databases you’ve never heard of"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="commit-info">
+              <!-- ↓↓ in [h4] a tag with the commit SHA inside it the first 6 number -->
+              <h4>
+                View Commit details:
+                <a
+                  href="https://github.com/AlexEG/me/commit/d714fc31740fc498b286949110b909c9243310da"
+                  target="_blank"
+                  title="See What have change"
+                  >d714fc3</a
+                >
+              </h4>
+            </div>
+            <h4>Description</h4>
+            <ul>
+              <li>Create podcast component</li>
+              <li>add color palette form Colorhunt.io</li>
+            </ul>
+          </div>
+        </article>
+        <!--*----- Project [END]-----*-->
+      </section>
+      <section id="summary" class="summary">
+        <h2 class="summary__title">Summary <span>Feb 14 2023</span></h2>
+        <article class="summary__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          dolorum nobis qui, nostrum quae, saepe doloribus atque deserunt culpa
+          accusamus non dolores hic? Doloribus ab fuga consequatur reprehenderit
+          animi neque.
+          <img src="/src/assets/sections/Resources/w3school.webp" alt="" />
+        </article>
+      </section>
+    </main>
+    <aside id="sidebar">
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <img src="../../src/assets/svg/bars-solid.svg" alt="menu icon" />
+      </button>
+      <!-- DAYs container  -->
+      <div id="daysContainer" class="days-container"></div>
+    </aside>
+    <!-- JavaScript File -->
+    <script src="../../dist/all.js?cb=1676077008109"></script>
+    <script>
+      day5.innerHTML = `
+      <div class="day-number active">
+      <span>DAY 5</span></div>`;
+      renderAllvideoTemplateDAY5();
+      projectUpdate(`me`, wakatime_me);
+    </script>
+  </body>
+</html>

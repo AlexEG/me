@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me - DAY 1</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../../dist/style.css?cb=1676077008109" />
+    <link rel="stylesheet" href="../../dist/all.min.css" />
+    <link
+      rel="shortcut icon"
+      href="../../src/assets/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="pageBody" class="days__body">
+    <nav id="topNavebar"></nav>
+    <header>
+      <time datetime="2023-2-10">Feb 10 2023</time>
+      <iframe src="../../days.html" frameborder="0"></iframe>
+    </header>
+    <div id="sectionsNavbar" class="navbar"></div>
+    <main>
+      <div id="StatisticsTitle" class="section-title-contanier"></div>
+      <section id="Statistics" class="statistics-section">
+        <a
+          href=" https://wakatime.com/@AlexEG"
+          target="_blank"
+          title="See More"
+        >
+          <img
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-15 at 14-24-00 WakaTime - Dashboards for developers.png"
+            alt="" />
+          <img
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-46 WakaTime - Dashboards for developers.png"
+            alt="" />
+          <img
+            src="../src/assets/sections/statistics/day1/Screenshot 2023-02-12 at 15-27-54 WakaTime - Dashboards for developers.png"
+            alt=""
+        /></a>
+      </section>
+      <div id="ResourcesTitle" class="section-title-contanier"></div>
+      <section id="Resources">
+        <div id="YouTube" class="youtube-resources"></div>
+        <div class="resources-section"></div>
+      </section>
+      <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
+      <section id="ProjectsUpdate" class="projects-update">
+        <article>
+          <div class="project-title"><h3>Me</h3></div>
+          <div id="repoInfo" class="repo-info"></div>
+          <div class="repo-new-features">
+            <iframe
+              width="800"
+              height="420"
+              src="https://www.youtube.com/embed/jb2AvF8XzII"
+              title="15 futuristic databases you’ve never heard of"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="commit-info">
+              <h4>
+                View Commit details:
+                <a
+                  href="https://github.com/AlexEG/me/commit/a70a3b9ae25d9308f6860a09d1d680f7d1f47c51"
+                  target="_blank"
+                  title="See What have change"
+                  >a70a3b9</a
+                >
+              </h4>
+            </div>
+            <h4>Description</h4>
+            <ul>
+              <li>add sidebar with 100 DAYs</li>
+              <li>add active state with JS & SCSS</li>
+              <li>add humber menu with JS to display three columns of DAYs</li>
+              <li>
+                add a youtube card to contan some of my recommendation + what
+                I've watched
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <section id="summary" class="summary">
+        <h2 class="summary__title">Summary <span>Feb 14 2023</span></h2>
+        <article class="summary__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          dolorum nobis qui, nostrum quae, saepe doloribus atque deserunt culpa
+          accusamus non dolores hic? Doloribus ab fuga consequatur reprehenderit
+          animi neque.
+          <img src="/src/assets/sections/Resources/w3school.webp" alt="" />
+        </article>
+      </section>
+    </main>
+    <aside id="sidebar">
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <img src="../../src/assets/svg/bars-solid.svg" alt="menu icon" />
+      </button>
+      <!-- DAYs container  -->
+      <div id="daysContainer" class="days-container"></div>
+    </aside>
+    <!-- JavaScript File -->
+    <script src="../../dist/all.js?cb=1676077008109"></script>
+    <script>
+      day1.innerHTML = `
+      <div class="day-number active">
+      <span>DAY 1</span></div>`;
+      renderAllvideoTemplateDAY1();
+      projectUpdate(`me`, wakatime_me);
+    </script>
+  </body>
+</html>

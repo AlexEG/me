@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me - DAY 22</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../../dist/style.css?cb=1676077008109" />
+    <link rel="stylesheet" href="../../dist/all.min.css" />
+
+    <link
+      rel="shortcut icon"
+      href="../../src/assets/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="pageBody" class="days__body">
+    <nav id="topNavebar"></nav>
+    <header>
+      <time datetime="2023-3-3">Mar 3 2023</time>
+      <iframe src="../../days.html" frameborder="0"></iframe>
+    </header>
+    <div id="sectionsNavbar" class="navbar"></div>
+    <main>
+      <div id="StatisticsTitle" class="section-title-contanier"></div>
+      <section id="Statistics" class="statistics-section">
+        <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
+          <img
+            src="../src/assets/sections/statistics/day11/Screenshot 2023-02-21 at 00-10-49 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
+      </section>
+      <div id="ResourcesTitle" class="section-title-contanier"></div>
+      <section id="Resources">
+        <div id="YouTube" class="youtube-resources"></div>
+        <div id="podcastDarknet" class="podcast-resources"></div>
+        <div id="bookchapters" class="books-resources"></div>
+        <div class="resources-section"></div>
+      </section>
+      <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
+      <section id="ProjectsUpdate" class="projects-update">
+        <!--*----- Project [START]-----*-->
+        <article>
+          <div class="project-title"><h3>Me</h3></div>
+          <div id="repoInfo" class="repo-info"></div>
+          <div class="repo-new-features">
+            <!-- youtube video here -->
+            <iframe
+              width="800"
+              height="420"
+              src="https://www.youtube.com/embed/jb2AvF8XzII"
+              title="15 futuristic databases you’ve never heard of"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="commit-info">
+              <h4>
+                View Commit details:
+                <a
+                  href="https://github.com/AlexEG/me/commit/aa8737745511b912189d3c721a1e38f01de22273"
+                  target="_blank"
+                  title="See What have change"
+                  >aa87377</a
+                >,
+                <a
+                  href="https://github.com/AlexEG/me/commit/67451413a171b70f9fa7860834a5ebb8dbb81ff3"
+                  target="_blank"
+                  title="See What have change"
+                  >6745141</a
+                >
+              </h4>
+            </div>
+            <h4>Description</h4>
+            <ul>
+              <li>
+                Minimize HTML ( remove YT-video component ) from 30 line to 9
+                line JS
+              </li>
+              <li>
+                Minimize HTML ( podcast Darkent Diaries ) form 26 line to 8 line
+                JS
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!--*----- Project [END]-----*-->
+      </section>
+      <!--!!----- MAIN => Projects Update [END] -----!!-->
+      <!--!!----- MAIN => S U M M A R Y [START] -----!!-->
+      <section id="summary" class="summary">
+        <h2 class="summary__title">Summary <span>Mar 3 2023</span></h2>
+        <article class="summary__content"></article>
+      </section>
+      <!--!!----- MAIN => S U M M A R Y [END] -----!!-->
+    </main>
+    <aside id="sidebar">
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <img src="../../src/assets/svg/bars-solid.svg" alt="menu icon" />
+      </button>
+      <div id="daysContainer" class="days-container"></div>
+    </aside>
+    <!-- JavaScript File -->
+    <script src="../../dist/all.js?cb=1676077008109"></script>
+    <script>
+      day22.innerHTML = `
+      <div class="day-number active">
+      <span>DAY 22</span></div>`;
+      renderAllBookChaptersDAY17();
+      renderAllvideoTemplateDAY17();
+      renderAllpodcastDarknetDAY17();
+      // projectUpdate(`me`, wakatime_me);
+    </script>
+  </body>
+</html>

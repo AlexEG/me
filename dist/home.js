@@ -1,64 +1,67 @@
-// 2-10 => 2-15
+// February
 date_2023_02_10.addEventListener("click", function () {
-  location.href = "./day/1.html";
+  location.href = "./day/February/1.html";
 });
 date_2023_02_11.addEventListener("click", function () {
-  location.href = "./day/2.html";
+  location.href = "./day/February/2.html";
 });
 date_2023_02_12.addEventListener("click", function () {
-  location.href = "./day/3.html";
+  location.href = "./day/February/3.html";
 });
 date_2023_02_13.addEventListener("click", function () {
-  location.href = "./day/4.html";
+  location.href = "./day/February/4.html";
 });
 date_2023_02_14.addEventListener("click", function () {
-  location.href = "./day/5.html";
+  location.href = "./day/February/5.html";
 });
 date_2023_02_15.addEventListener("click", function () {
-  location.href = "./day/6.html";
+  location.href = "./day/February/6.html";
 });
 // 2-14 => 2-20
 date_2023_02_16.addEventListener("click", function () {
-  location.href = "./day/7.html";
+  location.href = "./day/February/7.html";
 });
 date_2023_02_17.addEventListener("click", function () {
-  location.href = "./day/8.html";
+  location.href = "./day/February/8.html";
 });
 date_2023_02_18.addEventListener("click", function () {
-  location.href = "./day/9.html";
+  location.href = "./day/February/9.html";
 });
 date_2023_02_19.addEventListener("click", function () {
-  location.href = "./day/10.html";
+  location.href = "./day/February/10.html";
 });
 date_2023_02_20.addEventListener("click", function () {
-  location.href = "./day/11.html";
+  location.href = "./day/February/11.html";
 });
 // 2-20 => 2-25
 date_2023_02_21.addEventListener("click", function () {
-  location.href = "./day/12.html";
+  location.href = "./day/February/12.html";
 });
 date_2023_02_22.addEventListener("click", function () {
-  location.href = "./day/13.html";
+  location.href = "./day/February/13.html";
 });
 date_2023_02_23.addEventListener("click", function () {
-  location.href = "./day/14.html";
+  location.href = "./day/February/14.html";
 });
 date_2023_02_24.addEventListener("click", function () {
-  location.href = "./day/15.html";
+  location.href = "./day/February/15.html";
 });
 date_2023_02_25.addEventListener("click", function () {
-  location.href = "./day/16.html";
+  location.href = "./day/February/16.html";
 });
 // 2-25 => 2-2
 date_2023_02_26.addEventListener("click", function () {
-  location.href = "./day/17.html";
+  location.href = "./day/February/17.html";
 });
 date_2023_02_27.addEventListener("click", function () {
-  location.href = "./day/18.html";
+  location.href = "./day/February/18.html";
 });
 date_2023_02_28.addEventListener("click", function () {
-  location.href = "./day/19.html";
+  location.href = "./day/February/19.html";
 });
+
+// March
+
 date_2023_03_1.addEventListener("click", function () {
   location.href = "./day/20.html";
 });

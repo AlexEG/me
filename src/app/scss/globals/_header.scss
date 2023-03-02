@@ -1,6 +1,29 @@
 .days__body {
   header {
-    // width: 100%;
+    // outline: 2px solid red;
+    position: relative;
+    time {
+      // outline: 2px solid rgb(21, 255, 0);
+      position: absolute;
+      color: #fff;
+      padding: 10px;
+      pointer-events: none;
+      animation: day-date 10s linear 5s infinite;
+      @keyframes day-date {
+        0% {
+          text-shadow: 0 0 0 #ff000000;
+        }
+        20% {
+          text-shadow: 0 0 5px #9900ff;
+        }
+        80% {
+          text-shadow: 0 0 5px #9900ff;
+        }
+        100% {
+          text-shadow: 0 0 0 #ff000000;
+        }
+      }
+    }
     iframe {
       width: 100%;
       overflow: hidden;
