@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me - DAY 13</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../dist/style.css?cb=1676077008109" />
+    <link rel="stylesheet" href="../dist/all.min.css" />
+    <link
+      rel="shortcut icon"
+      href="../src/assets/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body id="pageBody" class="days__body">
+    <nav id="topNavebar"></nav>
+    <header>
+      <iframe src="../days.html" frameborder="0"></iframe>
+    </header>
+    <div id="sectionsNavbar" class="navbar"></div>
+    <main>
+      <!--!!----- MAIN => Statistics [START] -----!!-->
+      <div id="StatisticsTitle" class="section-title-contanier"></div>
+      <section id="Statistics" class="statistics-section">
+        <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
+          <img
+            src="../src/assets/sections/statistics/day13/Screenshot 2023-02-24 at 19-56-09 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+          <img
+            src="../src/assets/sections/statistics/day13/Screenshot 2023-02-24 at 19-56-15 WakaTime - Dashboards for developers.png"
+            alt=""
+          />
+        </a>
+      </section>
+
+      <div id="ResourcesTitle" class="section-title-contanier"></div>
+      <section id="Resources">
+        <div class="resources-section"></div>
+      </section>
+      <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
+      <section id="ProjectsUpdate" class="projects-update"></section>
+      <!--!!----- MAIN => S U M M A R Y [START] -----!!-->
+      <section id="summary" class="summary">
+        <h2 class="summary__title">Summary <span>Feb 22 2023</span></h2>
+        <article class="summary__content"></article>
+      </section>
+      <!--!!----- MAIN => S U M M A R Y [END] -----!!-->
+    </main>
+    <aside id="sidebar">
+      <button
+        id="sidebarHomeSvg"
+        class="hamburger-btn"
+        aria-controls="sidebar-navigation"
+        aria-expanded="false"
+      >
+        <img src="../src/assets/svg/bars-solid.svg" alt="menu icon" />
+      </button>
+      <div id="daysContainer" class="days-container"></div>
+    </aside>
+    <!-- JavaScript File -->
+    <script src="../dist/all.js?cb=1676077008109"></script>
+    <script>
+      day13.innerHTML = `
+      <div class="day-number active">
+      <span>DAY 13</span></div>`;
+      projectUpdate(`me`, wakatime_me);
+    </script>
+  </body>
+</html>

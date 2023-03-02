@@ -1,4 +1,4 @@
-function renderAllpodcastDarknetDAY3() {
+function renderAllpodcastDarknetDAY10() {
   // (ep, source, epName, date, description)
   let episode1 = podcastDarknetTemplate(
     `120`,
