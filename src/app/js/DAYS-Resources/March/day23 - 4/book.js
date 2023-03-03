@@ -1,6 +1,6 @@
-// function renderAllBookChaptersDAY0000000() {
+// function renderAllBookChaptersDAY000() {
 //   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
-//   let book1 = bookChapterTemplate(
+//   bookchapters.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -15,7 +15,7 @@
 //     `pageTo`
 //   );
 
-//   let book2 = bookChapterTemplate(
+//   bookchapters.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -29,7 +29,4 @@
 //     `pageFrom`,
 //     `pageTo`
 //   );
-
-//   let renderAllTemplate = book1 + book2;
-//   bookchapters.innerHTML = renderAllTemplate;
 // }

@@ -39,7 +39,7 @@ function bookChapterTemplate(
 
 // function renderAllBookChaptersDAY000() {
 //   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
-//   let book1 = bookChapterTemplate(
+//   bookchapters.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -54,7 +54,7 @@ function bookChapterTemplate(
 //     `pageTo`
 //   );
 
-//   let book2 = bookChapterTemplate(
+//   bookchapters.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -68,9 +68,6 @@ function bookChapterTemplate(
 //     `pageFrom`,
 //     `pageTo`
 //   );
-
-//   let renderAllTemplate = book1 + book2;
-//   bookchapters.innerHTML = renderAllTemplate;
 // }
 
 // HTML

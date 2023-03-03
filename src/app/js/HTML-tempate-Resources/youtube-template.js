@@ -21,7 +21,7 @@ function videoTemplate(link, gif, thumbnail, title, channel) {
           <div class="video-data">
             <div class="channel-logo">
               <img
-                src="../src/assets/sections/Resources/youtube-channels-logo/${channel}.jpg"
+                src="../../src/assets/sections/Resources/youtube-channels-logo/${channel}.jpg"
                 alt=""
               />
             </div>
@@ -34,26 +34,25 @@ function videoTemplate(link, gif, thumbnail, title, channel) {
   `;
 }
 
+// renderAllvideoTemplateDAY000()
+
 // function renderAllvideoTemplateDAY000() {
-//   link, gif, thumbnail, title, channel;
+//   // --link, gif, thumbnail, title, channel--
 
-//   let video1 = videoTemplate(
+//   YouTube.innerHTML += videoTemplate(
 //     `link`,
 //     `gif`,
 //     `thumbnail`,
 //     `title`,
 //     `channel`
 //   );
-//   let video2 = videoTemplate(
+//   YouTube.innerHTML += videoTemplate(
 //     `link`,
 //     `gif`,
 //     `thumbnail`,
 //     `title`,
 //     `channel`
 //   );
-
-//   let renderAllTemplate = video1 + video2;
-//   YouTube.innerHTML = renderAllTemplate;
 // }
 
 // HTML

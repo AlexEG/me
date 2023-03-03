@@ -1,16 +1,14 @@
 .days__body main {
   .statistics-section {
-    // border: solid 1px red; ////
+    border: solid 1px red; ////
     padding-inline: 30px;
-    a {
-      gap: 5px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      img {
-        height: 130px;
-        border-radius: 5px;
-      }
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a img {
+      height: 130px;
+      border-radius: 5px;
     }
   }
 }

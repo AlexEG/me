@@ -4,7 +4,7 @@ function podcastDarknetTemplate(ep, source, epName, date, description) {
   <div class="Podcast-contanier darknet-diaries">
   <picture
     ><img
-      src="../src/assets/sections/Resources/podcast/Darknet-Diaries/ep${ep}.jpg"
+      src="../../src/assets/sections/Resources/podcast/Darknet-Diaries/ep${ep}.jpg"
       alt="Darknet Diaries Banner episode"
   /></picture>
   <div class="player-container">
@@ -26,23 +26,20 @@ function podcastDarknetTemplate(ep, source, epName, date, description) {
 
 // function renderAllpodcastDarknetDAY000() {
 //   // (ep, source, epName, date, description)
-//   let episode1 = podcastDarknetTemplate(
+//   podcastDarknet.innerHTML += podcastDarknetTemplate(
 //     `ep`,
 //     `source`,
 //     `epName`,
 //     `date`,
 //     `description`
 //   );
-//   let episode2 = podcastDarknetTemplate(
+//   podcastDarknet.innerHTML += podcastDarknetTemplate(
 //     `ep`,
 //     `source`,
 //     `epName`,
 //     `date`,
 //     `description`
 //   );
-
-//   let renderAllTemplate = episode1 + episode2;
-//   podcastDarknet.innerHTML = renderAllTemplate;
 // }
 
 // HTML
