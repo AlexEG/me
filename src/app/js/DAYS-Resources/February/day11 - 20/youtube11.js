@@ -1,13 +1,13 @@
 function renderAllvideoTemplateDAY11() {
   // (link, gif, thumbnail, title, channel)
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=Tn6-PIqc4UM`,
     `gif`,
     `https://i.ytimg.com/vi/w7ejDZ8SWv8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSN5fTL5deqvDvUdGcm3-Cthy9FQ`,
     `React JS Crash Course`,
     `Traversy Media`
   );
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=Tn6-PIqc4UM`,
     `gif`,
     `https://i.ytimg.com/vi/Tn6-PIqc4UM/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPBUoCd8ySiHiUEIEhwuu_i1C4Mg`,
@@ -15,7 +15,7 @@ function renderAllvideoTemplateDAY11() {
     `Fireship`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://youtu.be/8pDqJVdNa44`,
     `gif`,
     `https://i.ytimg.com/vi/8pDqJVdNa44/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-753i8lAwOIq65wufHPKBPv81nw`,
@@ -23,7 +23,7 @@ function renderAllvideoTemplateDAY11() {
     `Honeypot`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=WzRSysq7F4k&t=137s`,
     `gif`,
     `https://i.ytimg.com/vi/WzRSysq7F4k/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFdVfSDRzXbFs7a203DMRHv5f_ig`,

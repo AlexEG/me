@@ -10,3 +10,5 @@ document.getElementById("daysContainer").onmousemove = (e) => {
     day.style.setProperty("--mouse-y", `${y}px`);
   }
 };
+
+const ResourcesSection = document.querySelector("#Resources");

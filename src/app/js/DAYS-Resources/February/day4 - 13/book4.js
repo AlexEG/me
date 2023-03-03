@@ -1,6 +1,6 @@
 function renderAllBookChaptersDAY4() {
   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
-  let book1 = bookChapterTemplate(
+  ResourcesSection.innerHTML += bookChapterTemplate(
     JS_UP_Going,
     `1`,
     `Into Programming`,
@@ -14,7 +14,7 @@ function renderAllBookChaptersDAY4() {
     `1`,
     `14`
   );
-  let book2 = bookChapterTemplate(
+  ResourcesSection.innerHTML += bookChapterTemplate(
     JS_UP_Going,
     `1`,
     `Into Programming`,
@@ -28,7 +28,4 @@ function renderAllBookChaptersDAY4() {
     `14`,
     `28`
   );
-
-  let renderAllTemplate = book1 + book2;
-  bookchapters.innerHTML = renderAllTemplate;
 }
