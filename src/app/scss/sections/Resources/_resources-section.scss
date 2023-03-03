@@ -1,7 +1,4 @@
-.days__body main .resources-section,
-.days__body main .podcast-resources,
-.days__body main .books-resources,
-.days__body main .youtube-resources {
+.days__body main .resources-section {
   // outline: solid 1px rgba(225, 0, 255, 0.897); /////
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

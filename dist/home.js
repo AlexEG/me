@@ -63,54 +63,54 @@ date_2023_02_28.addEventListener("click", function () {
 // March
 
 date_2023_03_1.addEventListener("click", function () {
-  location.href = "./day/20.html";
+  location.href = "./day/March/20.html";
 });
 
 date_2023_03_2.addEventListener("click", function () {
-  location.href = "./day/21.html";
+  location.href = "./day/March/21.html";
 });
 date_2023_03_3.addEventListener("click", function () {
-  location.href = "./day/22.html";
+  location.href = "./day/March/22.html";
 });
 date_2023_03_4.addEventListener("click", function () {
-  location.href = "./day/23.html";
+  location.href = "./day/March/23.html";
 });
 date_2023_03_5.addEventListener("click", function () {
-  location.href = "./day/24.html";
+  location.href = "./day/March/24.html";
 });
 date_2023_03_6.addEventListener("click", function () {
-  location.href = "./day/25.html";
+  location.href = "./day/March/25.html";
 });
 date_2023_03_7.addEventListener("click", function () {
-  location.href = "./day/26.html";
+  location.href = "./day/March/26.html";
 });
 date_2023_03_8.addEventListener("click", function () {
-  location.href = "./day/27.html";
+  location.href = "./day/March/27.html";
 });
 date_2023_03_9.addEventListener("click", function () {
-  location.href = "./day/28.html";
+  location.href = "./day/March/28.html";
 });
 date_2023_03_10.addEventListener("click", function () {
-  location.href = "./day/29.html";
+  location.href = "./day/March/29.html";
 });
 date_2023_03_11.addEventListener("click", function () {
-  location.href = "./day/30.html";
+  location.href = "./day/March/30.html";
 });
 date_2023_03_12.addEventListener("click", function () {
-  location.href = "./day/31.html";
+  location.href = "./day/March/31.html";
 });
 date_2023_03_13.addEventListener("click", function () {
-  location.href = "./day/32.html";
+  location.href = "./day/March/32.html";
 });
 date_2023_03_14.addEventListener("click", function () {
-  location.href = "./day/33.html";
+  location.href = "./day/March/33.html";
 });
 date_2023_03_15.addEventListener("click", function () {
-  location.href = "./day/34.html";
+  location.href = "./day/March/34.html";
 });
 date_2023_03_16.addEventListener("click", function () {
-  location.href = "./day/35.html";
+  location.href = "./day/March/35.html";
 });
 date_2023_03_17.addEventListener("click", function () {
-  location.href = "./day/36.html";
+  location.href = "./day/March/36.html";
 });

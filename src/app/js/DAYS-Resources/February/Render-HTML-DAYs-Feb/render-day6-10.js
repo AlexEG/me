@@ -4,6 +4,7 @@ function renderEverythingDAY6() {
       <span>DAY 6</span></div>`;
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY6();
+  theCSSpodcastDAY6();
 }
 
 function renderEverythingDAY7() {
@@ -20,6 +21,7 @@ function renderEverythingDAY8() {
       <span>DAY 8</span></div>`;
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY8();
+  WebsiteResourcesDAY8();
 }
 
 function renderEverythingDAY9() {

@@ -42,4 +42,5 @@ function renderEverythingDAY5() {
   renderAllvideoTemplateDAY5();
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY5();
+  theCSSpodcastDAY5();
 }

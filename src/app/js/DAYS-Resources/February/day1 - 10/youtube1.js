@@ -1,7 +1,7 @@
 function renderAllvideoTemplateDAY1() {
   // (link, gif, thumbnail, title, channel)
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=zK-yy6C2Nck`,
     `gif`,
     `https://i.ytimg.com/vi/zK-yy6C2Nck/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPKbx089HQaGjMRPwPS1WKTwYwOQ`,
@@ -10,7 +10,7 @@ function renderAllvideoTemplateDAY1() {
     `Kevin Powell`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=hWGgw1K-i8Y`,
     `gif`,
     `https://i.ytimg.com/vi/hWGgw1K-i8Y/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIv18Z915jmL0h_kDyZVVUc8LOSg`,
@@ -19,7 +19,7 @@ function renderAllvideoTemplateDAY1() {
     `Kevin Powell`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=H04P5YXVssE`,
     `gif`,
     `https://i.ytimg.com/vi/H04P5YXVssE/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0eWn6wItIhUfljpfFugTntBJqfg`,
@@ -27,7 +27,7 @@ function renderAllvideoTemplateDAY1() {
     `Kevin Powell`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=dldpud1PuL8`,
     `gif`,
     `https://i.ytimg.com/vi/dldpud1PuL8/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9iDS7gz4q6Fr4c3pmkZWru2ztZw`,
@@ -35,7 +35,7 @@ function renderAllvideoTemplateDAY1() {
     `Kevin Powell`
   );
 
-  YouTube.innerHTML += videoTemplate(
+  ResourcesSection.innerHTML += videoTemplate(
     `https://www.youtube.com/watch?v=I4gUvhG7uFU`,
     `gif`,
     `https://i.ytimg.com/vi/I4gUvhG7uFU/hq720.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHb6yyj5xb2oDlANkKLQOzS6p3KQ`,

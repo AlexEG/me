@@ -39,7 +39,7 @@ function bookChapterTemplate(
 
 // function renderAllBookChaptersDAY000() {
 //   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
-//   bookchapters.innerHTML += bookChapterTemplate(
+//   ResourcesSection.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -54,7 +54,7 @@ function bookChapterTemplate(
 //     `pageTo`
 //   );
 
-//   bookchapters.innerHTML += bookChapterTemplate(
+//   ResourcesSection.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
 //     `chapterNumber`,
 //     `chapterTitle`,
@@ -73,4 +73,6 @@ function bookChapterTemplate(
 // HTML
 // renderAllBookChaptersDAY000();
 
-const JS_UP_Going = `../src/assets/sections/Resources/books/JS-Up-and-Going.webp`;
+const JS_UP_Going = `../../src/assets/sections/Resources/books/JS-Up-and-Going.webp`;
+
+const kali_linux_revealed = `../../src/assets/sections/Resources/books/kali-linux-revealed.jpg`;
