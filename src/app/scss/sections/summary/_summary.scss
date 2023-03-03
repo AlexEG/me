@@ -20,6 +20,7 @@
     }
   }
   &__content {
+    position: relative;
     // outline: solid 1px red; ////
     font-family: "Pacifico", cursive;
     color: hsl(0, 0%, 85%);
@@ -38,12 +39,27 @@
         margin-block 200ms ease-in-out;
       border-radius: 5px;
 
+      margin-block: 30px;
       &:hover {
-        margin-block: 30px;
-        max-width: 90%;
-
+        // max-width: 90%;
         box-shadow: 0 0 0 10px var(--701), 0 0 6px 15px hsl(var(--802), 30%);
       }
     }
+
+    a {
+      // outline: solid 1px red; ////
+      width: 50px;
+      color: hsl(192, 100%, 44%);
+
+      &:hover {
+        text-shadow: 0 0 0.6px;
+      }
+    }
   }
+}
+
+.days__body main .summary .summary__content article iframe {
+  width: 640px;
+  height: 360px;
+  border: none;
 }
