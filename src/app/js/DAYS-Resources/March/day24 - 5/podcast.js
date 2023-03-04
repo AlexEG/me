@@ -1,4 +1,4 @@
-// function renderAllpodcastDarknetDAY000() {
+// function renderAllpodcastDarknetDAY24() {
 //   // (ep, source, epName, date, description)
 //   ResourcesSection.innerHTML += podcastDarknetTemplate(
 //     `ep`,

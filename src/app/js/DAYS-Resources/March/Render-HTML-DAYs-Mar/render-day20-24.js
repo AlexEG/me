@@ -50,7 +50,7 @@ function renderEverythingDAY24() {
   day24.innerHTML = `
   <div class="day-number active">
   <span>DAY 24</span></div>`;
-  StatisticsDAY24();
+  // StatisticsDAY24();
   // renderAllvideoTemplateDAY24();
   // theCSSpodcastDAY24();
   // renderAllpodcastDarknetDAY24();

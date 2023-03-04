@@ -1,4 +1,4 @@
-// function WebsiteResourcesDAY000() {
+// function WebsiteResourcesDAY24() {
 //   // --l1_link = href="https://www.w3schools.com/${l1_Link} --
 
 //   ResourcesSection.innerHTML += w3SchoolTemplate( `title`,

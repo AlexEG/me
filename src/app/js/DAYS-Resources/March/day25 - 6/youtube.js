@@ -1,4 +1,4 @@
-// function renderAllvideoTemplateDAY000() {
+// function renderAllvideoTemplateDAY25() {
 //   // --link, gif, thumbnail, title, channel--
 
 //   ResourcesSection.innerHTML += videoTemplate(

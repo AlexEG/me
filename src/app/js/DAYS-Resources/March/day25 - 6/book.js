@@ -1,4 +1,4 @@
-// function renderAllBookChaptersDAY000() {
+// function renderAllBookChaptersDAY25() {
 //   // (bookCoverSRC,chapterNumber,chapterTitle,content[1-7],pageFrom,pageTo)
 //   ResourcesSection.innerHTML += bookChapterTemplate(
 //     `bookCoverSRC`,
