@@ -8,6 +8,7 @@
     <!-- CSS File -->
     <link rel="stylesheet" href="../../dist/style.css?cb=1676077008109" />
     <link rel="stylesheet" href="../../dist/all.min.css" />
+
     <link
       rel="shortcut icon"
       href="../../src/assets/favicon.webp"
@@ -17,7 +18,7 @@
   <body id="pageBody" class="days__body">
     <nav id="topNavebar"></nav>
     <header>
-      <time datetime="2023-3-8">Mar 8 2023</time>
+      <time datetime="2023-3-5">Mar 8 2023</time>
       <iframe src="../../days.html" frameborder="0"></iframe>
     </header>
     <div id="sectionsNavbar" class="navbar"></div>
@@ -26,6 +27,7 @@
       <section id="Statistics" class="statistics-section"></section>
       <div id="ResourcesTitle" class="section-title-contanier"></div>
       <section id="Resources" class="resources-section"></section>
+
       <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
       <section id="ProjectsUpdate" class="projects-update">
         <!--*----- Project [START]-----*-->
@@ -77,8 +79,32 @@
       </section>
       <!--!!----- MAIN => S U M M A R Y [START] -----!!-->
       <section id="summary" class="summary">
-        <h2 class="summary__title">Summary <span>Mar 8 2023</span></h2>
-        <article class="summary__content"></article>
+        <h2 class="summary__title">Summary <span>Feb 28 2023</span></h2>
+        <div class="summary__content">
+          <div class="add-contents">
+            <div><i id="addText" class="fa-regular fa-plus"></i></div>
+            <div><i id="addImage" class="fa-regular fa-image"></i></div>
+            <div><i id="addYT" class="fa-brands fa-youtube"></i></div>
+            <div><i id="addLink" class="fa-solid fa-link"></i></div>
+          </div>
+
+          <div>
+            <div id="typeHereContaner" class="add-content">
+              <textarea id="Contnet"></textarea>
+              <button id="saveContnet">Save</button>
+              <button id="saveImage">Save Image</button>
+              <button id="saveVideo">Save Video</button>
+              <button id="saveLink">Save Link</button>
+            </div>
+
+            <article id="summaryAddContents"></article>
+
+            <div class="save-clear-btn-contanier">
+              <button id="saveEverything">Save Everything</button>
+              <button id="ClearEverything">Clear Everything</button>
+            </div>
+          </div>
+        </div>
       </section>
       <!--!!----- MAIN => S U M M A R Y [END] -----!!-->
     </main>

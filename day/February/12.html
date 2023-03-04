@@ -32,28 +32,52 @@
       <!--!!----- MAIN => S U M M A R Y [START] -----!!-->
       <section id="summary" class="summary">
         <h2 class="summary__title">Summary <span>Feb 21 2023</span></h2>
-        <article class="summary__content">
-          So now there is big problem the time needed to copy link and title of
-          videos and podcast is ~1 hour and I don't want that so now I have to
-          find solution so how can I just past YT-Video link and that's it,
-          under the hood well be script that fetch all data about the vid then
-          innerHTML. and what if there is a browser extension that save every
-          video & podcast & article in that day in HTML or JS format so you can
-          have all the day in one click, and what if you can content this
-          extension with account on this app ussing back-end server... I mean
-          that's is the idea of all of this to make easy to use. <br />
-          and yeah, I'll stop posting till I can make it more automatic process
-          <a href="https://developers.google.com/youtube/v3"
-            >Youtube Data API</a
-          >
-          <img
-            src="../src/assets/sections/summary/day12/Screenshot 2023-02-21 132923.png"
-            alt=""
-          />
-          So after reading some documents, it's possible but do I know how to do
-          it, Hell No at lest not now.
-        </article>
+        <div class="summary__content">
+          <div class="add-contents">
+            <div><i id="addText" class="fa-regular fa-plus"></i></div>
+            <div><i id="addImage" class="fa-regular fa-image"></i></div>
+            <div><i id="addYT" class="fa-brands fa-youtube"></i></div>
+            <div><i id="addLink" class="fa-solid fa-link"></i></div>
+          </div>
+
+          <div>
+            <div id="typeHereContaner" class="add-content">
+              <textarea id="Contnet"></textarea>
+              <button id="saveContnet">Save</button>
+              <button id="saveImage">Save Image</button>
+              <button id="saveVideo">Save Video</button>
+              <button id="saveLink">Save Link</button>
+            </div>
+            So now there is big problem the time needed to copy link and title
+            of videos and podcast is ~1 hour and I don't want that so now I have
+            to find solution so how can I just past YT-Video link and that's it,
+            under the hood well be script that fetch all data about the vid then
+            innerHTML. and what if there is a browser extension that save every
+            video & podcast & article in that day in HTML or JS format so you
+            can have all the day in one click, and what if you can content this
+            extension with account on this app ussing back-end server... I mean
+            that's is the idea of all of this to make easy to use. <br />
+            and yeah, I'll stop posting till I can make it more automatic
+            process
+            <a href="https://developers.google.com/youtube/v3"
+              >Youtube Data API</a
+            >
+            <img
+              src="../src/assets/sections/summary/day12/Screenshot 2023-02-21 132923.png"
+              alt=""
+            />
+            So after reading some documents, it's possible but do I know how to
+            do it, Hell No at lest not now.
+            <article id="summaryAddContents"></article>
+
+            <div class="save-clear-btn-contanier">
+              <button id="saveEverything">Save Everything</button>
+              <button id="ClearEverything">Clear Everything</button>
+            </div>
+          </div>
+        </div>
       </section>
+      <!--!!----- MAIN => S U M M A R Y [END] -----!!-->
     </main>
     <aside id="sidebar">
       <button

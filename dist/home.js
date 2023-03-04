@@ -114,3 +114,45 @@ date_2023_03_16.addEventListener("click", function () {
 date_2023_03_17.addEventListener("click", function () {
   location.href = "./day/March/36.html";
 });
+date_2023_03_2.addEventListener("click", function () {
+  location.href = "./day/March/37.html";
+});
+date_2023_03_3.addEventListener("click", function () {
+  location.href = "./day/March/38.html";
+});
+date_2023_03_4.addEventListener("click", function () {
+  location.href = "./day/March/39.html";
+});
+date_2023_03_5.addEventListener("click", function () {
+  location.href = "./day/March/40.html";
+});
+date_2023_03_6.addEventListener("click", function () {
+  location.href = "./day/March/41.html";
+});
+date_2023_03_7.addEventListener("click", function () {
+  location.href = "./day/March/42.html";
+});
+date_2023_03_8.addEventListener("click", function () {
+  location.href = "./day/March/43.html";
+});
+date_2023_03_9.addEventListener("click", function () {
+  location.href = "./day/March/44.html";
+});
+date_2023_03_10.addEventListener("click", function () {
+  location.href = "./day/March/45.html";
+});
+date_2023_03_11.addEventListener("click", function () {
+  location.href = "./day/March/46.html";
+});
+date_2023_03_12.addEventListener("click", function () {
+  location.href = "./day/March/47.html";
+});
+date_2023_03_13.addEventListener("click", function () {
+  location.href = "./day/March/48.html";
+});
+date_2023_03_14.addEventListener("click", function () {
+  location.href = "./day/March/49.html";
+});
+date_2023_03_15.addEventListener("click", function () {
+  location.href = "./day/March/50.html";
+});

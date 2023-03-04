@@ -127,79 +127,79 @@ day41.addEventListener("click", function () {
   location.href = "../../../../../day/March/41.html";
 });
 
-////////
 day42.addEventListener("click", function () {
-  location.href = "../day/42.html";
+  location.href = "../../../../../day/March/42.html";
 });
 day43.addEventListener("click", function () {
-  location.href = "../day/43.html";
+  location.href = "../../../../../day/March/43.html";
 });
 day44.addEventListener("click", function () {
-  location.href = "../day/44.html";
+  location.href = "../../../../../day/March/44.html";
 });
 day45.addEventListener("click", function () {
-  location.href = "../day/45.html";
+  location.href = "../../../../../day/March/45.html";
 });
 
 day46.addEventListener("click", function () {
-  location.href = "../day/46.html";
+  location.href = "../../../../../day/March/46.html";
 });
 day47.addEventListener("click", function () {
-  location.href = "../day/47.html";
+  location.href = "../../../../../day/March/47.html";
 });
 day48.addEventListener("click", function () {
-  location.href = "../day/48.html";
+  location.href = "../../../../../day/March/48.html";
 });
 day49.addEventListener("click", function () {
-  location.href = "../day/49.html";
+  location.href = "../../../../../day/March/49.html";
 });
 day50.addEventListener("click", function () {
-  location.href = "../day/50.html";
+  location.href = "../../../../../day/March/50.html";
 });
 
+// ---------------
 day51.addEventListener("click", function () {
-  location.href = "../day/51.html";
+  location.href = "../../../../../day51.html";
 });
 day52.addEventListener("click", function () {
-  location.href = "../day/52.html";
+  location.href = "../../../../../day/52.html";
 });
 day53.addEventListener("click", function () {
-  location.href = "../day/53.html";
+  location.href = "../../../../../day/53.html";
 });
 day54.addEventListener("click", function () {
-  location.href = "../day/54.html";
+  location.href = "../../../../../day/54.html";
 });
 day55.addEventListener("click", function () {
-  location.href = "../day/55.html";
+  location.href = "../../../../../day/55.html";
 });
 
 day56.addEventListener("click", function () {
-  location.href = "../day/56.html";
+  location.href = "../../../../../day/56.html";
 });
 day57.addEventListener("click", function () {
-  location.href = "../day/57.html";
+  location.href = "../../../../../day/57.html";
 });
 day58.addEventListener("click", function () {
-  location.href = "../day/58.html";
+  location.href = "../../../../../day/58.html";
 });
 day59.addEventListener("click", function () {
-  location.href = "../day/59.html";
+  location.href = "../../../../../day/59.html";
 });
 day60.addEventListener("click", function () {
-  location.href = "../day/60.html";
+  location.href = "../../../../../day/60.html";
 });
 
 day61.addEventListener("click", function () {
-  location.href = "../day/61.html";
+  location.href = "../../../../../day/61.html";
 });
 day62.addEventListener("click", function () {
-  location.href = "../day/62.html";
+  location.href = "../../../../../day/62.html";
 });
 day63.addEventListener("click", function () {
-  location.href = "../day/63.html";
+  location.href = "../../../../../day/63.html";
 });
 day64.addEventListener("click", function () {
-  location.href = "../day/64.html";
+  location.href = "../../../../../day/64.html";
 });
 day65.addEventListener("click", function () {
   location.href = "../day/65.html";

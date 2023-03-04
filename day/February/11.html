@@ -26,7 +26,6 @@
       <section id="Statistics" class="statistics-section"></section>
       <div id="ResourcesTitle" class="section-title-contanier"></div>
       <section id="Resources" class="resources-section"></section>
-
       <div id="ProjectsUpdateTitle" class="section-title-contanier"></div>
       <section id="ProjectsUpdate" class="projects-update">
         <!--*----- Project [START]-----*-->
@@ -73,8 +72,14 @@
       </section>
       <!--!!----- MAIN => S U M M A R Y [START] -----!!-->
       <section id="summary" class="summary">
-        <h2 class="summary__title">Summary <span>Feb 20 2023</span></h2>
-        <article class="summary__content">
+        <h2 class="summary__title">Summary <span>Feb 28 2023</span></h2>
+        <div class="summary__content">
+          <div class="add-contents">
+            <div><i id="addText" class="fa-regular fa-plus"></i></div>
+            <div><i id="addImage" class="fa-regular fa-image"></i></div>
+            <div><i id="addYT" class="fa-brands fa-youtube"></i></div>
+            <div><i id="addLink" class="fa-solid fa-link"></i></div>
+          </div>
           - I 💘 React , That's what I'm looking for from the day that I started
           YourManga Project, however for now I'm still learing JavaScript but I
           can't wait to start learing React.
@@ -83,12 +88,12 @@
           function + for loop. <br />
           before
           <img
-            src="..//src/assets/sections/summary/day11/Screenshot 2023-02-21 000854.png"
+            src="../../src/assets/sections/summary/day11/Screenshot 2023-02-21 000854.png"
             alt=""
           />
           after
           <img
-            src="..//src/assets/sections/summary/day11/Screenshot 2023-02-21 000955.png"
+            src="../../src/assets/sections/summary/day11/Screenshot 2023-02-21 000955.png"
             alt=""
           />
           - So from 600 line HTML per page for just "DAYS sidebar", to only 600
@@ -96,7 +101,23 @@
           <br />
           - Puls I did the same thing with topNavebar (search bar) & sections
           Navbar.
-        </article>
+          <div>
+            <div id="typeHereContaner" class="add-content">
+              <textarea id="Contnet"></textarea>
+              <button id="saveContnet">Save</button>
+              <button id="saveImage">Save Image</button>
+              <button id="saveVideo">Save Video</button>
+              <button id="saveLink">Save Link</button>
+            </div>
+
+            <article id="summaryAddContents"></article>
+
+            <div class="save-clear-btn-contanier">
+              <button id="saveEverything">Save Everything</button>
+              <button id="ClearEverything">Clear Everything</button>
+            </div>
+          </div>
+        </div>
       </section>
       <!--!!----- MAIN => S U M M A R Y [END] -----!!-->
     </main>
