@@ -15,3 +15,18 @@
 //     `description`
 //   );
 // }
+
+// function theCSSpodcastDAY000() {
+//   // (episodeID, date, description)
+
+//   ResourcesSection.innerHTML += theCSSpodcastTemplate(
+//     `episodeID`,
+//     `date`,
+//     `description`
+//   );
+//   ResourcesSection.innerHTML += theCSSpodcastTemplate(
+//     `episodeID`,
+//     `date`,
+//     `description`
+//   );
+// }

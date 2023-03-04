@@ -38,8 +38,8 @@ function renderEverythingDAY23() {
   day23.innerHTML = `
   <div class="day-number active">
   <span>DAY 23</span></div>`;
-  StatisticsDAY23();
-  // renderAllvideoTemplateDAY21();
+  // StatisticsDAY23();
+  renderAllvideoTemplateDAY23();
   // theCSSpodcastDAY23();
   // renderAllpodcastDarknetDAY23();
   // renderAllBookChaptersDAY23();
