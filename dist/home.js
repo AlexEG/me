@@ -1,158 +1,69 @@
-// February
-date_2023_02_10.addEventListener("click", function () {
-  location.href = "./day/February/1.html";
-});
-date_2023_02_11.addEventListener("click", function () {
-  location.href = "./day/February/2.html";
-});
-date_2023_02_12.addEventListener("click", function () {
-  location.href = "./day/February/3.html";
-});
-date_2023_02_13.addEventListener("click", function () {
-  location.href = "./day/February/4.html";
-});
-date_2023_02_14.addEventListener("click", function () {
-  location.href = "./day/February/5.html";
-});
-date_2023_02_15.addEventListener("click", function () {
-  location.href = "./day/February/6.html";
-});
-// 2-14 => 2-20
-date_2023_02_16.addEventListener("click", function () {
-  location.href = "./day/February/7.html";
-});
-date_2023_02_17.addEventListener("click", function () {
-  location.href = "./day/February/8.html";
-});
-date_2023_02_18.addEventListener("click", function () {
-  location.href = "./day/February/9.html";
-});
-date_2023_02_19.addEventListener("click", function () {
-  location.href = "./day/February/10.html";
-});
-date_2023_02_20.addEventListener("click", function () {
-  location.href = "./day/February/11.html";
-});
-// 2-20 => 2-25
-date_2023_02_21.addEventListener("click", function () {
-  location.href = "./day/February/12.html";
-});
-date_2023_02_22.addEventListener("click", function () {
-  location.href = "./day/February/13.html";
-});
-date_2023_02_23.addEventListener("click", function () {
-  location.href = "./day/February/14.html";
-});
-date_2023_02_24.addEventListener("click", function () {
-  location.href = "./day/February/15.html";
-});
-date_2023_02_25.addEventListener("click", function () {
-  location.href = "./day/February/16.html";
-});
-// 2-25 => 2-2
-date_2023_02_26.addEventListener("click", function () {
-  location.href = "./day/February/17.html";
-});
-date_2023_02_27.addEventListener("click", function () {
-  location.href = "./day/February/18.html";
-});
-date_2023_02_28.addEventListener("click", function () {
-  location.href = "./day/February/19.html";
-});
+const calendarContainer = document.querySelector("#calendar-dates");
 
-// March
+let weekDAYs = ["Fr", "Sa", "Su", "Mo", "Tu", "We", "Th"];
+let week = weekDAYs.join(" ") + " ";
+let weekday = week.repeat(15).split(" ");
 
-date_2023_03_1.addEventListener("click", function () {
-  location.href = "./day/March/20.html";
-});
+// console.log(week);  ////
+// console.log(weekday);  ////
 
-date_2023_03_2.addEventListener("click", function () {
-  location.href = "./day/March/21.html";
-});
-date_2023_03_3.addEventListener("click", function () {
-  location.href = "./day/March/22.html";
-});
-date_2023_03_4.addEventListener("click", function () {
-  location.href = "./day/March/23.html";
-});
-date_2023_03_5.addEventListener("click", function () {
-  location.href = "./day/March/24.html";
-});
-date_2023_03_6.addEventListener("click", function () {
-  location.href = "./day/March/25.html";
-});
-date_2023_03_7.addEventListener("click", function () {
-  location.href = "./day/March/26.html";
-});
-date_2023_03_8.addEventListener("click", function () {
-  location.href = "./day/March/27.html";
-});
-date_2023_03_9.addEventListener("click", function () {
-  location.href = "./day/March/28.html";
-});
-date_2023_03_10.addEventListener("click", function () {
-  location.href = "./day/March/29.html";
-});
-date_2023_03_11.addEventListener("click", function () {
-  location.href = "./day/March/30.html";
-});
-date_2023_03_12.addEventListener("click", function () {
-  location.href = "./day/March/31.html";
-});
-date_2023_03_13.addEventListener("click", function () {
-  location.href = "./day/March/32.html";
-});
-date_2023_03_14.addEventListener("click", function () {
-  location.href = "./day/March/33.html";
-});
-date_2023_03_15.addEventListener("click", function () {
-  location.href = "./day/March/34.html";
-});
-date_2023_03_16.addEventListener("click", function () {
-  location.href = "./day/March/35.html";
-});
-date_2023_03_17.addEventListener("click", function () {
-  location.href = "./day/March/36.html";
-});
-date_2023_03_2.addEventListener("click", function () {
-  location.href = "./day/March/37.html";
-});
-date_2023_03_3.addEventListener("click", function () {
-  location.href = "./day/March/38.html";
-});
-date_2023_03_4.addEventListener("click", function () {
-  location.href = "./day/March/39.html";
-});
-date_2023_03_5.addEventListener("click", function () {
-  location.href = "./day/March/40.html";
-});
-date_2023_03_6.addEventListener("click", function () {
-  location.href = "./day/March/41.html";
-});
-date_2023_03_7.addEventListener("click", function () {
-  location.href = "./day/March/42.html";
-});
-date_2023_03_8.addEventListener("click", function () {
-  location.href = "./day/March/43.html";
-});
-date_2023_03_9.addEventListener("click", function () {
-  location.href = "./day/March/44.html";
-});
-date_2023_03_10.addEventListener("click", function () {
-  location.href = "./day/March/45.html";
-});
-date_2023_03_11.addEventListener("click", function () {
-  location.href = "./day/March/46.html";
-});
-date_2023_03_12.addEventListener("click", function () {
-  location.href = "./day/March/47.html";
-});
-date_2023_03_13.addEventListener("click", function () {
-  location.href = "./day/March/48.html";
-});
-date_2023_03_14.addEventListener("click", function () {
-  location.href = "./day/March/49.html";
-});
-date_2023_03_15.addEventListener("click", function () {
-  location.href = "./day/March/50.html";
-});
+//
+//
+let month = "";
+let Mon = "";
+let date = 9;
+
+//////
+for (let i = 0; i < 100; i++) {
+  // console.log("🚀 ~ i:", i);  /////
+  //
+  //
+
+  // --------------
+  date += 1;
+
+  if (i === 19) {
+    date = 1;
+  } else if (i === 50) {
+    date = 1;
+  } else if (i === 80) {
+    date = 1;
+  }
+
+  if (i < 19) {
+    month = "February";
+    Mon = "Feb";
+  } else if (i > 18 && i < 50) {
+    month = "March";
+    Mon = "Mar";
+  } else if (i > 49 && i < 80) {
+    month = "April";
+    Mon = "Apr";
+  } else {
+    month = "May";
+    Mon = "May";
+  }
+
+  // console.log("  i =>  " + i);  ////
+  // console.log("date =>  " + month + "  " + date);  ////
+  // console.log("🚀 ~ file: home.js:20 ~ month:", month, i);  ////
+
+  let templet = ` 
+  <a
+  href="./day/${month}/${i + 1}.html"
+  id="date_2023_02_10"
+  class="date-wrapper">
+
+  <div class="date">
+    <div class="date-day">
+      <h2 class="date-day-of-month">${Mon} ${date}</h2>
+      <h2 class="date-day-of-week">${weekday[i]}</h2>
+    </div>
+    <div class="date-title">
+      <div class="date-title-dot"></div>
+      <h2>Day ${i + 1}</h2>
+    </div>
+  </div>
+</a>`;
+  calendarContainer.innerHTML += templet;
+}
