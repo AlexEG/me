@@ -5,7 +5,7 @@ function StatisticsTemplate(day, img) {
   return `
   <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
           <img
-            src="../../src/assets/sections/statistics/day${day}/${img}"
+            src="../../src/assets/sections/statistics/${day}/${img}.png"
             alt="Coding statistics"
           />
         </a>

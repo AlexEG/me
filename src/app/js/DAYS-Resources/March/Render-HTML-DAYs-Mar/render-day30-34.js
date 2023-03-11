@@ -2,7 +2,7 @@ function renderEverythingDAY30() {
   day30.innerHTML = `
   <div class="day-number active">
   <span>DAY 30</span></div>`;
-  // StatisticsDAY30();
+  StatisticsDAY30();
   // renderAllvideoTemplateDAY30();
   // theCSSpodcastDAY30();
   // renderAllpodcastDarknetDAY30();
@@ -14,7 +14,7 @@ function renderEverythingDAY31() {
   day31.innerHTML = `
   <div class="day-number active">
   <span>DAY 31</span></div>`;
-  // StatisticsDAY31();
+  StatisticsDAY31();
   // renderAllvideoTemplateDAY31();
   // theCSSpodcastDAY31();
   // renderAllpodcastDarknetDAY31();
