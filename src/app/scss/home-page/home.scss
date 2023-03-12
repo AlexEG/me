@@ -1,0 +1,56 @@
+@forward "main";
+@forward "tool-card";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 2%);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  position: relative;
+
+  h1 {
+    color: hsla(0, 0%, 100%, 0.705);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Lobster", cursive;
+    opacity: 0;
+    transition: opacity 1300ms ease-in-out;
+    pointer-events: none;
+  }
+}
+
+//  Animation
+
+body {
+  --color1: hsla(258, 100%, 50%, 0.623);
+
+  &::before,
+  &::after {
+    // outline: 1px rgb(255, 0, 0) solid; /////
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 1300ms ease-in-out;
+  }
+
+  &::before {
+    top: 0;
+    box-shadow: 0 0 60px 2px var(--color1);
+  }
+
+  &::after {
+    bottom: 0;
+    box-shadow: 0 0 60px 2px var(--color1);
+  }
+
+  &:hover::before,
+  &:hover::after,
+  &:hover h1 {
+    opacity: 1;
+  }
+}

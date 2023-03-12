@@ -30,28 +30,3 @@ function topNavebarHTML() {
 }
 
 topNavebarHTML();
-
-const sidebarHomeSvg = document.querySelector("#sidebarHomeSvg");
-const sidebar = document.querySelector("#sidebar");
-
-sidebarHomeSvg.addEventListener("click", function () {
-  if (sidebar.classList.contains("sidebar-menu-open")) {
-    sidebar.classList.remove("sidebar-menu-open");
-  } else {
-    sidebar.classList.add("sidebar-menu-open");
-  }
-});
-
-//light Dark Mode
-const lightDarkMode = document.querySelector("#lightDarkMode");
-const pageBody = document.querySelector("#pageBody");
-
-lightDarkMode.addEventListener("click", function () {
-  // pageBody.toggleClass("light-theme")
-
-  if (pageBody.classList.contains("light-theme")) {
-    pageBody.classList.remove("light-theme");
-  } else {
-    pageBody.classList.add("light-theme");
-  }
-});

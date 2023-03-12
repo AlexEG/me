@@ -1,30 +1,11 @@
-.days__body aside {
-  //TODO  HTML Structure  [START]
-  /*
-  aside ↓↓
-        ==> [div] .home-svg
-        ||    ↓↓
-        ||    ==> [a] ==> [svg] ==> [path]
-        ||
-        ==> [div] .days-container  ( DAY 1 to DAY 100 ) 
-              ↓↓
-              ==> [div] .day
-                    ↓↓
-                    ==> [div] .day-number
-                          ↓↓
-                          ==> [span] (DAY 1..2..3)
-  */
-  //TODO  HTML Structure  [END]
-
-  // border: solid 1px red; ////
-
-  width: 78px; // 72-8= 64px elements width
-  padding: 4px; // left + right = 8px
-
-  height: calc(100% - 56px);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: var(--701);
-  overflow: auto;
-}
+// .days__body aside {
+//   // border: solid 1px red; ////
+//   width: 75px;
+//   padding: 4px;
+//   height: calc(100% - 56px);
+//   position: fixed;
+//   bottom: 0;
+//   left: 0;
+//   background-color: var(--701);
+//   overflow: auto;
+// }

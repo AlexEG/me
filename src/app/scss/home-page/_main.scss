@@ -1,0 +1,11 @@
+body main {
+  // outline: 2px red solid; ////
+  width: 1000px;
+  min-height: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}

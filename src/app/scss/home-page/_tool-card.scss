@@ -1,0 +1,209 @@
+body main button a .tool__card {
+  // outline: 1px blueviolet solid; /////
+  width: 230px;
+  height: 250px;
+  position: relative;
+  background-color: rgba(0, 128, 0, 0);
+  // padding: 5px;
+  border-radius: 1.25rem;
+  overflow: hidden;
+
+  div.img {
+    // outline: 3px rgb(43, 226, 52) solid; /////
+    // width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 130px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+  div.details {
+    // outline: 1px rgb(226, 43, 186) solid; /////
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+
+    h2 {
+      // outline: 1px rgb(226, 43, 186) solid; /////
+      color: #fff;
+      font-family: "Lobster", cursive;
+      padding-block: 3px 6px;
+      transition: text-shadow 200ms ease-in-out;
+    }
+    p {
+      // outline: 1px rgb(226, 43, 186) solid; /////
+      padding-inline: 5px;
+
+      color: #ffffff8f;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+}
+
+//  HOVER
+body main button a .tool__card:hover h2 {
+  text-shadow: 0 0 2px;
+}
+// https://codepen.io/kevinpowell/pen/rNrdzdx
+
+.button {
+  // outline: 1px rgb(226, 43, 186) solid; /////
+
+  cursor: pointer;
+  // font-size: 2rem;
+  font-family: inherit;
+  font-weight: 700;
+  color: hsl(320, 40%, 40%);
+  background-color: hsla(348, 100%, 95%, 0);
+  padding: 0.5em;
+  border: 0;
+  border-radius: 1.25rem;
+}
+
+.glow-effect {
+  --glow-line-color: #fff;
+  --glow-line-thickness: 2px;
+  --glow-line-length: 20px;
+  --glow-blur-color: #fff;
+  --glow-blur-size: 5px;
+  --glow-offset: 0px;
+  --animation-speed: 1200ms;
+  /* do not change, used for calculations */
+  --container-offset: 100px;
+  position: relative;
+}
+
+.glow-container {
+  pointer-events: none;
+  position: absolute;
+  inset: calc(var(--container-offset) / -2);
+  width: calc(100% + var(--container-offset));
+  height: calc(100% + var(--container-offset));
+  opacity: 0;
+  /* outline: 3px solid blue; */
+}
+
+.glow-blur,
+.glow-line {
+  width: calc(100% - var(--container-offset) + var(--glow-offset));
+  height: calc(100% - var(--container-offset) + var(--glow-offset));
+  x: calc((var(--container-offset) / 2) + calc(var(--glow-offset) / -2));
+  y: calc((var(--container-offset) / 2) + calc(var(--glow-offset) / -2));
+  /* rx: 1.25rem; */
+  fill: transparent;
+  stroke: black;
+  stroke-width: 5px;
+  stroke-dasharray: var(--glow-line-length) calc(50px - var(--glow-line-length));
+}
+
+.glow-effect:is(:hover, :focus) :is(.glow-line, .glow-blur) {
+  stroke-dashoffset: -80px;
+  transition: stroke-dashoffset var(--animation-speed) ease-in;
+}
+
+.glow-line {
+  stroke: var(--glow-line-color);
+  stroke-width: var(--glow-line-thickness);
+}
+
+.glow-blur {
+  filter: blur(var(--glow-blur-size));
+  stroke: var(--glow-blur-color);
+  stroke-width: var(--glow-blur-size);
+}
+
+.glow-effect:is(:hover, :focus) .glow-container {
+  animation: glow-visibility ease-in-out var(--animation-speed);
+}
+
+@keyframes glow-visibility {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+}
+
+.glow-effect[data-glow-animation="false"] {
+  --glow-line-length: 50px;
+}
+.glow-effect[data-glow-offset="true"] {
+  --glow-offset: 10px;
+}
+
+.glow-effect[data-glow-animation="grow"]:is(:hover, :focus) .glow-container {
+  scale: 1.3;
+  transition: scale var(--animation-speed) linear;
+}
+
+//  Animation
+
+//*  => YouTube Banner <=
+body main button:nth-of-type(1) {
+  --card-bg1: hsla(0, 0%, 0%, 0);
+  --card-bg2: hsl(327, 100%, 18%);
+
+  animation: tool-card 15s linear 1s infinite forwards;
+
+  @keyframes tool-card {
+    0% {
+      background-color: var(--card-bg1);
+    }
+
+    50% {
+      background-color: var(--card-bg2);
+    }
+    100% {
+      background-color: var(--card-bg1);
+    }
+  }
+}
+//*  => Passwords <=
+body main button:nth-of-type(2) {
+  --card-bg1: hsla(0, 0%, 0%, 0);
+  --card-bg2: hsl(245, 100%, 13%);
+
+  animation: tool-card 15s linear 1s infinite forwards;
+
+  @keyframes tool-card {
+    0% {
+      background-color: var(--card-bg1);
+    }
+
+    50% {
+      background-color: var(--card-bg2);
+    }
+    100% {
+      background-color: var(--card-bg1);
+    }
+  }
+}
+//*  => youtube thumbnail <=
+
+body main button:nth-of-type(3) {
+  --card-bg1: hsla(0, 0%, 0%, 0);
+  --card-bg2: hsl(0, 0%, 73%);
+
+  animation: tool-card 15s linear 1s infinite forwards;
+
+  @keyframes tool-card {
+    0% {
+      background-color: var(--card-bg1);
+    }
+
+    50% {
+      background-color: var(--card-bg2);
+    }
+    100% {
+      background-color: var(--card-bg1);
+    }
+  }
+}

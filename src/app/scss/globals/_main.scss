@@ -5,10 +5,11 @@
   font-family: "Roboto", sans-serif;
   background-color: var(--701);
   min-height: 100vh;
-  padding-inline: 85px 15px;
+  padding-inline: 50px;
   padding-block: 56px;
 
   main {
     padding-bottom: 200px;
+    outline: 2px solid red; ////
   }
 }

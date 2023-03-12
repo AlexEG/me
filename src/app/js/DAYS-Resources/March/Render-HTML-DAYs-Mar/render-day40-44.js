@@ -1,7 +1,6 @@
 function renderEverythingDAY40() {
-  day40.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 40</span></div>`;
+  sidebarDAYsHTML(40);
+
   // StatisticsDAY40();
   // renderAllvideoTemplateDAY40();
   // theCSSpodcastDAY40();
@@ -11,9 +10,8 @@ function renderEverythingDAY40() {
 }
 
 function renderEverythingDAY41() {
-  day41.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 41</span></div>`;
+  sidebarDAYsHTML(41);
+
   // StatisticsDAY41();
   // renderAllvideoTemplateDAY41();
   // theCSSpodcastDAY41();
@@ -23,9 +21,8 @@ function renderEverythingDAY41() {
 }
 
 function renderEverythingDAY42() {
-  day42.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 42</span></div>`;
+  sidebarDAYsHTML(42);
+
   // StatisticsDAY42();
   // renderAllvideoTemplateDAY42();
   // theCSSpodcastDAY42();
@@ -35,9 +32,8 @@ function renderEverythingDAY42() {
 }
 
 function renderEverythingDAY43() {
-  day43.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 43</span></div>`;
+  sidebarDAYsHTML(43);
+
   // StatisticsDAY43();
   // renderAllvideoTemplateDAY43();
   // theCSSpodcastDAY43();
@@ -47,9 +43,8 @@ function renderEverythingDAY43() {
 }
 
 function renderEverythingDAY44() {
-  day44.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 44</span></div>`;
+  sidebarDAYsHTML(44);
+
   // StatisticsDAY44();
   // renderAllvideoTemplateDAY44();
   // theCSSpodcastDAY44();

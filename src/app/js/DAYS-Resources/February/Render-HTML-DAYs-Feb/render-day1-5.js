@@ -1,34 +1,30 @@
 function renderEverythingDAY1() {
-  day1.innerHTML = `
-      <div class="day-number active">
-      <span>DAY 1</span></div>`;
+  sidebarDAYsHTML(1);
+
   renderAllvideoTemplateDAY1();
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY1();
 }
 
 function renderEverythingDAY2() {
-  day2.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 2</span></div>`;
+  sidebarDAYsHTML(2);
+
   renderAllvideoTemplateDAY2();
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY2();
 }
 
 function renderEverythingDAY3() {
-  day3.innerHTML = `
-  <div class="day-number active">
-  <span>DAY 3</span></div>`;
+  sidebarDAYsHTML(3);
+
   renderAllvideoTemplateDAY3();
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY3();
 }
 
 function renderEverythingDAY4() {
-  day4.innerHTML = `
-      <div class="day-number active">
-      <span>DAY 4</span></div>`;
+  sidebarDAYsHTML(4);
+
   renderAllvideoTemplateDAY4();
   projectUpdate(`me`, wakatime_me);
   renderAllBookChaptersDAY4();
@@ -36,9 +32,8 @@ function renderEverythingDAY4() {
 }
 
 function renderEverythingDAY5() {
-  day5.innerHTML = `
-      <div class="day-number active">
-      <span>DAY 5</span></div>`;
+  sidebarDAYsHTML(5);
+
   renderAllvideoTemplateDAY5();
   projectUpdate(`me`, wakatime_me);
   StatisticsDAY5();
