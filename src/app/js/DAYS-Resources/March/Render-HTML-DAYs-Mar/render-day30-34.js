@@ -14,8 +14,8 @@ function renderEverythingDAY31() {
   day31.innerHTML = `
   <div class="day-number active">
   <span>DAY 31</span></div>`;
-  StatisticsDAY31();
-  // renderAllvideoTemplateDAY31();
+  // StatisticsDAY31();
+  renderAllvideoTemplateDAY31();
   // theCSSpodcastDAY31();
   // renderAllpodcastDarknetDAY31();
   // renderAllBookChaptersDAY31();
