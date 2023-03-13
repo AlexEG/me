@@ -56,8 +56,10 @@
       color: #fff;
       font-size: 1.5em;
       span {
+        color: hsla(0, 0%, 100%, 0.747);
+
         position: absolute;
-        transform: translateX(-50%) translateY(-10px);
+        transform: translateX(-50%) translateY(5px);
         font-size: 0.35em;
         font-weight: 300;
         letter-spacing: 0.1px;
@@ -83,19 +85,6 @@
         border-radius: 50%;
         box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
       }
-    }
-  }
-
-  .newYear {
-    font-size: 8em;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-    line-height: 0.6em;
-    display: none;
-    span {
-      font-size: 0.5em;
-      font-weight: 300;
     }
   }
 }

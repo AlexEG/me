@@ -3,7 +3,7 @@ const topNavebar = document.querySelector("#topNavebar");
 function topNavebarHTML() {
   topNavebar.innerHTML = `
   <div class="home-svg">
-  <a href="../../index.html">
+  <a href="../../../../index.html">
     <i class="fa-solid fa-house"></i>
   </a>
 </div>
@@ -11,7 +11,7 @@ function topNavebarHTML() {
   <input
     id="search"
     type="search"
-    placeholder="Search in All days at once"
+    placeholder=" 12  => (Mar 12 2023)"
   />
   <div class="search-bun">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -30,3 +30,13 @@ function topNavebarHTML() {
 }
 
 topNavebarHTML();
+
+const searchBar = document.querySelector("#search");
+const searchBarBtn = document.querySelector(".search-bun");
+
+searchBarBtn.addEventListener("click", () => {
+  let month = `March`;
+
+  document.location.href = `../../${month}/${searchBar.value}/${searchBar.value}.html`;
+  console.log(searchBar.value);
+});

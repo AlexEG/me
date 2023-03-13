@@ -63,7 +63,7 @@
       let min_dot = document.querySelector(".min_dot");
       let sec_dot = document.querySelector(".sec_dot");
 
-      let endDate = "05/21/2023 00:00:00";
+      let endDate = "03/31/2023 00:00:00";
       // date format mm/dd/yyyy
 
       let x = setInterval(function () {
@@ -89,7 +89,7 @@
         seconds.innerHTML = s + "<br><span>Seconds</span>";
 
         // animate stroke
-        dd.style.strokeDashoffset = 440 - (440 * d) / 100;
+        dd.style.strokeDashoffset = 440 - (440 * d) / 31;
         //
         hh.style.strokeDashoffset = 440 - (440 * h) / 24;
         // 24hrs in a day
@@ -99,7 +99,7 @@
         // 60 seconds in a minute
 
         // animate circle dots
-        day_dot.style.transform = `rotateZ(${d * 3.6}deg)`;
+        day_dot.style.transform = `rotateZ(${d * 12}deg)`;
         // 360deg / 100dys = 3.6
         hr_dot.style.transform = `rotateZ(${h * 15}deg)`;
         // 360deg / 24hrs = 15

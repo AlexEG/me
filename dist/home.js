@@ -50,8 +50,7 @@ for (let i = 0; i < 100; i++) {
 
   let templet = ` 
   <a
-  href="./day/${month}/${i + 1}.html"
-  id="date_2023_02_10"
+  href="./day/${month}/${date}/${date}.html"
   class="date-wrapper">
 
   <div class="date">

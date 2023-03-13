@@ -17,7 +17,7 @@ function videoTemplate(link, thumbnail, title, channel, channelLink) {
             <div class="channel-logo">
             <a href="https://www.youtube.com/${channelLink}" target="_blank" title="${channel}">
               <img
-                src="../../src/assets/sections/Resources/youtube-channels-logo/${channel}.jpg"
+                src="../../../src/assets/sections/Resources/youtube-channels-logo/${channel}.jpg"
                 alt=""
               />
               </a>
