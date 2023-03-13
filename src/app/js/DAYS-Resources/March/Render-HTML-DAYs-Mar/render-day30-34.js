@@ -10,6 +10,8 @@ function renderEverythingDAY30() {
 
 function renderEverythingDAY31() {
   // sidebarDAYsHTML(31);
+  StatisticsDAY31();
+
   renderAllvideoTemplateDAY31();
   // theCSSpodcastDAY31();
   // renderAllpodcastDarknetDAY31();

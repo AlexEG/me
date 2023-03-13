@@ -49,3 +49,34 @@ function videoTemplate(link, thumbnail, title, channel, channelLink) {
 //     );
 //   }
 // }
+
+/* GET data script
+
+function getMyTodaysData() {
+  let YTtoday = document.querySelector("#contents ytd-item-section-renderer");
+  let ytHistoryToday = [];
+  for (let i = 1; i <= YTtoday.length_; i++) {
+    let video = {
+      thumbnail: YTtoday.querySelector(
+        `#contents ytd-video-renderer:nth-child(${i}) #dismissible ytd-thumbnail #thumbnail > yt-image > img`
+      ).getAttribute("src"),
+      videoLink: YTtoday.querySelector(
+        `#contents ytd-video-renderer:nth-child(${i}) #dismissible ytd-thumbnail #thumbnail`
+      ).getAttribute("href"),
+      videoTitle: YTtoday.querySelector(
+        `#contents ytd-video-renderer:nth-child(${i}) #video-title > yt-formatted-string`
+      ).textContent,
+      channelName: YTtoday.querySelector(
+        `#contents ytd-video-renderer:nth-child(${i}) #meta ytd-video-meta-block #metadata #byline-container #channel-name #container #text-container #text > a`
+      ).textContent,
+      channelLink: YTtoday.querySelector(
+        `#contents ytd-video-renderer:nth-child(${i}) #meta ytd-video-meta-block #metadata #byline-container #channel-name #container #text-container #text > a`
+      ).getAttribute("href"),
+    };
+    ytHistoryToday.push(video);
+  }
+  console.log(ytHistoryToday);
+}
+getMyTodaysData();
+
+*/
