@@ -14,7 +14,7 @@ function w3SchoolTemplate(
   <div class="w3school_container">
   <div class="w3school_container__banner">
     <img
-      src="../../src/assets/sections/Resources/w3school.webp"
+      src="../../../src/assets/sections/Resources/w3school.webp"
       alt="w3school logo"
     />
   </div>

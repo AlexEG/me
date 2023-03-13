@@ -3,7 +3,7 @@ const topNavebar = document.querySelector("#topNavebar");
 function topNavebarHTML() {
   topNavebar.innerHTML = `
   <div class="home-svg">
-  <a href="../../index.html">
+  <a href="../../../../index.html">
     <i class="fa-solid fa-house"></i>
   </a>
 </div>
@@ -11,7 +11,7 @@ function topNavebarHTML() {
   <input
     id="search"
     type="search"
-    placeholder="Search in All days at once"
+    placeholder=" 12  => (Mar 12 2023)"
   />
   <div class="search-bun">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -31,27 +31,12 @@ function topNavebarHTML() {
 
 topNavebarHTML();
 
-const sidebarHomeSvg = document.querySelector("#sidebarHomeSvg");
-const sidebar = document.querySelector("#sidebar");
+const searchBar = document.querySelector("#search");
+const searchBarBtn = document.querySelector(".search-bun");
 
-sidebarHomeSvg.addEventListener("click", function () {
-  if (sidebar.classList.contains("sidebar-menu-open")) {
-    sidebar.classList.remove("sidebar-menu-open");
-  } else {
-    sidebar.classList.add("sidebar-menu-open");
-  }
-});
+searchBarBtn.addEventListener("click", () => {
+  let month = `March`;
 
-//light Dark Mode
-const lightDarkMode = document.querySelector("#lightDarkMode");
-const pageBody = document.querySelector("#pageBody");
-
-lightDarkMode.addEventListener("click", function () {
-  // pageBody.toggleClass("light-theme")
-
-  if (pageBody.classList.contains("light-theme")) {
-    pageBody.classList.remove("light-theme");
-  } else {
-    pageBody.classList.add("light-theme");
-  }
+  document.location.href = `../../${month}/${searchBar.value}/${searchBar.value}.html`;
+  console.log(searchBar.value);
 });

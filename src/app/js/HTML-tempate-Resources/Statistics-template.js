@@ -1,11 +1,11 @@
 const StatisticsSection = document.querySelector("#Statistics");
 
 //  Statistics Template
-function StatisticsTemplate(day, img) {
+function StatisticsTemplate(img) {
   return `
   <a href="https://wakatime.com/@AlexEG" target="_blank" title="See More">
           <img
-            src="../../src/assets/sections/statistics/day${day}/${img}"
+            src="./statistics/${img}.png"
             alt="Coding statistics"
           />
         </a>
