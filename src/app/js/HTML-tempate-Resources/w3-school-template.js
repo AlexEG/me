@@ -23,7 +23,7 @@ function w3SchoolTemplate(
     <ul>
       <li>
         <a
-          href="https://www.w3schools.com/${l1_Link}"
+          href="https://www.w3schools.com/${l1_Link}.asp"
           target="_blank"  
           title="${l1_Name}"
           >${l1_Name}</a
@@ -31,7 +31,7 @@ function w3SchoolTemplate(
       </li>
       <li>
         <a
-          href="https://www.w3schools.com/${l2_Link}"
+          href="https://www.w3schools.com/${l2_Link}.asp"
           target="_blank"  
           title="${l2_Name}"
           >${l2_Name}</a
@@ -39,7 +39,7 @@ function w3SchoolTemplate(
       </li>
       <li>
         <a
-          href="https://www.w3schools.com/${l3_Link}"
+          href="https://www.w3schools.com/${l3_Link}.asp"
           target="_blank"  
           title="${l3_Name}"
           >${l3_Name}</a
@@ -47,7 +47,7 @@ function w3SchoolTemplate(
       </li>
       <li>
         <a
-          href="https://www.w3schools.com/${l4_Link}"
+          href="https://www.w3schools.com/${l4_Link}.asp"
           target="_blank"  
           title="${l4_Name}"
           >${l4_Name}</a
@@ -58,9 +58,6 @@ function w3SchoolTemplate(
 </div>
   `;
 }
-
-// function WebsiteResourcesDAY000() {
-//   // --l1_link = href="https://www.w3schools.com/${l1_Link} --
 
 //   ResourcesSection.innerHTML += w3SchoolTemplate( `title`,
 //     `l1_Link`,
@@ -74,5 +71,14 @@ function w3SchoolTemplate(
 //   )
 // }
 
-// HTML
-// WebsiteResourcesDAY000();
+// ResourcesSection.innerHTML += w3SchoolTemplate(
+//   `HTML Tutorial`,
+//   `html/000000000`,
+//   `HTML 1111111`,
+//   `html/00000000`,
+//   `HTML 1111111`,
+//   `html/000000000`,
+//   `HTML 11111111`,
+//   `html/00000000`,
+//   `HTML 111111111`
+// );
